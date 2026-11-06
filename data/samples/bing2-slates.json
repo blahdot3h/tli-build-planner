@@ -1,0 +1,253 @@
+[
+ {
+  "position": 35,
+  "name": "A Corner of Divinity",
+  "level": 86,
+  "rarity": 100,
+  "talents": [
+   {
+    "id": 30070500,
+    "name": "Legendary Medium Talent",
+    "text": "Energy Shield Charge cannot be interrupted by damage for 1 s after it starts (Max Divinity Effect: 1)",
+    "effectPct": 0
+   },
+   {
+    "id": 31060300,
+    "name": "Legendary Medium Talent",
+    "text": "+12% Intelligence",
+    "effectPct": 0
+   }
+  ]
+ },
+ {
+  "position": 36,
+  "name": "Fallen Starlight",
+  "level": 89,
+  "rarity": 100,
+  "talents": [
+   {
+    "id": 42010300,
+    "name": "Micro Talent",
+    "text": "+3% Max Life\n+3% Max Energy Shield",
+    "effectPct": 0
+   },
+   {
+    "id": 32040400,
+    "name": "Micro Talent",
+    "text": "+3% Max Energy Shield",
+    "effectPct": 0
+   },
+   {
+    "id": 30030300,
+    "name": "Micro Talent",
+    "text": "+3% Max Life\n+3% Max Energy Shield",
+    "effectPct": 0
+   },
+   {
+    "id": 54070500,
+    "name": "Legendary Medium Talent",
+    "text": "+8% Sealed Mana Compensation (Max Divinity Effect: 1)",
+    "effectPct": 0
+   }
+  ]
+ },
+ {
+  "position": 13,
+  "name": "Fallen Starlight",
+  "level": 86,
+  "rarity": 100,
+  "talents": [
+   {
+    "id": 62050300,
+    "name": "Micro Talent",
+    "text": "4.5% Focus Speed",
+    "effectPct": 0
+   },
+   {
+    "id": 30060100,
+    "name": "Micro Talent",
+    "text": "+8 Intelligence",
+    "effectPct": 0
+   },
+   {
+    "id": 31060500,
+    "name": "Legendary Medium Talent",
+    "text": "+2 Max Energy Shield per 5 Intelligence (Max Divinity Effect: 1)",
+    "effectPct": 0
+   },
+   {
+    "id": 24070100,
+    "name": "Legendary Medium Talent",
+    "text": "+20% Numbed Effect (Max Divinity Effect: 1)",
+    "effectPct": 0
+   }
+  ]
+ },
+ {
+  "position": 53,
+  "name": "Fallen Starlight",
+  "level": 86,
+  "rarity": 100,
+  "talents": [
+   {
+    "id": 62020200,
+    "name": "Micro Talent",
+    "text": "+3% Attack and Cast Speed\n+3% Minion Attack and Cast Speed",
+    "effectPct": 70
+   },
+   {
+    "id": 43050400,
+    "name": "Micro Talent",
+    "text": "+9% Melee Damage",
+    "effectPct": 70
+   },
+   {
+    "id": 20070400,
+    "name": "Legendary Medium Talent",
+    "text": "+1 to Max Agility Blessing Stacks (Max Divinity Effect: 1)",
+    "effectPct": 70
+   },
+   {
+    "id": 54040300,
+    "name": "Legendary Medium Talent",
+    "text": "+10% Max Energy Shield\nGains Blur when Energy Shield starts to Charge (Max Divinity Effect: 1)",
+    "effectPct": 70
+   }
+  ]
+ },
+ {
+  "position": 22,
+  "name": null,
+  "level": 89,
+  "rarity": 4,
+  "talents": [
+   {
+    "id": 90000213,
+    "name": "Legendary Medium Nether King Talent Node",
+    "text": "+30% Numbed Effect\nInflicts 2 additional stack(s) of Numbed",
+    "effectPct": 0
+   },
+   {
+    "id": 32010300,
+    "name": "Micro Talent",
+    "text": "+3% Max Energy Shield",
+    "effectPct": 0
+   },
+   {
+    "id": 34030100,
+    "name": "Micro Talent",
+    "text": "+15% Critical Strike Rating\n+15% Minion Critical Strike Rating",
+    "effectPct": 0
+   },
+   {
+    "id": 33020200,
+    "name": "Micro Talent",
+    "text": "+3% Attack and Cast Speed",
+    "effectPct": 0
+   }
+  ]
+ },
+ {
+  "position": 23,
+  "name": "Goddess of Knowledge's Divinity",
+  "level": 89,
+  "rarity": 3,
+  "talents": [
+   {
+    "id": 34060300,
+    "name": "Medium Talent",
+    "text": "+5% Intelligence",
+    "effectPct": 70
+   },
+   {
+    "id": 33070400,
+    "name": "Legendary Medium Talent",
+    "text": "+1 Lightning Skill Level",
+    "effectPct": 70
+   },
+   {
+    "id": 30020200,
+    "name": "Micro Talent",
+    "text": "+3% Cast Speed\n+2% Movement Speed",
+    "effectPct": 70
+   },
+   {
+    "id": 33060400,
+    "name": "Micro Talent",
+    "text": "Adds 2 - 2 Fire Damage to Attacks and Spells\nAdds 1 - 3 Lightning Damage to Attacks and Spells\nAdds 2 - 2 Cold Damage to Attacks and Spells",
+    "effectPct": 70
+   },
+   {
+    "id": 33050200,
+    "name": "Legendary Medium Talent",
+    "text": "+60% damage while standing still",
+    "effectPct": 70
+   }
+  ]
+ },
+ {
+  "position": 44,
+  "name": "Goddess of Knowledge's Divinity",
+  "level": 86,
+  "rarity": 3,
+  "talents": [
+   {
+    "id": 33070400,
+    "name": "Legendary Medium Talent",
+    "text": "+1 Lightning Skill Level",
+    "effectPct": 70
+   },
+   {
+    "id": 31060300,
+    "name": "Legendary Medium Talent",
+    "text": "+12% Intelligence",
+    "effectPct": 70
+   },
+   {
+    "id": 30060500,
+    "name": "Micro Talent",
+    "text": "+3% Max Energy Shield",
+    "effectPct": 70
+   },
+   {
+    "id": 31070400,
+    "name": "Legendary Medium Talent",
+    "text": "Inflicts Frail when dealing Spell Damage (Max Divinity Effect: 1)",
+    "effectPct": 70
+   },
+   {
+    "id": 31050200,
+    "name": "Legendary Medium Talent",
+    "text": "Gains 1 stack(s) of Focus Blessing when consuming Spell Burst or generating Tangle (Max Divinity Effect: 1)",
+    "effectPct": 70
+   }
+  ]
+ },
+ {
+  "position": 41,
+  "name": "A Corner of Divinity",
+  "level": 90,
+  "rarity": 100,
+  "talents": [
+   {
+    "id": 24070400,
+    "name": "Legendary Medium Talent",
+    "text": "Inflicts Lightning Infiltration on Critical Strike (Max Divinity Effect: 1)",
+    "effectPct": 70
+   },
+   {
+    "id": 30070200,
+    "name": "Legendary Medium Talent",
+    "text": "+1 Spell Skill Level",
+    "effectPct": 70
+   }
+  ]
+ },
+ {
+  "position": 43,
+  "name": "When Sparks Set the Prairie Ablaze",
+  "level": 85,
+  "rarity": 100,
+  "talents": []
+ }
+]

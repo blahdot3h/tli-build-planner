@@ -1,0 +1,12 @@
+{
+  "_comment": "Pictures of placed slates cut out of screenshots of the board, served from web/public/slate-sprites. Key: '<UniqueItmId or BaseId>_<ShapeId or x>_<Direction>'; the file covers the slate's bounding box of cells with the game's gaps between them (cells 84 px, pitch 92.7 px), cells that aren't the slate's transparent. From CoffeeBingBong's board (2026-11-02); 1005_2030_2 put together from the three Corners' shared 2x2 texture.",
+  "260303_1023_1": { "file": "/slate-sprites/260303_1023_1.png" },
+  "1003_2020_0": { "file": "/slate-sprites/1003_2020_0.png" },
+  "1005_2030_0": { "file": "/slate-sprites/1005_2030_0.png" },
+  "1005_2030_1": { "file": "/slate-sprites/1005_2030_1.png" },
+  "1005_2030_2": { "file": "/slate-sprites/1005_2030_2.png" },
+  "1005_2030_3": { "file": "/slate-sprites/1005_2030_3.png" },
+  "394005_x_0": { "file": "/slate-sprites/394005_x_0.png" },
+  "1010_2090_1": { "file": "/slate-sprites/1010_2090_1.png" },
+  "1012_2012_0": { "file": "/slate-sprites/1012_2012_0.png" }
+}

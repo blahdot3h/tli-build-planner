@@ -1,0 +1,51 @@
+{
+ "51444411": {
+  "text": "+(1–2)% Max Elemental and Erosion Resistance"
+ },
+ "51444421": {
+  "text": "+(2–3)% XP earned"
+ },
+ "51444431": {
+  "text": "+(40–50)% Movement Speed"
+ },
+ "52444471": {
+  "text": "Gains the following buffs by turns. Each buff lasts for 8 s:\n+50% additional Erosion Damage\n+50% additional Elemental Damage\n+50% additional Physical Damage"
+ },
+ "52444651": {
+  "text": "Triggers Lv. 20 Aim while standing still. Interval: 1 s\n+50% Aiming Skill Duration."
+ },
+ "52444741": {
+  "text": "+20% Movement Speed at Full Energy Shield\n-15% additional damage taken while Energy Shield is charging\nEnergy Shield Charge cannot be interrupted when Energy Shield is below 50%"
+ },
+ "52444801": {
+  "text": "+1000 Max Life"
+ },
+ "52444911": {
+  "text": "Blur gains an additional effect: +0.3% Movement Speed for every point of Blur Rating"
+ },
+ "402177701": {
+  "text": "+(1–100)% Skill Effect Duration"
+ },
+ "500203900": {
+  "text": "+(1–9) to Whimsy Explosion Projectile Quantity, +(1–998)% Whimsy Effect, +(1–999)% Whimsy Signal Effect\n+1 to Max Spell Burst and +60% additional Spell Damage for Spells triggered by Ingenuity Overload"
+ },
+ "1224300461": {
+  "text": "All Legendary Medium Talent within the area also gain: +17.5 to Max Frostbite Rating"
+ },
+ "1224300561": {
+  "text": "All Legendary Medium Talent within the area also gain: +26% Numbed Effect"
+ },
+ "1224308011": {
+  "text": "The area of effect expands to 3x3 Rectangle"
+ },
+ "1224308031": {
+  "text": "The Effect Area expands to 4x3 Rectangle"
+ },
+ "1224310021": {
+  "text": "When activating 2 Legendary Medium Talent within the area, +2 to Max Agility Blessing Stacks"
+ },
+ "1224310181": {
+  "text": "When activating 2 Legendary Medium Talent within the area, Immune to Elemental Ailments"
+ },
+ "_comment": "Hand-added stat lines the tlidb import and the game's help data can't name. 1224xxxxxx: random lines on Ethereal Prisms, read off CoffeeBingTest's Phantasmagoria tooltip (2026-10-13), in the order the log lists the prism's lines. 5144441x/5244xxxx: Illusory Chimera (SS14 boots, tlidb has no modifier ids): its fixed lines, and the random legendary lines whose numbers match the log values on CoffeeBingBong's pair (2026-10-31). 1224308011/1224300461: CoffeeBingBong's Phantasmagoria, read off its tooltip (2026-10-31), values as shown there (the prism's +75% already applied). 52444911: Illusory Chimera's Blur line, read off its tooltip. 402177701 and 500203900: CoffeeBingBong's revived Memory of Origin (tooltip 2026-10-31): the implicit's stat, and the revival line Genius Idea Generator with tlidb's text (Craft page, Memory Revival Special Random Affix), its rolls in the log's order. 52444741/52444801: Illusory Chimera random lines on CoffeeSage#9020's pair (2026-11-05), the only tlidb random lines whose numbers match the log's (20/-15/50 and 1000); 52444551 (one value, 40) could be Thunder Focus Damage or Double Damage while channeling, so it waits for a tooltip."
+}

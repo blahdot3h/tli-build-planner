@@ -1,0 +1,38 @@
+# The public price and build database: a Cloudflare Worker over D1 (SQLite at the edge).
+# Everything here fits Cloudflare's free plan: 100k requests/day, D1 5M row reads and 100k row
+# writes a day, 5 GB. GET answers carry Cache-Control so Cloudflare's cache serves repeats for free.
+#
+#   npm install -g wrangler && wrangler login
+#   wrangler d1 create tli-market            -> paste database_id below
+#   wrangler d1 execute tli-market --remote --file=schema.sql
+#   wrangler deploy
+name = "tli-market"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tli-market"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+# Per-IP limits (Workers Rate Limiting, free): reads and writes counted apart
+[[ratelimits]]
+name = "RL_READ"
+namespace_id = "1001"
+simple = { limit = 120, period = 60 }
+
+[[ratelimits]]
+name = "RL_WRITE"
+namespace_id = "1002"
+simple = { limit = 20, period = 60 }
+
+# Hourly: fold the last two weeks of observations into the price tables
+[triggers]
+crons = ["17 * * * *"]
+
+[vars]
+# "*" or a comma-separated list of origins allowed to call the API from a browser
+ALLOWED_ORIGINS = "*"
+# Observations older than this (days) no longer count toward a price
+PRICE_WINDOW_DAYS = "14"

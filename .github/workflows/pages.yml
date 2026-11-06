@@ -1,0 +1,45 @@
+# The public site (site/) on GitHub Pages. Settings → Pages → Source: GitHub Actions.
+# Repository variable MARKET_API_URL: the deployed Worker's URL (cloud/), e.g.
+# https://tli-market.<your-subdomain>.workers.dev
+name: Site
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'vite.site.config.js', 'package.json', 'package-lock.json', '.github/workflows/pages.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: npm run site:build
+        env:
+          VITE_BASE: ${{ steps.pages.outputs.base_path }}/
+          VITE_API_BASE: ${{ vars.MARKET_API_URL }}
+          VITE_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

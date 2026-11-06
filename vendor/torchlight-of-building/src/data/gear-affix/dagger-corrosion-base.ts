@@ -1,0 +1,80 @@
+// This file is machine-generated. Do not modify manually.
+// To regenerate, run: pnpm exec tsx src/scripts/generate-gear-affix-data.ts
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const DAGGER_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "+(4-8)% chance to gain 1 stack of Focus Blessing on defeat",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(5-10) Affliction inflicted per second",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "Adds (2-4) - (8-10) Physical Damage to the gear",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(15-25)% Gear Physical Damage",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(5-8)% gear Attack Speed",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(3-6)% Attack Critical Strike Rating for this gear",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "(5-8)% chance to inflict 1 additional stack(s) of Wilt",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(25-30)% Elemental Damage",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Dagger",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "Wilted enemies defeated by you will explode, dealing True Damage equal to (50-100)% of their Max Life to enemies within a 6 m radius",
+  },
+];

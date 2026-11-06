@@ -1,0 +1,409 @@
+{
+ "Spacetime_Illusion": {
+  "name": "Spacetime Illusion",
+  "slug": "Spacetime_Illusion",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_01_128.webp",
+  "traits": {
+   "Spacetime Illusion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi054.webp",
+   "Me and Myself": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi034.webp",
+   "Make it Quick": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi053.webp",
+   "Eeeendless Mana": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi033.webp",
+   "I'm an Illusion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi022.webp",
+   "I'm Out of Mana": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi063.webp"
+  }
+ },
+ "Blasphemer": {
+  "name": "Blasphemer",
+  "slug": "Blasphemer",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_03_128.webp",
+  "traits": {
+   "Blasphemer": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv301.webp",
+   "Unholy Baptism": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv311.webp",
+   "Disgraced Minister": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv321.webp",
+   "Tarnished Sage": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv322.webp",
+   "Onset of Depravity": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv331.webp",
+   "Extreme Desecration": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv332.webp"
+  }
+ },
+ "Anger": {
+  "name": "Anger",
+  "slug": "Anger",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_01_128.webp",
+  "traits": {
+   "Anger": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen502.webp",
+   "Righteous Fury": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen301.webp",
+   "Frenzy Furious": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen302.webp",
+   "Tunnel Vision": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen501.webp",
+   "Rampaging": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRenRagePlus.webp",
+   "Uncontrolled Anger": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen602.webp"
+  }
+ },
+ "Seething_Silhouette": {
+  "name": "Seething Silhouette",
+  "slug": "Seething_Silhouette",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_02_128.webp",
+  "traits": {
+   "Seething Silhouette": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen1.webp",
+   "Ritual of Offering": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen505.webp",
+   "Fury's Onslaught": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen605.webp",
+   "Hysteria": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRenHatred.webp",
+   "Growing Anger": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen504.webp",
+   "Split Form": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen503.webp",
+   "Rage Infusion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen506.webp"
+  }
+ },
+ "Ranger_of_Glory": {
+  "name": "Ranger of Glory",
+  "slug": "Ranger_of_Glory",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_01_128.webp",
+  "traits": {
+   "Ranger of Glory": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangPistol.webp",
+   "Ammo Expert": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangPistolPlus.webp",
+   "Landslide": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang603.webp",
+   "Crushing Gale Trigger": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang504.webp",
+   "Never Stopping": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang503.webp",
+   "Well Prepared": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang604.webp"
+  }
+ },
+ "Lethal_Flash": {
+  "name": "Lethal Flash",
+  "slug": "Lethal_Flash",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_02_128.webp",
+  "traits": {
+   "Lethal Flash": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang301.webp",
+   "Evil Ouroboros": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangShotgun.webp",
+   "Impending Doom": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang302.webp",
+   "Shadow Magazine": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang501.webp",
+   "Weightless Step": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang601.webp",
+   "Born in the Breeze": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang502.webp"
+  }
+ },
+ "Zealot_of_War": {
+  "name": "Zealot of War",
+  "slug": "Zealot_of_War",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_03_128.webp",
+  "traits": {
+   "Zealot of War": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang605.webp",
+   "Incinerated Glory": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangMachinegunPlus.webp",
+   "Ceasefire": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangMachinegun.webp",
+   "Extreme Heat": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang505.webp",
+   "Endless Frenzy": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang506.webp",
+   "Eternal Flames": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang306.webp"
+  }
+ },
+ "Wind_Stalker": {
+  "name": "Wind Stalker",
+  "slug": "Wind_Stalker",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_01_128.webp",
+  "traits": {
+   "Wind Stalker": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv021.webp",
+   "Interest": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv032.webp",
+   "Have Fun": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv031.webp",
+   "Cat's Vision": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv062.webp",
+   "Cat's Scratch": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv061.webp",
+   "Cat's Punches": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv041.webp",
+   "Cat Dive": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv052.webp"
+  }
+ },
+ "Lightning_Shadow": {
+  "name": "Lightning Shadow",
+  "slug": "Lightning_Shadow",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_02_128.webp",
+  "traits": {
+   "Lightning Shadow": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv033.webp",
+   "Dazzling Lightning": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv064.webp",
+   "Electroplated Motif": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv063.webp",
+   "Wild Lightning": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv022.webp",
+   "Swift as Lightning": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv042.webp",
+   "Charging Equation": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv054.webp"
+  }
+ },
+ "Vendettas_Sting": {
+  "name": "Vendetta's Sting",
+  "slug": "Vendettas_Sting",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_03_128.webp",
+  "traits": {
+   "Vendetta's Sting": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv301.webp",
+   "Twinblade Onslaught": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv332.webp",
+   "Leisurely Stroll": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv321.webp",
+   "Swift Stalk": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv322.webp",
+   "Feline Fury": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv331.webp",
+   "Mortal Gambit": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv311.webp"
+  }
+ },
+ "Blast_Nova": {
+  "name": "Blast Nova",
+  "slug": "Blast_Nova",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_01_128.webp",
+  "traits": {
+   "Blast Nova": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing031.webp",
+   "Firepower Coverage": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing021.webp",
+   "Dangerous Runaway": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing032.webp",
+   "Blast Barrage": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing041.webp",
+   "Phantom Delivery": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing052.webp",
+   "Radiation Effect": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing061.webp",
+   "Frenzy Hound": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing062.webp"
+  }
+ },
+ "Creative_Genius": {
+  "name": "Creative Genius",
+  "slug": "Creative_Genius",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_02_128.webp",
+  "traits": {
+   "Creative Genius": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin201.webp",
+   "Inspiration Overflow": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin211.webp",
+   "Mind Domain": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin221.webp",
+   "Trouble Maker": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin222.webp",
+   "Brainstorm": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin231.webp",
+   "Flash of Brilliance": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin232.webp",
+   "Super Sonic Protocol": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin212.webp",
+   "Over-Shield Module": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin213.webp",
+   "Law of Ingenuity": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin223.webp",
+   "Ingenious Chaos Principle": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin224.webp",
+   "Auto-Ingenuity Program": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin225.webp",
+   "Multi-Coupling Equation": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin233.webp",
+   "Hyper-Resonance Hypothesis": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin234.webp",
+   "Contingency Inspiration Delivery": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin235.webp"
+  }
+ },
+ "Flame_of_Pleasure": {
+  "name": "Flame of Pleasure",
+  "slug": "Flame_of_Pleasure",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_03_128.webp",
+  "traits": {
+   "Flame of Pleasure": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenFire.webp",
+   "Groaning Echo": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen302.webp",
+   "Flames of Desire": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen601.webp",
+   "Infernal Damnation": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen301.webp",
+   "Banquet of Bliss": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen501.webp",
+   "Dress Licker": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen502.webp"
+  }
+ },
+ "Frostbitten_Heart": {
+  "name": "Frostbitten Heart",
+  "slug": "Frostbitten_Heart",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_02_128.webp",
+  "traits": {
+   "Frostbitten Heart": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenIce.webp",
+   "Deepfreeze": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen607.webp",
+   "Glacial Night": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen303.webp",
+   "Dance of Frost": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen304.webp",
+   "Frigid Infusion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen604.webp",
+   "Blooming Frost Flower": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen603.webp"
+  }
+ },
+ "Ice-Fire_Fusion": {
+  "name": "Ice-Fire Fusion",
+  "slug": "Ice-Fire_Fusion",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_01_128.webp",
+  "traits": {
+   "Ice-Fire Fusion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen1.webp",
+   "Ice-Fire Embrace": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenDual.webp",
+   "Restless Ice-Fire": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen306.webp",
+   "Ice-Fire Radiance": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenDualPlus.webp",
+   "Bone-piercing Heat": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen505.webp",
+   "Ice to Blaze": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen506.webp"
+  }
+ },
+ "Wisdom_of_The_Gods": {
+  "name": "Wisdom of The Gods",
+  "slug": "Wisdom_of_The_Gods",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_01_128.webp",
+  "traits": {
+   "Wisdom of The Gods": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv011.webp",
+   "Prophecy of Truth": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv021.webp",
+   "Prophecy of Revelation": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv062.webp",
+   "Predicted Justice": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv052.webp",
+   "Prophecy of Shelter": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv031.webp",
+   "Prophecy of Punishment": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv041.webp",
+   "Predicted Reincarnation": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv032.webp",
+   "Farewell Prophecy": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv051.webp",
+   "Prophecy of Purity": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv061.webp"
+  }
+ },
+ "Incarnation_of_the_Gods": {
+  "name": "Incarnation of the Gods",
+  "slug": "Incarnation_of_the_Gods",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_02_128.webp",
+  "traits": {
+   "Incarnation of the Gods": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv022.webp",
+   "Tenacious Divinity": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv033.webp",
+   "Agile Godhood": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv033.webp",
+   "Might Flow": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv054.webp",
+   "Divine Realm Power": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv064.webp",
+   "Incarnation": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv063.webp",
+   "Divine Spirit": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv034.webp"
+  }
+ },
+ "Spacetime_Elapse": {
+  "name": "Spacetime Elapse",
+  "slug": "Spacetime_Elapse",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_02_128.webp",
+  "traits": {
+   "Spacetime Elapse": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShiImagePlus.webp",
+   "Spacetime Speed-up": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi502.webp",
+   "Spacetime Upheaval": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi301.webp",
+   "Spacetime Cutting": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShiImage.webp",
+   "Spacetime Pause": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi601.webp",
+   "Spacetime Expansion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi302.webp"
+  }
+ },
+ "Order_Calling": {
+  "name": "Order Calling",
+  "slug": "Order_Calling",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_01_128.webp",
+  "traits": {
+   "Order Calling": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan011.webp",
+   "Veteran": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan031.webp",
+   "All In": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan041.webp",
+   "Self-Reconstruct": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan061.webp",
+   "Overload Program": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan052.webp",
+   "Charge Forward": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan062.webp",
+   "Radiation Field": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan021.webp"
+  }
+ },
+ "Charge_Calling": {
+  "name": "Charge Calling",
+  "slug": "Charge_Calling",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_02_128.webp",
+  "traits": {
+   "Charge Calling": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan22.webp",
+   "Unstoppable Wave": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan23.webp",
+   "Heroic Sacrifice": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan24.webp",
+   "Guerilla Tactics": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan26.webp",
+   "Fuel War with War": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan29.webp",
+   "Essential Speed": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan28.webp"
+  }
+ },
+ "High_Court_Chariot": {
+  "name": "High Court Chariot",
+  "slug": "High_Court_Chariot",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_01_128.webp",
+  "traits": {
+   "High Court Chariot": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa022.webp",
+   "Unbreakable Stand": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa033.webp",
+   "Whirlwind Advance": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa034.webp",
+   "Invulnerability": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa042.webp",
+   "Divine Intervention": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa064.webp",
+   "Desperation": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa053.webp",
+   "Improvision": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa054.webp"
+  }
+ },
+ "Unsullied_Blade": {
+  "name": "Unsullied Blade",
+  "slug": "Unsullied_Blade",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_02_128.webp",
+  "traits": {
+   "Unsullied Blade": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa201.webp",
+   "Baptism of Purity": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa232.webp",
+   "Cleanse Filth": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa221.webp",
+   "Boundless Sanctuary": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa222.webp",
+   "Utmost Devotion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa231.webp",
+   "Born to Cleanse": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa211.webp"
+  }
+ },
+ "Growing_Breeze": {
+  "name": "Growing Breeze",
+  "slug": "Growing_Breeze",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_01_128.webp",
+  "traits": {
+   "Growing Breeze": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris022.webp",
+   "Socialite": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris053.webp",
+   "World Within": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris033.webp",
+   "Gentle Zephyr": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris034.webp",
+   "Run With the Wind": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris063.webp",
+   "Grow With Them": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris064.webp"
+  }
+ },
+ "Vigilant_Breeze": {
+  "name": "Vigilant Breeze",
+  "slug": "Vigilant_Breeze",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_02_128.webp",
+  "traits": {
+   "Vigilant Breeze": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris212.webp",
+   "Whirlwind Tango": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris211.webp",
+   "Breeze's Whisper": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris201.webp",
+   "Happiest Reunion": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris221.webp",
+   "Warmest Vigilance": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris222.webp",
+   "Merging Stream": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris231.webp",
+   "Nurturing Breeze": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris232.webp"
+  }
+ },
+ "Sing_with_the_Tide": {
+  "name": "Sing with the Tide",
+  "slug": "Sing_with_the_Tide",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Selena/UI_Portrait_Selena_01_128.webp",
+  "traits": {
+   "Sing with the Tide": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena011.webp",
+   "Undersea Ballad": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena021.webp",
+   "Wave Aria": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena022.webp",
+   "Sea Foam Nocturne": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena031.webp",
+   "Idyll of the Tide": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena032.webp",
+   "Chantey of Sinking": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena041.webp",
+   "Murmurs of the Distant Tide": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena042.webp"
+  }
+ },
+ "Dance_of_the_Deep": {
+  "name": "Dance of the Deep",
+  "slug": "Dance_of_the_Deep",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Selena/UI_Portrait_Selena_02_128.webp",
+  "traits": {
+   "Dance of the Deep": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena211.webp",
+   "Dreambreaker's Gyre": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena221.webp",
+   "Layered Hem": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena222.webp",
+   "Lonely Ensemble": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena223.webp",
+   "Silencing Severance": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena231.webp",
+   "Drenched Hem": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena232.webp",
+   "The Paradise I Curse": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena241.webp",
+   "The Cycle I Resist": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena242.webp",
+   "Crimson Endless Dance": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena251.webp"
+  }
+ },
+ "Licorice_Note": {
+  "name": "Licorice Note",
+  "slug": "Licorice_Note",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Sage/UI_Portrait_Sage_01_128.webp",
+  "traits": {
+   "Licorice Note": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Sage/UI_Sage001.webp",
+   "Pungent Stimulant Salt": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Sage/UI_Sage011.webp",
+   "Elixir of Immortality": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Sage/UI_Sage021.webp",
+   "Scent of Ambition": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Sage/UI_Sage022.webp",
+   "Everlasting Nectar": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Sage/UI_Sage031.webp",
+   "Licorice Tincture Blend": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Sage/UI_Sage032.webp"
+  }
+ },
+ "The_Ultimate_One": {
+  "name": "The Ultimate One",
+  "slug": "The_Ultimate_One",
+  "id": null,
+  "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_03_128.webp",
+  "traits": {}
+ }
+}

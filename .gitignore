@@ -1,0 +1,15 @@
+node_modules/
+web/dist/
+data/tlidb-cache/
+server/engine/tob.bundle.js
+.env
+.claude/settings.local.json
+data/captures/
+# The planner's own files (SQLite database, price caches, packaged builds, the site's build)
+data/planner.sqlite*
+data/prices/etor-*.json
+data/prices/cloud-*.json
+dist/
+site/dist/
+cloud/.wrangler/
+cloud/node_modules/

@@ -1,0 +1,1064 @@
+{
+ "Awooawoo_-_Violet": {
+  "name": "Awooawoo - Violet",
+  "slug": "Awooawoo_-_Violet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_01_116.webp"
+ },
+ "Traveling_Lizard_-_Green_Leaf": {
+  "name": "Traveling Lizard - Green Leaf",
+  "slug": "Traveling_Lizard_-_Green_Leaf",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_01_116.webp"
+ },
+ "Red_Umbrella": {
+  "name": "Red Umbrella",
+  "slug": "Red_Umbrella",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ChiSan2_01_116.webp"
+ },
+ "Idling_Weasel_-_Shallow_sea": {
+  "name": "Idling Weasel - Shallow sea",
+  "slug": "Idling_Weasel_-_Shallow_sea",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_02_116.webp"
+ },
+ "Plaintive_Ball_of_Thread_-_Violet": {
+  "name": "Plaintive Ball of Thread - Violet",
+  "slug": "Plaintive_Ball_of_Thread_-_Violet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_03_116.webp"
+ },
+ "Fog_Scorpion": {
+  "name": "Fog Scorpion",
+  "slug": "Fog_Scorpion",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_WuXie2_01_116.webp"
+ },
+ "Awooawoo_-_Drizzle": {
+  "name": "Awooawoo - Drizzle",
+  "slug": "Awooawoo_-_Drizzle",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_02_116.webp"
+ },
+ "Traveling_Lizard_-_Violet": {
+  "name": "Traveling Lizard - Violet",
+  "slug": "Traveling_Lizard_-_Violet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_02_116.webp"
+ },
+ "Flower_Whisperer": {
+  "name": "Flower Whisperer",
+  "slug": "Flower_Whisperer",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuaYuZhe2_01_116.webp"
+ },
+ "Luluri_-_Amethyst": {
+  "name": "Luluri - Amethyst",
+  "slug": "Luluri_-_Amethyst",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_01_116.webp"
+ },
+ "Hell_Cavalry_-_Glow": {
+  "name": "Hell Cavalry - Glow",
+  "slug": "Hell_Cavalry_-_Glow",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi2_04_116.webp"
+ },
+ "The_Bone_worms_Daughter": {
+  "name": "The Bone worm's Daughter",
+  "slug": "The_Bone_worms_Daughter",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_GuChongZhiNv2_01_116.webp"
+ },
+ "Luluri_-_Maple": {
+  "name": "Luluri - Maple",
+  "slug": "Luluri_-_Maple",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_04_116.webp"
+ },
+ "Winter_Darer_-_Shallow_Sea": {
+  "name": "Winter Darer - Shallow Sea",
+  "slug": "Winter_Darer_-_Shallow_Sea",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan2_02_116.webp"
+ },
+ "Starcatcher": {
+  "name": "Starcatcher",
+  "slug": "Starcatcher",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BuXingZhe2_01_116.webp"
+ },
+ "Idling_Weasel_-_Sprouts": {
+  "name": "Idling Weasel - Sprouts",
+  "slug": "Idling_Weasel_-_Sprouts",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_03_116.webp"
+ },
+ "Cloudgatherer_-_Violet": {
+  "name": "Cloudgatherer - Violet",
+  "slug": "Cloudgatherer_-_Violet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_02_116.webp"
+ },
+ "Dreamweaver": {
+  "name": "Dreamweaver",
+  "slug": "Dreamweaver",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhiMengZhe2_01_116.webp"
+ },
+ "Awooawoo_-_Amber": {
+  "name": "Awooawoo - Amber",
+  "slug": "Awooawoo_-_Amber",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_04_116.webp"
+ },
+ "Greedy_Chestnut_-_Lotus_Leaf": {
+  "name": "Greedy Chestnut - Lotus Leaf",
+  "slug": "Greedy_Chestnut_-_Lotus_Leaf",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_03_116.webp"
+ },
+ "Fire_Swordsman": {
+  "name": "Fire Swordsman",
+  "slug": "Fire_Swordsman",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YanDaoKe2_01_116.webp"
+ },
+ "Idling_Weasel_-_Abyss": {
+  "name": "Idling Weasel - Abyss",
+  "slug": "Idling_Weasel_-_Abyss",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_01_116.webp"
+ },
+ "Greedy_Chestnut_-_Emerald": {
+  "name": "Greedy Chestnut - Emerald",
+  "slug": "Greedy_Chestnut_-_Emerald",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_04_116.webp"
+ },
+ "Crossroad_Walker": {
+  "name": "Crossroad Walker",
+  "slug": "Crossroad_Walker",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_QiLuRen2_01_116.webp"
+ },
+ "Luluri_-_Golden_Leaf": {
+  "name": "Luluri - Golden Leaf",
+  "slug": "Luluri_-_Golden_Leaf",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_03_116.webp"
+ },
+ "Greedy_Chestnut_-_Radiance": {
+  "name": "Greedy Chestnut - Radiance",
+  "slug": "Greedy_Chestnut_-_Radiance",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_01_116.webp"
+ },
+ "Firewing": {
+  "name": "Firewing",
+  "slug": "Firewing",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ChiYu2_01_116.webp"
+ },
+ "Spiny_Snail_-_Flower": {
+  "name": "Spiny Snail - Flower",
+  "slug": "Spiny_Snail_-_Flower",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_03_116.webp"
+ },
+ "Winter_Darer": {
+  "name": "Winter Darer",
+  "slug": "Winter_Darer",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan2_01_116.webp"
+ },
+ "Mechanical_Throne": {
+  "name": "Mechanical Throne",
+  "slug": "Mechanical_Throne",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_JiGuanQuanBing2_01_116.webp"
+ },
+ "Explorer_Otter_-_Olive": {
+  "name": "Explorer Otter - Olive",
+  "slug": "Explorer_Otter_-_Olive",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_02_116.webp"
+ },
+ "Greedy_Chestnut_-_Lotus_Root": {
+  "name": "Greedy Chestnut - Lotus Root",
+  "slug": "Greedy_Chestnut_-_Lotus_Root",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_02_116.webp"
+ },
+ "Drapion_Lady": {
+  "name": "Drapion Lady",
+  "slug": "Drapion_Lady",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LongXieHuoNv2_01_116.webp"
+ },
+ "Spiny_Snail_-_Iris": {
+  "name": "Spiny Snail - Iris",
+  "slug": "Spiny_Snail_-_Iris",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_02_116.webp"
+ },
+ "Cloudgatherer_-_Sparkle": {
+  "name": "Cloudgatherer - Sparkle",
+  "slug": "Cloudgatherer_-_Sparkle",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_01_116.webp"
+ },
+ "Whisperwind_Leaves": {
+  "name": "Whisperwind Leaves",
+  "slug": "Whisperwind_Leaves",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FengYuYe2_01_116.webp"
+ },
+ "Explorer_Otter_-_Mudstone": {
+  "name": "Explorer Otter - Mudstone",
+  "slug": "Explorer_Otter_-_Mudstone",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_01_116.webp"
+ },
+ "Plaintive_Ball_of_Thread": {
+  "name": "Plaintive Ball of Thread",
+  "slug": "Plaintive_Ball_of_Thread",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_01_116.webp"
+ },
+ "Anthem": {
+  "name": "Anthem",
+  "slug": "Anthem",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShengGe2_01_116.webp"
+ },
+ "Explorer_Otter_-_Rock": {
+  "name": "Explorer Otter - Rock",
+  "slug": "Explorer_Otter_-_Rock",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_04_116.webp"
+ },
+ "Traveling_Lizard_-_Ocean": {
+  "name": "Traveling Lizard - Ocean",
+  "slug": "Traveling_Lizard_-_Ocean",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_03_116.webp"
+ },
+ "Spirit_Bless": {
+  "name": "Spirit Bless",
+  "slug": "Spirit_Bless",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LingYou2_01_116.webp"
+ },
+ "Explorer_Otter_-_Quicksand": {
+  "name": "Explorer Otter - Quicksand",
+  "slug": "Explorer_Otter_-_Quicksand",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_03_116.webp"
+ },
+ "Traveling_Lizard_-_Flower": {
+  "name": "Traveling Lizard - Flower",
+  "slug": "Traveling_Lizard_-_Flower",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_04_116.webp"
+ },
+ "Preserver_of_Eternity": {
+  "name": "Preserver of Eternity",
+  "slug": "Preserver_of_Eternity",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongHengHuHuan2_02_116.webp"
+ },
+ "Spiny_Snail_-_Cloudless_Sky": {
+  "name": "Spiny Snail - Cloudless Sky",
+  "slug": "Spiny_Snail_-_Cloudless_Sky",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_01_116.webp"
+ },
+ "Hell_Cavalry": {
+  "name": "Hell Cavalry",
+  "slug": "Hell_Cavalry",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi2_01_116.webp"
+ },
+ "Knight_of_Pale_Blue": {
+  "name": "Knight of Pale Blue",
+  "slug": "Knight_of_Pale_Blue",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_CangLanQiShi2_01_116.webp"
+ },
+ "Idling_Weasel_-_Cherry_Blossom": {
+  "name": "Idling Weasel - Cherry Blossom",
+  "slug": "Idling_Weasel_-_Cherry_Blossom",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_04_116.webp"
+ },
+ "Cloudgatherer_-_Sky": {
+  "name": "Cloudgatherer - Sky",
+  "slug": "Cloudgatherer_-_Sky",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_03_116.webp"
+ },
+ "Captain_Shadow": {
+  "name": "Captain Shadow",
+  "slug": "Captain_Shadow",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouLingJianZhang2_01_116.webp"
+ },
+ "Luluri_-_Green_Leaf": {
+  "name": "Luluri - Green Leaf",
+  "slug": "Luluri_-_Green_Leaf",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_02_116.webp"
+ },
+ "Plaintive_Ball_of_Thread_-_Flower": {
+  "name": "Plaintive Ball of Thread - Flower",
+  "slug": "Plaintive_Ball_of_Thread_-_Flower",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_04_116.webp"
+ },
+ "Eternity_Summoner": {
+  "name": "Eternity Summoner",
+  "slug": "Eternity_Summoner",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongHengHuHuan2_01_116.webp"
+ },
+ "Happy_Chonky": {
+  "name": "Happy Chonky",
+  "slug": "Happy_Chonky",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei2_01_116.webp"
+ },
+ "Cloudgatherer_-_Surging_Gold": {
+  "name": "Cloudgatherer - Surging Gold",
+  "slug": "Cloudgatherer_-_Surging_Gold",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_04_116.webp"
+ },
+ "Chalk_Spirit": {
+  "name": "Chalk Spirit",
+  "slug": "Chalk_Spirit",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BaiEZhiLing2_01_116.webp"
+ },
+ "Happy_Chonky_-_Ember": {
+  "name": "Happy Chonky - Ember",
+  "slug": "Happy_Chonky_-_Ember",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_04_116.webp"
+ },
+ "Winter_Darer_-_Lava": {
+  "name": "Winter Darer - Lava",
+  "slug": "Winter_Darer_-_Lava",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_04_116.webp"
+ },
+ "Melting_Flames": {
+  "name": "Melting Flames",
+  "slug": "Melting_Flames",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_RongHuo_01_116.webp"
+ },
+ "Awooawoo_-_White_Mist": {
+  "name": "Awooawoo - White Mist",
+  "slug": "Awooawoo_-_White_Mist",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu_03_116.webp"
+ },
+ "Hell_Cavalry_-_Crushed_Ice": {
+  "name": "Hell Cavalry - Crushed Ice",
+  "slug": "Hell_Cavalry_-_Crushed_Ice",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_02_116.webp"
+ },
+ "Ice_Puppet": {
+  "name": "Ice Puppet",
+  "slug": "Ice_Puppet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_KuiBing_01_116.webp"
+ },
+ "Happy_Chonky_-_Electrify": {
+  "name": "Happy Chonky - Electrify",
+  "slug": "Happy_Chonky_-_Electrify",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_02_116.webp"
+ },
+ "Hell_Cavalry_-_Muffled_Thunder": {
+  "name": "Hell Cavalry - Muffled Thunder",
+  "slug": "Hell_Cavalry_-_Muffled_Thunder",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_03_116.webp"
+ },
+ "Bitter_Thunder": {
+  "name": "Bitter Thunder",
+  "slug": "Bitter_Thunder",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LingLei_01_116.webp"
+ },
+ "Happy_Chonky_-_Emerald": {
+  "name": "Happy Chonky - Emerald",
+  "slug": "Happy_Chonky_-_Emerald",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_03_116.webp"
+ },
+ "Plaintive_Ball_of_Thread_-_Gold_Leaf": {
+  "name": "Plaintive Ball of Thread - Gold Leaf",
+  "slug": "Plaintive_Ball_of_Thread_-_Gold_Leaf",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu_02_116.webp"
+ },
+ "Starfish_Chanter": {
+  "name": "Starfish Chanter",
+  "slug": "Starfish_Chanter",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuanHaiXingKui_01_116.webp"
+ },
+ "Idling_Weasel_-_Sparkle": {
+  "name": "Idling Weasel - Sparkle",
+  "slug": "Idling_Weasel_-_Sparkle",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou_05_116.webp"
+ },
+ "Cloudgatherer_-_Skys_Dome": {
+  "name": "Cloudgatherer - Sky's Dome",
+  "slug": "Cloudgatherer_-_Skys_Dome",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe_05_116.webp"
+ },
+ "Kong": {
+  "name": "Kong",
+  "slug": "Kong",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_AKong_01_116.webp"
+ },
+ "Happy_Chonky_-_Sun": {
+  "name": "Happy Chonky - Sun",
+  "slug": "Happy_Chonky_-_Sun",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_05_116.webp"
+ },
+ "Plaintive_Ball_of_Thread_-_Frost": {
+  "name": "Plaintive Ball of Thread - Frost",
+  "slug": "Plaintive_Ball_of_Thread_-_Frost",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu_05_116.webp"
+ },
+ "Corgi_Fighter_No.32": {
+  "name": "Corgi Fighter No.32",
+  "slug": "Corgi_Fighter_No.32",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhanDouJi_01_116.webp"
+ },
+ "Spiny_Snail_-_Cloud": {
+  "name": "Spiny Snail - Cloud",
+  "slug": "Spiny_Snail_-_Cloud",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_04_116.webp"
+ },
+ "Hell_Cavalry_-_Sea": {
+  "name": "Hell Cavalry - Sea",
+  "slug": "Hell_Cavalry_-_Sea",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_05_116.webp"
+ },
+ "Heart-binding_Rose": {
+  "name": "Heart-binding Rose",
+  "slug": "Heart-binding_Rose",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZangAiMingQing_01_116.webp"
+ },
+ "Spiny_Snail_-_Green": {
+  "name": "Spiny Snail - Green",
+  "slug": "Spiny_Snail_-_Green",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_05_116.webp"
+ },
+ "Winter_Darer_-_Rock": {
+  "name": "Winter Darer - Rock",
+  "slug": "Winter_Darer_-_Rock",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_03_116.webp"
+ },
+ "Warbler_of_Plum_Blossoms": {
+  "name": "Warbler of Plum Blossoms",
+  "slug": "Warbler_of_Plum_Blossoms",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XianMeiZhiYing_01_116.webp"
+ },
+ "Spiny_Snail_-_Flame": {
+  "name": "Spiny Snail - Flame",
+  "slug": "Spiny_Snail_-_Flame",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_06_116.webp"
+ },
+ "Winter_Darer_-_Sky": {
+  "name": "Winter Darer - Sky",
+  "slug": "Winter_Darer_-_Sky",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_05_116.webp"
+ },
+ "Poisoned_Omen": {
+  "name": "Poisoned Omen",
+  "slug": "Poisoned_Omen",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_GaoSiZhiZhen_01_116.webp"
+ },
+ "Shocket": {
+  "name": "Shocket",
+  "slug": "Shocket",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_01_116.webp"
+ },
+ "Letice": {
+  "name": "Letice",
+  "slug": "Letice",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_01_116.webp"
+ },
+ "Monument_Knight": {
+  "name": "Monument Knight",
+  "slug": "Monument_Knight",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FengBeiQiShi_01_116.webp"
+ },
+ "Shocket_-_Violet": {
+  "name": "Shocket - Violet",
+  "slug": "Shocket_-_Violet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_02_116.webp"
+ },
+ "Letice_-_Flame": {
+  "name": "Letice - Flame",
+  "slug": "Letice_-_Flame",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_03_116.webp"
+ },
+ "Abyssal_King_Soul": {
+  "name": "Abyssal King Soul",
+  "slug": "Abyssal_King_Soul",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShenYuanWangHun_01_116.webp"
+ },
+ "Shocket_-_Pale": {
+  "name": "Shocket - Pale",
+  "slug": "Shocket_-_Pale",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_04_116.webp"
+ },
+ "Letice_-_Amethyst": {
+  "name": "Letice - Amethyst",
+  "slug": "Letice_-_Amethyst",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_04_116.webp"
+ },
+ "Scale_of_Original_Sin": {
+  "name": "Scale of Original Sin",
+  "slug": "Scale_of_Original_Sin",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_EYuShiTu_01_116.webp"
+ },
+ "Fluffhead_Hare": {
+  "name": "Fluffhead Hare",
+  "slug": "Fluffhead_Hare",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuLiHuTu_01_116.webp"
+ },
+ "Shocket_-_Dark_Night": {
+  "name": "Shocket - Dark Night",
+  "slug": "Shocket_-_Dark_Night",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_03_116.webp"
+ },
+ "Letice_-_Frost": {
+  "name": "Letice - Frost",
+  "slug": "Letice_-_Frost",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_02_116.webp"
+ },
+ "Shepherd": {
+  "name": "Shepherd",
+  "slug": "Shepherd",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_MuLingRen_01_116.webp"
+ },
+ "Shocket_-_Green_Leaf": {
+  "name": "Shocket - Green Leaf",
+  "slug": "Shocket_-_Green_Leaf",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_05_116.webp"
+ },
+ "Letice_-_Withered_Leaf": {
+  "name": "Letice - Withered Leaf",
+  "slug": "Letice_-_Withered_Leaf",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_05_116.webp"
+ },
+ "Raging_Sands_of_Eternal_Night": {
+  "name": "Raging Sands of Eternal Night",
+  "slug": "Raging_Sands_of_Eternal_Night",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongYeKuangSha_01_116.webp"
+ },
+ "Awooawoo_-_Blue_Sky": {
+  "name": "Awooawoo - Blue Sky",
+  "slug": "Awooawoo_-_Blue_Sky",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu_05_116.webp"
+ },
+ "Hell_Cavalry_-_Twilight": {
+  "name": "Hell Cavalry - Twilight",
+  "slug": "Hell_Cavalry_-_Twilight",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_06_116.webp"
+ },
+ "Witch_Antelope_of_Lust": {
+  "name": "Witch Antelope of Lust",
+  "slug": "Witch_Antelope_of_Lust",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_MeiYuSiJi_01_116.webp"
+ },
+ "Happy_Chonky_-_Violet": {
+  "name": "Happy Chonky - Violet",
+  "slug": "Happy_Chonky_-_Violet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_06_116.webp"
+ },
+ "First_Mate_of_the_Furious_Sea_-_Silent_Night": {
+  "name": "First Mate of the Furious Sea - Silent Night",
+  "slug": "First_Mate_of_the_Furious_Sea_-_Silent_Night",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_03_116.webp"
+ },
+ "Mistville_Orphan": {
+  "name": "Mistville Orphan",
+  "slug": "Mistville_Orphan",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangMianYeCha_01_116.webp"
+ },
+ "Idling_Weasel_-_Sandstone": {
+  "name": "Idling Weasel - Sandstone",
+  "slug": "Idling_Weasel_-_Sandstone",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou_06_116.webp"
+ },
+ "First_Mate_of_the_Furious_Sea_-_Rock": {
+  "name": "First Mate of the Furious Sea - Rock",
+  "slug": "First_Mate_of_the_Furious_Sea_-_Rock",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_01_116.webp"
+ },
+ "Backup_Power": {
+  "name": "Backup Power",
+  "slug": "Backup_Power",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_DianNengChuBeiLiang_01_116.webp"
+ },
+ "Luluri_-_Shallow_Sea": {
+  "name": "Luluri - Shallow Sea",
+  "slug": "Luluri_-_Shallow_Sea",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi_05_116.webp"
+ },
+ "First_Mate_of_the_Furious_Sea_-_Sky": {
+  "name": "First Mate of the Furious Sea - Sky",
+  "slug": "First_Mate_of_the_Furious_Sea_-_Sky",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_02_116.webp"
+ },
+ "Captain_Kitty_of_the_Furious_Sea": {
+  "name": "Captain Kitty of the Furious Sea",
+  "slug": "Captain_Kitty_of_the_Furious_Sea",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_NuHaiMiaoWang_116.webp"
+ },
+ "Feasting_Samurai_-_Honey": {
+  "name": "Feasting Samurai - Honey",
+  "slug": "Feasting_Samurai_-_Honey",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_05_116.webp"
+ },
+ "Dragon_Plant_-_Truffle": {
+  "name": "Dragon Plant - Truffle",
+  "slug": "Dragon_Plant_-_Truffle",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_05_116.webp"
+ },
+ "Iron_Lion": {
+  "name": "Iron Lion",
+  "slug": "Iron_Lion",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TieZhuXiongShi_01_116.webp"
+ },
+ "Feasting_Samurai": {
+  "name": "Feasting Samurai",
+  "slug": "Feasting_Samurai",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_01_116.webp"
+ },
+ "Dragon_Plant": {
+  "name": "Dragon Plant",
+  "slug": "Dragon_Plant",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_01_116.webp"
+ },
+ "Alice_1": {
+  "name": "Alice 1",
+  "slug": "Alice_1",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhiXieYiGu_01_116.webp"
+ },
+ "Feasting_Samurai_-_Mint": {
+  "name": "Feasting Samurai - Mint",
+  "slug": "Feasting_Samurai_-_Mint",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_03_116.webp"
+ },
+ "Dragon_Plant_-_Lettuce": {
+  "name": "Dragon Plant - Lettuce",
+  "slug": "Dragon_Plant_-_Lettuce",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_02_116.webp"
+ },
+ "Rainbowpaint_Owl": {
+  "name": "Rainbowpaint Owl",
+  "slug": "Rainbowpaint_Owl",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XueGuoYeXiao_116.webp"
+ },
+ "Feasting_Samurai_-_Orange": {
+  "name": "Feasting Samurai - Orange",
+  "slug": "Feasting_Samurai_-_Orange",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_02_116.webp"
+ },
+ "Dragon_Plant_-_Kale": {
+  "name": "Dragon Plant - Kale",
+  "slug": "Dragon_Plant_-_Kale",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_04_116.webp"
+ },
+ "Swaying_Bonnie": {
+  "name": "Swaying Bonnie",
+  "slug": "Swaying_Bonnie",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BangNiYaoBai_01_116.webp"
+ },
+ "Feasting_Samurai_-_Garlic": {
+  "name": "Feasting Samurai - Garlic",
+  "slug": "Feasting_Samurai_-_Garlic",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_04_116.webp"
+ },
+ "Dragon_Plant_-_Onion": {
+  "name": "Dragon Plant - Onion",
+  "slug": "Dragon_Plant_-_Onion",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_03_116.webp"
+ },
+ "Sprite_of_Silent_Vale": {
+  "name": "Sprite of Silent Vale",
+  "slug": "Sprite_of_Silent_Vale",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouGuHuaLing_116.webp"
+ },
+ "Sprouting_Grass": {
+  "name": "Sprouting Grass",
+  "slug": "Sprouting_Grass",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_116.webp"
+ },
+ "Benign_Bug_-_Barbie_Pink": {
+  "name": "Benign Bug - Barbie Pink",
+  "slug": "Benign_Bug_-_Barbie_Pink",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_02_116.webp"
+ },
+ "Jestress": {
+  "name": "Jestress",
+  "slug": "Jestress",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HongTaoHuangNv_01_116.webp"
+ },
+ "Sprouting_Grass_-_Purple_Sand": {
+  "name": "Sprouting Grass - Purple Sand",
+  "slug": "Sprouting_Grass_-_Purple_Sand",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_02_116.webp"
+ },
+ "Benign_Bug": {
+  "name": "Benign Bug",
+  "slug": "Benign_Bug",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_116.webp"
+ },
+ "Doro-Doro_Dorothy": {
+  "name": "Doro-Doro Dorothy",
+  "slug": "Doro-Doro_Dorothy",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TLS007_116.webp"
+ },
+ "Sprouting_Grass_-_White_Porcelain": {
+  "name": "Sprouting Grass - White Porcelain",
+  "slug": "Sprouting_Grass_-_White_Porcelain",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_05_116.webp"
+ },
+ "Benign_Bug_-_Merciless_Silver": {
+  "name": "Benign Bug - Merciless Silver",
+  "slug": "Benign_Bug_-_Merciless_Silver",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_03_116.webp"
+ },
+ "Moonshadow_Guide": {
+  "name": "Moonshadow Guide",
+  "slug": "Moonshadow_Guide",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShaHaiMiaoMiao_116.webp"
+ },
+ "Sprouting_Grass_-_Green_Porcelain": {
+  "name": "Sprouting Grass - Green Porcelain",
+  "slug": "Sprouting_Grass_-_Green_Porcelain",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_04_116.webp"
+ },
+ "Benign_Bug_-_Ghost_Light_Yellow": {
+  "name": "Benign Bug - Ghost Light Yellow",
+  "slug": "Benign_Bug_-_Ghost_Light_Yellow",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_05_116.webp"
+ },
+ "Portrait_of_a_Fallen_Saintess": {
+  "name": "Portrait of a Fallen Saintess",
+  "slug": "Portrait_of_a_Fallen_Saintess",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XieDuShengNvDeXiaoXiang_01_116.webp"
+ },
+ "Lumidrake": {
+  "name": "Lumidrake",
+  "slug": "Lumidrake",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_01_116.webp"
+ },
+ "Shro-Shroom": {
+  "name": "Shro-Shroom",
+  "slug": "Shro-Shroom",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_01_116.webp"
+ },
+ "Prof._SOURCE": {
+  "name": "Prof. SOURCE",
+  "slug": "Prof._SOURCE",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YuanBoShi_01_116.webp"
+ },
+ "Sprouting_Grass_-_Black_Porcelain": {
+  "name": "Sprouting Grass - Black Porcelain",
+  "slug": "Sprouting_Grass_-_Black_Porcelain",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_03_116.webp"
+ },
+ "Shro-Shroom_-_Boletus": {
+  "name": "Shro-Shroom - Boletus",
+  "slug": "Shro-Shroom_-_Boletus",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_02_116.webp"
+ },
+ "Valkyries_Night_Patrol": {
+  "name": "Valkyrie's Night Patrol",
+  "slug": "Valkyries_Night_Patrol",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_NvWuShenDeYeXun_01_116.webp"
+ },
+ "Lumidrake_-_Fluorescence": {
+  "name": "Lumidrake - Fluorescence",
+  "slug": "Lumidrake_-_Fluorescence",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_02_116.webp"
+ },
+ "Benign_Bug_-_Tolerant_Green": {
+  "name": "Benign Bug - Tolerant Green",
+  "slug": "Benign_Bug_-_Tolerant_Green",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_04_116.webp"
+ },
+ "Azure_Gunslinger": {
+  "name": "Azure Gunslinger",
+  "slug": "Azure_Gunslinger",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LanXinHuoChong_01_116.webp"
+ },
+ "Lumidrake_-_Glow": {
+  "name": "Lumidrake - Glow",
+  "slug": "Lumidrake_-_Glow",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_03_116.webp"
+ },
+ "Shro-Shroom_-_Lurid_Bolete": {
+  "name": "Shro-Shroom - Lurid Bolete",
+  "slug": "Shro-Shroom_-_Lurid_Bolete",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_03_116.webp"
+ },
+ "Key_of_Overrealm": {
+  "name": "Key of Overrealm",
+  "slug": "Key_of_Overrealm",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_WeiTeLuWei_01_116.webp"
+ },
+ "Lumidrake_-_Aurora": {
+  "name": "Lumidrake - Aurora",
+  "slug": "Lumidrake_-_Aurora",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_04_116.webp"
+ },
+ "Shro-Shroom_-_Oyster_Mushroom": {
+  "name": "Shro-Shroom - Oyster Mushroom",
+  "slug": "Shro-Shroom_-_Oyster_Mushroom",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_04_116.webp"
+ },
+ "Squiddle": {
+  "name": "Squiddle",
+  "slug": "Squiddle",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_CaiMoDuoDuo_01_116.webp"
+ },
+ "Lumidrake_-_Candlelight": {
+  "name": "Lumidrake - Candlelight",
+  "slug": "Lumidrake_-_Candlelight",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_05_116.webp"
+ },
+ "Shro-Shroom_-_Gloom_Shroom": {
+  "name": "Shro-Shroom - Gloom Shroom",
+  "slug": "Shro-Shroom_-_Gloom_Shroom",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_05_116.webp"
+ },
+ "Kitty_Express": {
+  "name": "Kitty Express",
+  "slug": "Kitty_Express",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_KuMaoZhaiJiSong_01_116.webp"
+ },
+ "Lumidrake_-_Flare": {
+  "name": "Lumidrake - Flare",
+  "slug": "Lumidrake_-_Flare",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_06_116.webp"
+ },
+ "Bird_Nest": {
+  "name": "Bird Nest",
+  "slug": "Bird_Nest",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NiaoWoTouTou_01_116.webp"
+ },
+ "Intern_Shelley": {
+  "name": "Intern Shelley",
+  "slug": "Intern_Shelley",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShiXiYiShengXueLai_01_116.webp"
+ },
+ "Meowth": {
+  "name": "Meowth",
+  "slug": "Meowth",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_01_116.webp"
+ },
+ "Miss_Melancholy": {
+  "name": "Miss Melancholy",
+  "slug": "Miss_Melancholy",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_01_116.webp"
+ },
+ "Elixir_Fairies": {
+  "name": "Elixir Fairies",
+  "slug": "Elixir_Fairies",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YaoXianZi_01_116.webp"
+ },
+ "Meowth_-_Violet": {
+  "name": "Meowth - Violet",
+  "slug": "Meowth_-_Violet",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_02_116.webp"
+ },
+ "Miss_Melancholy_-_Cyan": {
+  "name": "Miss Melancholy - Cyan",
+  "slug": "Miss_Melancholy_-_Cyan",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_02_116.webp"
+ },
+ "Avatar_of_Moon": {
+  "name": "Avatar of Moon",
+  "slug": "Avatar_of_Moon",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_JiaoYueHuaShen_01_116.webp"
+ },
+ "Meowth_-_Nightfire": {
+  "name": "Meowth - Nightfire",
+  "slug": "Meowth_-_Nightfire",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_03_116.webp"
+ },
+ "Miss_Melancholy_-_Pink": {
+  "name": "Miss Melancholy - Pink",
+  "slug": "Miss_Melancholy_-_Pink",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_03_116.webp"
+ },
+ "Twilight_Sparks": {
+  "name": "Twilight Sparks",
+  "slug": "Twilight_Sparks",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuaXinXiaoMan_116.webp"
+ },
+ "Meowth_-_Jade": {
+  "name": "Meowth - Jade",
+  "slug": "Meowth_-_Jade",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_04_116.webp"
+ },
+ "Miss_Melancholy_-_Bone": {
+  "name": "Miss Melancholy - Bone",
+  "slug": "Miss_Melancholy_-_Bone",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_04_116.webp"
+ },
+ "Icemirror": {
+  "name": "Icemirror",
+  "slug": "Icemirror",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangJing_01_116.webp"
+ },
+ "Meowth_-_Aurora": {
+  "name": "Meowth - Aurora",
+  "slug": "Meowth_-_Aurora",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_05_116.webp"
+ },
+ "Miss_Melancholy_-_Azure": {
+  "name": "Miss Melancholy - Azure",
+  "slug": "Miss_Melancholy_-_Azure",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_05_116.webp"
+ },
+ "Lady_Obituary": {
+  "name": "Lady Obituary",
+  "slug": "Lady_Obituary",
+  "id": null,
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FuGaoFuRen_01_116.webp"
+ },
+ "Witch_of_the_Night": {
+  "name": "Witch of the Night",
+  "slug": "Witch_of_the_Night",
+  "id": null,
+  "icon": null
+ },
+ "Twin_Inquisitors": {
+  "name": "Twin Inquisitors",
+  "slug": "Twin_Inquisitors",
+  "id": null,
+  "icon": null
+ }
+}

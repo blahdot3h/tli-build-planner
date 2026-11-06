@@ -1,0 +1,156 @@
+// This file is machine-generated. Do not modify manually.
+// To regenerate, run: pnpm exec tsx src/scripts/generate-gear-affix-data.ts
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const TIN_STAFF_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+16% additional Spell Damage",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+12% Armor DMG Mitigation Penetration",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+16% Fire Penetration",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+16% Cold Penetration",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+16% Lightning Penetration",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+16% Erosion Resistance Penetration",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+32% Cast Speed",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+110 Spell Critical Strike Rating",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+20% additional damage on Critical Strike",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "1",
+    craftableAffix: "+16% all stats",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "Enemies have a 30% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+50% additional Hit Damage for skills cast by Spell Burst",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "Adds 420 - 440 Cold Damage to Spells when having at least 800 Intelligence",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "The Main Skill is supported by Lv. 25 Control Spell\n+25% additional Spell Damage",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "+200% Spell Amplification Aura\n-30% additional Spell Amplification Sealed Mana Compensation",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+70% additional damage\n-10% additional Cast Speed",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "+30% additional Deterioration Damage\n10% chance to inflict 2 additional stack(s) of Deterioration",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "-2 to Max Tenacity Blessing Stacks\n+2 to Max Focus Blessing Stacks\n+2 to Max Agility Blessing Stacks",
+  },
+];

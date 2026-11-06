@@ -1,0 +1,1 @@
+This directory contains data that is unavailable from tlidb or other data scraping means.

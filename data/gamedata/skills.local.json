@@ -1,0 +1,11 @@
+{
+  "_comment": "Skills the game grants from items, which tlidb has no skill page for. Named from the item's text and the game's glossary; no damage model.",
+  "7085": {
+    "name": "Barrier Burst",
+    "slug": null,
+    "tags": ["Spell", "Fire", "Area", "Strength", "Intelligence"],
+    "icon": null,
+    "grantedBy": "Necklace of Firebird (\"Replaces the Main Skill with Lv. 20/25 Barrier Burst\")",
+    "text": "Deals Spell Fire Damage equal to a certain ratio of Barrier to nearby enemies."
+  }
+}

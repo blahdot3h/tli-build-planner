@@ -1,0 +1,80 @@
+// This file is machine-generated. Do not modify manually.
+// To regenerate, run: pnpm exec tsx src/scripts/generate-gear-affix-data.ts
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const FIRE_CANNON_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(1-2) to Parabolic Projectile Splits quantity",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "+(6-12)% chance to gain 1 stack of Tenacity Blessing on defeat",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "Adds (7-10) - (14-17) Physical Damage to the gear",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(15-25)% Gear Physical Damage",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(5-8)% gear Attack Speed",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(3-6)% Attack Critical Strike Rating for this gear",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(10-15)% Skill Area",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix: "+(40-45)% Elemental Damage",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Fire Cannon",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "-30% additional Damage Over Time taken while standing still",
+  },
+];

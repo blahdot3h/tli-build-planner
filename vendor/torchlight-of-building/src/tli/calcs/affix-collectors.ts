@@ -1,0 +1,249 @@
+import type {
+  Affix,
+  AffixLine,
+  DivinityPage,
+  Gear,
+  HeroPage,
+  Loadout,
+  TalentPage,
+} from "../core";
+import type { Mod } from "../mod";
+import { type ModWithValue, multModValue } from "./util";
+
+const hasValue = (mod: Mod): mod is ModWithValue => "value" in mod;
+
+const scaleAffixByInverseImage = (affix: Affix, multiplier: number): Affix => ({
+  ...affix,
+  affixLines: affix.affixLines.map((line) => ({
+    ...line,
+    mods: line.mods?.map((mod) =>
+      hasValue(mod) ? multModValue(mod, multiplier) : mod,
+    ),
+  })),
+});
+
+export const getTalentAffixes = (talentPage: TalentPage): Affix[] => {
+  const affixes: Affix[] = [];
+  const { talentTrees: allocatedTalents } = talentPage;
+
+  const trees = [
+    allocatedTalents.tree1,
+    allocatedTalents.tree2,
+    allocatedTalents.tree3,
+    allocatedTalents.tree4,
+  ];
+
+  for (const tree of trees) {
+    if (tree?.selectedCoreTalents) {
+      affixes.push(...tree.selectedCoreTalents);
+    }
+    if (tree?.additionalCoreTalentPrismAffix) {
+      affixes.push(tree.additionalCoreTalentPrismAffix);
+    }
+    if (tree?.replacementPrismCoreTalent !== undefined) {
+      affixes.push(tree.replacementPrismCoreTalent);
+    }
+    if (tree?.nodes) {
+      for (const node of tree.nodes) {
+        if (node.points > 0) {
+          const multiplier = node.inverseImageEffect
+            ? 1 + node.inverseImageEffect
+            : 1;
+
+          if (multiplier !== 1) {
+            affixes.push(scaleAffixByInverseImage(node.affix, multiplier));
+            affixes.push(
+              ...node.prismAffixes.map((a) =>
+                scaleAffixByInverseImage(a, multiplier),
+              ),
+            );
+          } else {
+            affixes.push(node.affix);
+            affixes.push(...node.prismAffixes);
+          }
+        }
+      }
+    }
+  }
+
+  return affixes;
+};
+
+export const getHeroAffixes = (heroPage: HeroPage): Affix[] => {
+  const affixes: Affix[] = [];
+
+  const memorySlots = heroPage.memorySlots;
+
+  if (memorySlots.slot45) affixes.push(...memorySlots.slot45.affixes);
+  if (memorySlots.slot60) affixes.push(...memorySlots.slot60.affixes);
+  if (memorySlots.slot75) affixes.push(...memorySlots.slot75.affixes);
+
+  return affixes;
+};
+
+export const getGearAffixes = (gear: Gear | undefined): Affix[] => {
+  if (gear === undefined) {
+    return [];
+  }
+  const affixes: Affix[] = [];
+
+  // Include baseStats as an affix (baseStatLines have same structure as affixLines)
+  if (gear.baseStats?.baseStatLines) {
+    affixes.push({
+      affixLines: gear.baseStats.baseStatLines,
+      src: gear.baseStats.src,
+    });
+  }
+
+  if (gear.legendaryAffixes !== undefined) {
+    // Legendary gear: blend first, then legendary affixes
+    if (gear.blendAffix !== undefined) affixes.push(gear.blendAffix);
+    affixes.push(...gear.legendaryAffixes);
+  } else {
+    if (gear.baseAffixes !== undefined) affixes.push(...gear.baseAffixes);
+    if (gear.sweetDreamAffix !== undefined) affixes.push(gear.sweetDreamAffix);
+    if (gear.towerSequenceAffix !== undefined)
+      affixes.push(gear.towerSequenceAffix);
+    if (gear.blendAffix !== undefined) affixes.push(gear.blendAffix);
+    if (gear.prefixes !== undefined) affixes.push(...gear.prefixes);
+    if (gear.suffixes !== undefined) affixes.push(...gear.suffixes);
+  }
+
+  // Always include custom affixes (for both legendary and regular gear)
+  if (gear.customAffixes !== undefined) {
+    affixes.push(...gear.customAffixes);
+  }
+
+  return affixes;
+};
+
+export const getPactspiritAffixes = (
+  pactspiritPage: Loadout["pactspiritPage"],
+): Affix[] => {
+  const affixes: Affix[] = [];
+  const slots = [
+    pactspiritPage.slot1,
+    pactspiritPage.slot2,
+    pactspiritPage.slot3,
+  ];
+
+  // Count dual kismet occurrences by destinyName across all slots (rings + undetermined fate slots)
+  const dualKismetCounts = new Map<string, number>();
+  for (const slot of slots) {
+    if (slot === undefined) continue;
+    for (const ring of Object.values(slot.rings)) {
+      if (ring.installedDestiny?.destinyType === "Dual Kismet") {
+        const name = ring.installedDestiny.destinyName;
+        dualKismetCounts.set(name, (dualKismetCounts.get(name) ?? 0) + 1);
+      }
+    }
+    if (slot.undeterminedFate !== undefined) {
+      for (const fateSlot of slot.undeterminedFate.slots) {
+        if (fateSlot.installedDestiny?.destinyType === "Dual Kismet") {
+          const name = fateSlot.installedDestiny.destinyName;
+          dualKismetCounts.set(name, (dualKismetCounts.get(name) ?? 0) + 1);
+        }
+      }
+    }
+  }
+
+  const addedDualKismets = new Set<string>();
+
+  for (const slot of slots) {
+    if (slot === undefined) continue;
+    affixes.push(slot.mainAffix);
+    for (const ring of Object.values(slot.rings)) {
+      if (ring.installedDestiny?.destinyType === "Dual Kismet") {
+        const name = ring.installedDestiny.destinyName;
+        const count = dualKismetCounts.get(name) ?? 0;
+        // Only add affix if 2+ of the same dual kismet exist, and only once
+        if (count >= 2 && !addedDualKismets.has(name)) {
+          addedDualKismets.add(name);
+          affixes.push(ring.installedDestiny.affix);
+        }
+        continue;
+      }
+      affixes.push(ring.installedDestiny?.affix ?? ring.originalAffix);
+    }
+
+    // Undetermined fate (10th node)
+    if (slot.undeterminedFate === undefined) {
+      // No undetermined fate configured: add the default affix
+      affixes.push(slot.defaultUndeterminedAffix);
+    } else {
+      // Undetermined fate configured: add affix for each sub-slot
+      for (const fateSlot of slot.undeterminedFate.slots) {
+        if (fateSlot.installedDestiny?.destinyType === "Dual Kismet") {
+          const name = fateSlot.installedDestiny.destinyName;
+          const count = dualKismetCounts.get(name) ?? 0;
+          if (count >= 2 && !addedDualKismets.has(name)) {
+            addedDualKismets.add(name);
+            affixes.push(fateSlot.installedDestiny.affix);
+          }
+          continue;
+        }
+        affixes.push(fateSlot.installedDestiny?.affix ?? fateSlot.defaultAffix);
+      }
+    }
+  }
+  return affixes;
+};
+
+export const getDivinityAffixes = (divinityPage: DivinityPage): Affix[] => {
+  const affixes: Affix[] = [];
+  for (const placedSlate of divinityPage.placedSlates) {
+    const slate = divinityPage.inventory.find(
+      (s) => s.id === placedSlate.slateId,
+    );
+    if (slate !== undefined) {
+      affixes.push(...slate.affixes);
+    }
+  }
+  return affixes;
+};
+
+export const getCustomAffixes = (customAffixLines: AffixLine[]): Affix[] => {
+  if (customAffixLines.length === 0) return [];
+  return [{ affixLines: customAffixLines, src: "CustomAffix" }];
+};
+
+/**
+ * Deduplicate affixes by specialName.
+ * Only deduplicates affixes where specialName is defined.
+ * Keeps the first occurrence of each specialName.
+ */
+const dedupeBySpecialName = (affixes: Affix[]): Affix[] => {
+  const seen = new Set<string>();
+  return affixes.filter((affix) => {
+    if (affix.specialName === undefined) {
+      return true;
+    }
+    if (seen.has(affix.specialName)) {
+      return false;
+    }
+    seen.add(affix.specialName);
+    return true;
+  });
+};
+
+export const getAllAffixes = (loadout: Loadout): Affix[] => {
+  const allAffixes = [
+    ...getHeroAffixes(loadout.heroPage),
+    ...getDivinityAffixes(loadout.divinityPage),
+    ...getPactspiritAffixes(loadout.pactspiritPage),
+    ...getTalentAffixes(loadout.talentPage),
+    ...getGearAffixes(loadout.gearPage.equippedGear.helmet),
+    ...getGearAffixes(loadout.gearPage.equippedGear.chest),
+    ...getGearAffixes(loadout.gearPage.equippedGear.neck),
+    ...getGearAffixes(loadout.gearPage.equippedGear.gloves),
+    ...getGearAffixes(loadout.gearPage.equippedGear.belt),
+    ...getGearAffixes(loadout.gearPage.equippedGear.boots),
+    ...getGearAffixes(loadout.gearPage.equippedGear.leftRing),
+    ...getGearAffixes(loadout.gearPage.equippedGear.rightRing),
+    ...getGearAffixes(loadout.gearPage.equippedGear.mainHand),
+    ...getGearAffixes(loadout.gearPage.equippedGear.offHand),
+    ...getCustomAffixes(loadout.customAffixLines),
+  ];
+
+  return dedupeBySpecialName(allAffixes);
+};

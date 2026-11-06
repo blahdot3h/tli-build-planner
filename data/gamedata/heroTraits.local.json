@@ -1,0 +1,933 @@
+{
+  "310001": {
+    "name": "Anger",
+    "hero": "Berserker Rehan: Anger (#1)",
+    "level": 1
+  },
+  "310011": {
+    "name": "Righteous Fury",
+    "hero": "Berserker Rehan: Anger (#1)",
+    "level": 45
+  },
+  "310012": {
+    "name": "Frenzy Furious",
+    "hero": "Berserker Rehan: Anger (#1)",
+    "level": 45
+  },
+  "310021": {
+    "name": "Tunnel Vision",
+    "hero": "Berserker Rehan: Anger (#1)",
+    "level": 60
+  },
+  "310031": {
+    "name": "Rampaging",
+    "hero": "Berserker Rehan: Anger (#1)",
+    "level": 75
+  },
+  "310032": {
+    "name": "Uncontrolled Anger",
+    "hero": "Berserker Rehan: Anger (#1)",
+    "level": 75
+  },
+  "320001": {
+    "name": "Seething Silhouette",
+    "hero": "Berserker Rehan: Seething Silhouette (#2)",
+    "level": 1
+  },
+  "320011": {
+    "name": "Ritual of Offering",
+    "hero": "Berserker Rehan: Seething Silhouette (#2)",
+    "level": 45
+  },
+  "320012": {
+    "name": "Fury's Onslaught",
+    "hero": "Berserker Rehan: Seething Silhouette (#2)",
+    "level": 45
+  },
+  "320021": {
+    "name": "Hysteria",
+    "hero": "Berserker Rehan: Seething Silhouette (#2)",
+    "level": 60
+  },
+  "320022": {
+    "name": "Growing Anger",
+    "hero": "Berserker Rehan: Seething Silhouette (#2)",
+    "level": 60
+  },
+  "320031": {
+    "name": "Split Form",
+    "hero": "Berserker Rehan: Seething Silhouette (#2)",
+    "level": 75
+  },
+  "320032": {
+    "name": "Rage Infusion",
+    "hero": "Berserker Rehan: Seething Silhouette (#2)",
+    "level": 75
+  },
+  "600001": {
+    "name": "Ranger of Glory",
+    "hero": "Divineshot Carino: Ranger of Glory (#1)",
+    "level": 1
+  },
+  "600011": {
+    "name": "Ammo Expert",
+    "hero": "Divineshot Carino: Ranger of Glory (#1)",
+    "level": 45
+  },
+  "600021": {
+    "name": "Landslide",
+    "hero": "Divineshot Carino: Ranger of Glory (#1)",
+    "level": 60
+  },
+  "600022": {
+    "name": "Crushing Gale Trigger",
+    "hero": "Divineshot Carino: Ranger of Glory (#1)",
+    "level": 60
+  },
+  "600031": {
+    "name": "Never Stopping",
+    "hero": "Divineshot Carino: Ranger of Glory (#1)",
+    "level": 75
+  },
+  "600032": {
+    "name": "Well Prepared",
+    "hero": "Divineshot Carino: Ranger of Glory (#1)",
+    "level": 75
+  },
+  "610001": {
+    "name": "Lethal Flash",
+    "hero": "Divineshot Carino: Lethal Flash (#2)",
+    "level": 1
+  },
+  "610011": {
+    "name": "Evil Ouroboros",
+    "hero": "Divineshot Carino: Lethal Flash (#2)",
+    "level": 45
+  },
+  "610012": {
+    "name": "Impending Doom",
+    "hero": "Divineshot Carino: Lethal Flash (#2)",
+    "level": 45
+  },
+  "610021": {
+    "name": "Shadow Magazine",
+    "hero": "Divineshot Carino: Lethal Flash (#2)",
+    "level": 60
+  },
+  "610031": {
+    "name": "Weightless Step",
+    "hero": "Divineshot Carino: Lethal Flash (#2)",
+    "level": 75
+  },
+  "610032": {
+    "name": "Born in the Breeze",
+    "hero": "Divineshot Carino: Lethal Flash (#2)",
+    "level": 75
+  },
+  "620001": {
+    "name": "Zealot of War",
+    "hero": "Divineshot Carino: Zealot of War (#3)",
+    "level": 1
+  },
+  "620011": {
+    "name": "Incinerated Glory",
+    "hero": "Divineshot Carino: Zealot of War (#3)",
+    "level": 45
+  },
+  "620021": {
+    "name": "Ceasefire",
+    "hero": "Divineshot Carino: Zealot of War (#3)",
+    "level": 60
+  },
+  "620022": {
+    "name": "Extreme Heat",
+    "hero": "Divineshot Carino: Zealot of War (#3)",
+    "level": 60
+  },
+  "620031": {
+    "name": "Endless Frenzy",
+    "hero": "Divineshot Carino: Zealot of War (#3)",
+    "level": 75
+  },
+  "620032": {
+    "name": "Eternal Flames",
+    "hero": "Divineshot Carino: Zealot of War (#3)",
+    "level": 75
+  },
+  "700001": {
+    "name": "Wind Stalker",
+    "hero": "Cateye Erika: Wind Stalker (#1)",
+    "level": 1
+  },
+  "700011": {
+    "name": "Interest",
+    "hero": "Cateye Erika: Wind Stalker (#1)",
+    "level": 45
+  },
+  "700012": {
+    "name": "Have Fun",
+    "hero": "Cateye Erika: Wind Stalker (#1)",
+    "level": 45
+  },
+  "700021": {
+    "name": "Cat's Vision",
+    "hero": "Cateye Erika: Wind Stalker (#1)",
+    "level": 60
+  },
+  "700022": {
+    "name": "Cat's Scratch",
+    "hero": "Cateye Erika: Wind Stalker (#1)",
+    "level": 60
+  },
+  "700031": {
+    "name": "Cat's Punches",
+    "hero": "Cateye Erika: Wind Stalker (#1)",
+    "level": 75
+  },
+  "700032": {
+    "name": "Cat Dive",
+    "hero": "Cateye Erika: Wind Stalker (#1)",
+    "level": 75
+  },
+  "710001": {
+    "name": "Lightning Shadow",
+    "hero": "Cateye Erika: Lightning Shadow (#2)",
+    "level": 1
+  },
+  "710011": {
+    "name": "Dazzling Lightning",
+    "hero": "Cateye Erika: Lightning Shadow (#2)",
+    "level": 45
+  },
+  "710012": {
+    "name": "Electroplated Motif",
+    "hero": "Cateye Erika: Lightning Shadow (#2)",
+    "level": 45
+  },
+  "710021": {
+    "name": "Wild Lightning",
+    "hero": "Cateye Erika: Lightning Shadow (#2)",
+    "level": 60
+  },
+  "710031": {
+    "name": "Swift as Lightning",
+    "hero": "Cateye Erika: Lightning Shadow (#2)",
+    "level": 75
+  },
+  "710032": {
+    "name": "Charging Equation",
+    "hero": "Cateye Erika: Lightning Shadow (#2)",
+    "level": 75
+  },
+  "720001": {
+    "name": "Vendetta's Sting",
+    "hero": "Cateye Erika: Vendetta's Sting (#3)",
+    "level": 1
+  },
+  "720011": {
+    "name": "Twinblade Onslaught",
+    "hero": "Cateye Erika: Vendetta's Sting (#3)",
+    "level": 45
+  },
+  "720021": {
+    "name": "Leisurely Stroll",
+    "hero": "Cateye Erika: Vendetta's Sting (#3)",
+    "level": 60
+  },
+  "720022": {
+    "name": "Swift Stalk",
+    "hero": "Cateye Erika: Vendetta's Sting (#3)",
+    "level": 60
+  },
+  "720031": {
+    "name": "Feline Fury",
+    "hero": "Cateye Erika: Vendetta's Sting (#3)",
+    "level": 75
+  },
+  "720032": {
+    "name": "Mortal Gambit",
+    "hero": "Cateye Erika: Vendetta's Sting (#3)",
+    "level": 75
+  },
+  "810001": {
+    "name": "Blast Nova",
+    "hero": "Escapist Bing: Blast Nova (#1)",
+    "level": 1
+  },
+  "810011": {
+    "name": "Firepower Coverage",
+    "hero": "Escapist Bing: Blast Nova (#1)",
+    "level": 45
+  },
+  "810012": {
+    "name": "Dangerous Runaway",
+    "hero": "Escapist Bing: Blast Nova (#1)",
+    "level": 45
+  },
+  "810021": {
+    "name": "Blast Barrage",
+    "hero": "Escapist Bing: Blast Nova (#1)",
+    "level": 60
+  },
+  "810022": {
+    "name": "Phantom Delivery",
+    "hero": "Escapist Bing: Blast Nova (#1)",
+    "level": 60
+  },
+  "810031": {
+    "name": "Radiation Effect",
+    "hero": "Escapist Bing: Blast Nova (#1)",
+    "level": 75
+  },
+  "810032": {
+    "name": "Frenzy Hound",
+    "hero": "Escapist Bing: Blast Nova (#1)",
+    "level": 75
+  },
+  "820001": {
+    "name": "Creative Genius",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 1
+  },
+  "820011": {
+    "name": "Inspiration Overflow",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 45
+  },
+  "820021": {
+    "name": "Mind Domain",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 60
+  },
+  "820022": {
+    "name": "Trouble Maker",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 60
+  },
+  "820031": {
+    "name": "Brainstorm",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 75
+  },
+  "820032": {
+    "name": "Flash of Brilliance",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 75
+  },
+  "820041": {
+    "name": "Super Sonic Protocol",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 45
+  },
+  "820042": {
+    "name": "Over-Shield Module",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 45
+  },
+  "820051": {
+    "name": "Law of Ingenuity",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 60
+  },
+  "820052": {
+    "name": "Ingenious Chaos Principle",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 60
+  },
+  "820053": {
+    "name": "Auto-Ingenuity Program",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 60
+  },
+  "820061": {
+    "name": "Multi-Coupling Equation",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 75
+  },
+  "820062": {
+    "name": "Hyper-Resonance Hypothesis",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 75
+  },
+  "820063": {
+    "name": "Contingency Inspiration Delivery",
+    "hero": "Escapist Bing: Creative Genius (#2)",
+    "level": 75
+  },
+  "900001": {
+    "name": "Flame of Pleasure",
+    "hero": "Frostfire Gemma: Flame of Pleasure (#1)",
+    "level": 1
+  },
+  "900011": {
+    "name": "Groaning Echo",
+    "hero": "Frostfire Gemma: Flame of Pleasure (#1)",
+    "level": 45
+  },
+  "900021": {
+    "name": "Flames of Desire",
+    "hero": "Frostfire Gemma: Flame of Pleasure (#1)",
+    "level": 60
+  },
+  "900022": {
+    "name": "Infernal Damnation",
+    "hero": "Frostfire Gemma: Flame of Pleasure (#1)",
+    "level": 60
+  },
+  "900031": {
+    "name": "Banquet of Bliss",
+    "hero": "Frostfire Gemma: Flame of Pleasure (#1)",
+    "level": 75
+  },
+  "900032": {
+    "name": "Dress Licker",
+    "hero": "Frostfire Gemma: Flame of Pleasure (#1)",
+    "level": 75
+  },
+  "910001": {
+    "name": "Frostbitten Heart",
+    "hero": "Frostfire Gemma: Frostbitten Heart (#2)",
+    "level": 1
+  },
+  "910011": {
+    "name": "Deepfreeze",
+    "hero": "Frostfire Gemma: Frostbitten Heart (#2)",
+    "level": 45
+  },
+  "910021": {
+    "name": "Glacial Night",
+    "hero": "Frostfire Gemma: Frostbitten Heart (#2)",
+    "level": 60
+  },
+  "910022": {
+    "name": "Dance of Frost",
+    "hero": "Frostfire Gemma: Frostbitten Heart (#2)",
+    "level": 60
+  },
+  "910031": {
+    "name": "Frigid Infusion",
+    "hero": "Frostfire Gemma: Frostbitten Heart (#2)",
+    "level": 75
+  },
+  "910032": {
+    "name": "Blooming Frost Flower",
+    "hero": "Frostfire Gemma: Frostbitten Heart (#2)",
+    "level": 75
+  },
+  "920001": {
+    "name": "Ice-Fire Fusion",
+    "hero": "Frostfire Gemma: Ice-Fire Fusion (#3)",
+    "level": 1
+  },
+  "920011": {
+    "name": "Ice-Fire Embrace",
+    "hero": "Frostfire Gemma: Ice-Fire Fusion (#3)",
+    "level": 45
+  },
+  "920021": {
+    "name": "Restless Ice-Fire",
+    "hero": "Frostfire Gemma: Ice-Fire Fusion (#3)",
+    "level": 60
+  },
+  "920022": {
+    "name": "Ice-Fire Radiance",
+    "hero": "Frostfire Gemma: Ice-Fire Fusion (#3)",
+    "level": 60
+  },
+  "920031": {
+    "name": "Bone-piercing Heat",
+    "hero": "Frostfire Gemma: Ice-Fire Fusion (#3)",
+    "level": 75
+  },
+  "920032": {
+    "name": "Ice to Blaze",
+    "hero": "Frostfire Gemma: Ice-Fire Fusion (#3)",
+    "level": 75
+  },
+  "1100001": {
+    "name": "Wisdom of The Gods",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 1
+  },
+  "1100011": {
+    "name": "Prophecy of Truth",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 45
+  },
+  "1100012": {
+    "name": "Prophecy of Revelation",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 60
+  },
+  "1100021": {
+    "name": "Predicted Justice",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 45
+  },
+  "1100022": {
+    "name": "Prophecy of Shelter",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 60
+  },
+  "1100023": {
+    "name": "Prophecy of Punishment",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 60
+  },
+  "1100031": {
+    "name": "Predicted Reincarnation",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 45
+  },
+  "1100032": {
+    "name": "Farewell Prophecy",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 60
+  },
+  "1100033": {
+    "name": "Prophecy of Purity",
+    "hero": "Oracle Thea: Wisdom of The Gods (#1)",
+    "level": 75
+  },
+  "1110001": {
+    "name": "Incarnation of the Gods",
+    "hero": "Oracle Thea: Incarnation of The Gods (#2)",
+    "level": 1
+  },
+  "1110011": {
+    "name": "Tenacious Divinity",
+    "hero": "Oracle Thea: Incarnation of The Gods (#2)",
+    "level": 45
+  },
+  "1110012": {
+    "name": "Agile Godhood",
+    "hero": "Oracle Thea: Incarnation of The Gods (#2)",
+    "level": 45
+  },
+  "1110021": {
+    "name": "Might Flow",
+    "hero": "Oracle Thea: Incarnation of The Gods (#2)",
+    "level": 60
+  },
+  "1110022": {
+    "name": "Divine Realm Power",
+    "hero": "Oracle Thea: Incarnation of The Gods (#2)",
+    "level": 60
+  },
+  "1110031": {
+    "name": "Incarnation",
+    "hero": "Oracle Thea: Incarnation of The Gods (#2)",
+    "level": 75
+  },
+  "1110032": {
+    "name": "Divine Spirit",
+    "hero": "Oracle Thea: Incarnation of The Gods (#2)",
+    "level": 75
+  },
+  "1310001": {
+    "name": "Spacetime Elapse",
+    "hero": "Spacetime Witness Youga: Spacetime Elapse (#2)",
+    "level": 1
+  },
+  "1310011": {
+    "name": "Spacetime Speed-up",
+    "hero": "Spacetime Witness Youga: Spacetime Elapse (#2)",
+    "level": 45
+  },
+  "1310012": {
+    "name": "Spacetime Upheaval",
+    "hero": "Spacetime Witness Youga: Spacetime Elapse (#2)",
+    "level": 45
+  },
+  "1310021": {
+    "name": "Spacetime Cutting",
+    "hero": "Spacetime Witness Youga: Spacetime Elapse (#2)",
+    "level": 60
+  },
+  "1310031": {
+    "name": "Spacetime Pause",
+    "hero": "Spacetime Witness Youga: Spacetime Elapse (#2)",
+    "level": 75
+  },
+  "1310032": {
+    "name": "Spacetime Expansion",
+    "hero": "Spacetime Witness Youga: Spacetime Elapse (#2)",
+    "level": 75
+  },
+  "1320001": {
+    "name": "I Am the Ultimate One",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 1
+  },
+  "1320011": {
+    "name": "I Hold All in My Grasp",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 45
+  },
+  "1320012": {
+    "name": "I Arrive Alongside Destiny",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 45
+  },
+  "1320013": {
+    "name": "I Meet the Selves",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 45
+  },
+  "1320021": {
+    "name": "I Will Hunt You Down",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 60
+  },
+  "1320022": {
+    "name": "I Gather the Threads of Causality",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 60
+  },
+  "1320023": {
+    "name": "I Command All",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 60
+  },
+  "1320024": {
+    "name": "I Am the Measure of All Time",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 60
+  },
+  "1320025": {
+    "name": "I Need Not Lift a Finger",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 60
+  },
+  "1320031": {
+    "name": "I See No Doomsday Today",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 75
+  },
+  "1320032": {
+    "name": "I Come to Claim My Due",
+    "hero": "Spacetime Witness Youga: The Ultimate One (#3)",
+    "level": 75
+  },
+  "1400001": {
+    "name": "Order Calling",
+    "hero": "Commander Moto: Order Calling (#1)",
+    "level": 1
+  },
+  "1400011": {
+    "name": "Veteran",
+    "hero": "Commander Moto: Order Calling (#1)",
+    "level": 45
+  },
+  "1400012": {
+    "name": "All In",
+    "hero": "Commander Moto: Order Calling (#1)",
+    "level": 45
+  },
+  "1400021": {
+    "name": "Self-Reconstruct",
+    "hero": "Commander Moto: Order Calling (#1)",
+    "level": 60
+  },
+  "1400022": {
+    "name": "Overload Program",
+    "hero": "Commander Moto: Order Calling (#1)",
+    "level": 60
+  },
+  "1400031": {
+    "name": "Charge Forward",
+    "hero": "Commander Moto: Order Calling (#1)",
+    "level": 75
+  },
+  "1400032": {
+    "name": "Radiation Field",
+    "hero": "Commander Moto: Order Calling (#1)",
+    "level": 75
+  },
+  "1410001": {
+    "name": "Charge Calling",
+    "hero": "Commander Moto: Charge Calling (#2)",
+    "level": 1
+  },
+  "1410011": {
+    "name": "Unstoppable Wave",
+    "hero": "Commander Moto: Charge Calling (#2)",
+    "level": 45
+  },
+  "1410021": {
+    "name": "Heroic Sacrifice",
+    "hero": "Commander Moto: Charge Calling (#2)",
+    "level": 60
+  },
+  "1410022": {
+    "name": "Guerilla Tactics",
+    "hero": "Commander Moto: Charge Calling (#2)",
+    "level": 60
+  },
+  "1410031": {
+    "name": "Fuel War with War",
+    "hero": "Commander Moto: Charge Calling (#2)",
+    "level": 75
+  },
+  "1410032": {
+    "name": "Essential Speed",
+    "hero": "Commander Moto: Charge Calling (#2)",
+    "level": 75
+  },
+  "1500001": {
+    "name": "High Court Chariot",
+    "hero": "Lightbringer Rosa: High Court Chariot (#1)",
+    "level": 1
+  },
+  "1500011": {
+    "name": "Unbreakable Stand",
+    "hero": "Lightbringer Rosa: High Court Chariot (#1)",
+    "level": 45
+  },
+  "1500012": {
+    "name": "Whirlwind Advance",
+    "hero": "Lightbringer Rosa: High Court Chariot (#1)",
+    "level": 45
+  },
+  "1500021": {
+    "name": "Invulnerability",
+    "hero": "Lightbringer Rosa: High Court Chariot (#1)",
+    "level": 60
+  },
+  "1500022": {
+    "name": "Divine Intervention",
+    "hero": "Lightbringer Rosa: High Court Chariot (#1)",
+    "level": 60
+  },
+  "1500031": {
+    "name": "Desperation",
+    "hero": "Lightbringer Rosa: High Court Chariot (#1)",
+    "level": 75
+  },
+  "1500032": {
+    "name": "Improvision",
+    "hero": "Lightbringer Rosa: High Court Chariot (#1)",
+    "level": 75
+  },
+  "1510001": {
+    "name": "Unsullied Blade",
+    "hero": "Lightbringer Rosa: Unsullied Blade (#2)",
+    "level": 1
+  },
+  "1510011": {
+    "name": "Baptism of Purity",
+    "hero": "Lightbringer Rosa: Unsullied Blade (#2)",
+    "level": 45
+  },
+  "1510021": {
+    "name": "Cleanse Filth",
+    "hero": "Lightbringer Rosa: Unsullied Blade (#2)",
+    "level": 60
+  },
+  "1510022": {
+    "name": "Boundless Sanctuary",
+    "hero": "Lightbringer Rosa: Unsullied Blade (#2)",
+    "level": 60
+  },
+  "1510031": {
+    "name": "Utmost Devotion",
+    "hero": "Lightbringer Rosa: Unsullied Blade (#2)",
+    "level": 75
+  },
+  "1510032": {
+    "name": "Born to Cleanse",
+    "hero": "Lightbringer Rosa: Unsullied Blade (#2)",
+    "level": 75
+  },
+  "1600001": {
+    "name": "Growing Breeze",
+    "hero": "The Forsaken Iris: Growing Breeze (#1)",
+    "level": 1
+  },
+  "1600011": {
+    "name": "Socialite",
+    "hero": "The Forsaken Iris: Growing Breeze (#1)",
+    "level": 45
+  },
+  "1600021": {
+    "name": "World Within",
+    "hero": "The Forsaken Iris: Growing Breeze (#1)",
+    "level": 60
+  },
+  "1600022": {
+    "name": "Gentle Zephyr",
+    "hero": "The Forsaken Iris: Growing Breeze (#1)",
+    "level": 60
+  },
+  "1600031": {
+    "name": "Run With the Wind",
+    "hero": "The Forsaken Iris: Growing Breeze (#1)",
+    "level": 75
+  },
+  "1600032": {
+    "name": "Grow With Them",
+    "hero": "The Forsaken Iris: Growing Breeze (#1)",
+    "level": 75
+  },
+  "1610001": {
+    "name": "Vigilant Breeze",
+    "hero": "The Forsaken Iris: Vigilant Breeze (#2)",
+    "level": 1
+  },
+  "1610011": {
+    "name": "Whirlwind Tango",
+    "hero": "The Forsaken Iris: Vigilant Breeze (#2)",
+    "level": 45
+  },
+  "1610012": {
+    "name": "Breeze's Whisper",
+    "hero": "The Forsaken Iris: Vigilant Breeze (#2)",
+    "level": 45
+  },
+  "1610021": {
+    "name": "Happiest Reunion",
+    "hero": "The Forsaken Iris: Vigilant Breeze (#2)",
+    "level": 60
+  },
+  "1610022": {
+    "name": "Warmest Vigilance",
+    "hero": "The Forsaken Iris: Vigilant Breeze (#2)",
+    "level": 60
+  },
+  "1610031": {
+    "name": "Merging Stream",
+    "hero": "The Forsaken Iris: Vigilant Breeze (#2)",
+    "level": 75
+  },
+  "1610032": {
+    "name": "Nurturing Breeze",
+    "hero": "The Forsaken Iris: Vigilant Breeze (#2)",
+    "level": 75
+  },
+  "1700001": {
+    "name": "Sing with the Tide",
+    "hero": "Tide Whisper Selena: Sing with the Tide (#1)",
+    "level": 1
+  },
+  "1700011": {
+    "name": "Undersea Ballad",
+    "hero": "Tide Whisper Selena: Sing with the Tide (#1)",
+    "level": 45
+  },
+  "1700012": {
+    "name": "Wave Aria",
+    "hero": "Tide Whisper Selena: Sing with the Tide (#1)",
+    "level": 45
+  },
+  "1700021": {
+    "name": "Sea Foam Nocturne",
+    "hero": "Tide Whisper Selena: Sing with the Tide (#1)",
+    "level": 60
+  },
+  "1700022": {
+    "name": "Idyll of the Tide",
+    "hero": "Tide Whisper Selena: Sing with the Tide (#1)",
+    "level": 60
+  },
+  "1700031": {
+    "name": "Chantey of Sinking",
+    "hero": "Tide Whisper Selena: Sing with the Tide (#1)",
+    "level": 75
+  },
+  "1700032": {
+    "name": "Murmurs of the Distant Tide",
+    "hero": "Tide Whisper Selena: Sing with the Tide (#1)",
+    "level": 75
+  },
+  "1710001": {
+    "name": "Dance of the Deep",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 1
+  },
+  "1710011": {
+    "name": "Dreambreaker's Gyre",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 45
+  },
+  "1710012": {
+    "name": "Layered Hem",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 60
+  },
+  "1710013": {
+    "name": "Lonely Ensemble",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 75
+  },
+  "1710021": {
+    "name": "Silencing Severance",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 45
+  },
+  "1710022": {
+    "name": "Drenched Hem",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 60
+  },
+  "1710031": {
+    "name": "The Paradise I Curse",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 45
+  },
+  "1710032": {
+    "name": "The Cycle I Resist",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 60
+  },
+  "1710041": {
+    "name": "Crimson Endless Dance",
+    "hero": "Tide Whisper Selena: Dance of the Deep (#2)",
+    "level": 45
+  },
+  "1800001": {
+    "name": "Licorice Note",
+    "hero": "Scent Weaver Sage: Licorice Note (#1)",
+    "level": 1
+  },
+  "1800011": {
+    "name": "Pungent Stimulant Salt",
+    "hero": "Scent Weaver Sage: Licorice Note (#1)",
+    "level": 45
+  },
+  "1800021": {
+    "name": "Elixir of Immortality",
+    "hero": "Scent Weaver Sage: Licorice Note (#1)",
+    "level": 60
+  },
+  "1800022": {
+    "name": "Scent of Ambition",
+    "hero": "Scent Weaver Sage: Licorice Note (#1)",
+    "level": 60
+  },
+  "1800031": {
+    "name": "Everlasting Nectar",
+    "hero": "Scent Weaver Sage: Licorice Note (#1)",
+    "level": 75
+  },
+  "1800032": {
+    "name": "Licorice Tincture Blend",
+    "hero": "Scent Weaver Sage: Licorice Note (#1)",
+    "level": 75
+  },
+  "_comment": "Hero trait ids the game log lists (treeActivatedNodes node ids for tree heroes, pointOverView.activeId for the others), from tlidb hero pages' data-id / data-node-id. Generated by scripts/import-hero-traits.js; Blasphemer and Spacetime Illusion pages carry no ids. The_Ultimate_One names that hero's traits so its portrait resolves.",
+  "The_Ultimate_One": {
+    "traits": {
+      "I Am the Ultimate One": null,
+      "I Hold All in My Grasp": null,
+      "I Arrive Alongside Destiny": null,
+      "I Meet the Selves": null,
+      "I Will Hunt You Down": null,
+      "I Gather the Threads of Causality": null,
+      "I Command All": null,
+      "I Am the Measure of All Time": null,
+      "I Need Not Lift a Finger": null,
+      "I See No Doomsday Today": null,
+      "I Come to Claim My Due": null
+    }
+  }
+}

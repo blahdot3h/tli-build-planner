@@ -1,0 +1,1570 @@
+// This file is machine-generated. Do not modify manually.
+// To regenerate, run: pnpm exec tsx src/scripts/generate-skill-data.ts
+import type { BaseActivationMediumSkill } from "./types";
+
+export const ActivationMediumSkills = [
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Boss",
+    tags: [],
+    description: [
+      "Always attempts to trigger the supported skill when there is a boss within (6–20) m. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is a boss within (6-20) m. Interval: 0.1s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is a boss within (6-20) m. Interval: 0.1s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is a boss within (6-20) m. Interval: 0.1s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is a boss within (6-20) m. Interval: 0.1s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Burst Activation",
+    tags: [],
+    description: [
+      "When Spell Burst is fully charged, triggers the supported skill on the nearest enemy within 25m and attempts to trigger the supported skill's Spell Burst",
+      "(-15–-1)% additional Hit Damage for skills cast by Spell Burst when Spell Burst is activated by the supported skill",
+      "-40% Movement Speed for 2 s when the supported skill activates Spell Burst",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Channel",
+    tags: [],
+    description: [
+      "When channeling the Supported Skill, sends 1 Instruction for every 2 stack(s) channeled",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "When channeling the Supported Skill, sends 1 Instruction for every 1 stack(s) channeled",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "When channeling the Supported Skill, sends 1 Instruction for every 2 stack(s) channeled",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "When channeling the Supported Skill, sends 1 Instruction for every 3 stack(s) channeled",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "When channeling the Supported Skill, sends 1 Instruction for every 4 stack(s) channeled",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Critical Strike",
+    tags: [],
+    description: [
+      "When the supported skill lands a Critical Strike, sends (2–3) Instruction(s). Interval: 0.03 s.",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "When the supported skill lands a Critical Strike, sends 4 Instruction(s). Interval: 0.03 s.",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "When the supported skill lands a Critical Strike, sends (2-3) Instruction(s). Interval: 0.03 s.",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "When the supported skill lands a Critical Strike, sends (2-3) Instruction(s). Interval: 0.06 s.",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "When the supported skill lands a Critical Strike, sends (1-3) Instruction(s). Interval: 0.09 s.",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Demolisher",
+    tags: [],
+    description: [
+      "Triggers the supported skill upon gaining Demolisher Charge. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon gaining Demolisher Charge. Interval: 0.1s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon gaining Demolisher Charge. Interval: 0.1s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon gaining Demolisher Charge. Interval: 0.1s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon gaining Demolisher Charge. Interval: 0.1s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Elite",
+    tags: [],
+    description: [
+      "Always attempts to trigger the supported skill when there is an Elite within (6–20) m. Interval: 0.2 s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is an Elite within (6-20) m. Interval: 0.2 s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is an Elite within (6-20) m. Interval: 0.2 s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is an Elite within (6-20) m. Interval: 0.2 s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when there is an Elite within (6-20) m. Interval: 0.2 s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Energy Shield",
+    tags: [],
+    description: [
+      "Always attempts to trigger the supported skill when Energy Shield is lower than (20–95)% . Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when Energy Shield is lower than (20-95)% . Interval: 0.1s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when Energy Shield is lower than (20-95)% . Interval: 0.1s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when Energy Shield is lower than (20-95)% . Interval: 0.1s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill when Energy Shield is lower than (20-95)% . Interval: 0.1s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Instruction",
+    tags: [],
+    description: [
+      "Triggers the supported skill on the closest enemy within 20m every (0.4–1.0)s.",
+      "During the trigger interval, each Instruction adds +(6–7)% damage to the next skill triggered by the Supported Skill, up to +(54–63)% additional damage",
+      "-80% additional damage for manually used Supported Skill",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "During the trigger interval, each Instruction adds +(8-10)% damage to the next skill triggered by the Supported Skill, up to +(72-90)% additional damage",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      1: [
+        {
+          affix:
+            "Triggers the supported skill on the closest enemy within 20m every (0.4-1.0)s.",
+        },
+        {
+          affix:
+            "During the trigger interval, each Instruction adds +(6-7)% damage to the next skill triggered by the Supported Skill, up to +(54-63)% additional damage",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      2: [
+        {
+          affix:
+            "Triggers the supported skill on the closest enemy within 20m every (1.1-2.0)s.",
+        },
+        {
+          affix:
+            "During the trigger interval, each Instruction adds +(4-5)% damage to the next skill triggered by the Supported Skill, up to +(36-45)% additional damage",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      3: [
+        {
+          affix:
+            "Triggers the supported skill on the closest enemy within 20m every (1.0-2.0)s.",
+        },
+        {
+          affix:
+            "During the trigger interval, each Instruction adds +(4-5)% damage to the next skill triggered by the Supported Skill, up to +(36-45)% additional damage",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Life",
+    tags: [],
+    description: [
+      "Always attempts to trigger the Supported Skill when HP is lower than (20–95)% . Disabled while any Restoration Skill is active",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill when HP is lower than (20-95)% . Disabled while any Restoration Skill is active",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill when HP is lower than (20-95)% . Disabled while any Restoration Skill is active",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill when HP is lower than (20-95)% . Disabled while any Restoration Skill is active",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill when HP is lower than (20-95)% . Disabled while any Restoration Skill is active",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Lock On",
+    tags: [],
+    description: [
+      "Locks On enemies within 25 m when you use the supported skill",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Minion",
+    tags: [],
+    description: [
+      "Triggers the supported skill and replenishes the Minions of the supported skill to the maximum upon entering the stage",
+      "+(30–36)% additional damage for Minions summoned by the supported skill",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "+(36-42)% additional damage for Minions summoned by the supported skill",
+        },
+        {
+          affix:
+            "Triggers the supported skill and replenishes the Minions of the supported skill to the maximum upon entering the stage",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "+(30-36)% additional damage for Minions summoned by the supported skill",
+        },
+        {
+          affix:
+            "Triggers the supported skill and replenishes the Minions of the supported skill to the maximum upon entering the stage",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "+(24-30)% additional damage for Minions summoned by the supported skill",
+        },
+        {
+          affix:
+            "Triggers the supported skill and replenishes the Minions of the supported skill to the maximum upon entering the stage",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "+(18-24)% additional damage for Minions summoned by the supported skill",
+        },
+        {
+          affix:
+            "Triggers the supported skill and replenishes the Minions of the supported skill to the maximum upon entering the stage",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Motionless",
+    tags: [],
+    description: [
+      "Automatically and continuously cast the supported skill at the nearest enemy within 25m while standing still",
+      "Auto-used supported skills +10% additional damage",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        { affix: "Auto-used supported skills +(12-15)% additional damage" },
+        {
+          affix:
+            "Automatically and continuously cast the supported skill at the nearest enemy within 25m while standing still",
+        },
+      ],
+      1: [
+        { affix: "Auto-used supported skills +10% additional damage" },
+        {
+          affix:
+            "Automatically and continuously cast the supported skill at the nearest enemy within 25m while standing still",
+        },
+      ],
+      2: [
+        { affix: "Auto-used supported skills (-15--4)% additional damage" },
+        {
+          affix:
+            "Automatically and continuously cast the supported skill at the nearest enemy within 25m while standing still",
+        },
+      ],
+      3: [
+        { affix: "Auto-used supported skills (-15--4)% additional damage" },
+        {
+          affix:
+            "Automatically and continuously cast the supported skill at the nearest enemy within 25m while standing still",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Multistrike",
+    tags: [],
+    description: [
+      "Triggers the supported skill upon reaching the max Multistrike Count. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon reaching the max Multistrike Count. Interval: 0.1s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon reaching the max Multistrike Count. Interval: 0.1s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon reaching the max Multistrike Count. Interval: 0.1s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon reaching the max Multistrike Count. Interval: 0.1s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Perpetual Motion",
+    tags: [],
+    description: [
+      "Always attempts to trigger the supported skill. Interval: 0.2s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill. Interval: 0.2s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill. Interval: 0.2s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill. Interval: 0.2s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Always attempts to trigger the supported skill. Interval: 0.2s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Preparation",
+    tags: [],
+    description: [
+      "Prepares the supported skill every (4–5) s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+      ],
+      1: [
+        { affix: "Prepares the supported skill every (4-5) s" },
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+      ],
+      2: [
+        { affix: "Prepares the supported skill every (6-7) s" },
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+      ],
+      3: [
+        { affix: "Prepares the supported skill every 8 s" },
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Resonance",
+    tags: [],
+    description: [
+      "Triggers the supported skill when Resonance is activated",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Triggers the supported skill when Resonance is activated" },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Triggers the supported skill when Resonance is activated" },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Triggers the supported skill when Resonance is activated" },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Triggers the supported skill when Resonance is activated" },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Resonance Activation",
+    tags: [],
+    description: [
+      "Activates Resonance when you use the supported skill",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Activates Resonance when you use the supported skill" },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Activates Resonance when you use the supported skill" },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Activates Resonance when you use the supported skill" },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        { affix: "Activates Resonance when you use the supported skill" },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Rhythm",
+    tags: [],
+    description: [
+      "Triggers the supported skill on the closest enemy within 20m every (0.3–0.5)s.",
+      "The next skill triggered by the supported skill +3% additional damage for every 1m of movement made during the trigger interval, up to +(18–21)%.",
+      "-80% additional damage for manually used Supported Skill",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The next skill triggered by the supported skill +3% additional damage for every 1m of movement made during the trigger interval, up to +(24-27)%.",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      1: [
+        {
+          affix:
+            "Triggers the supported skill on the closest enemy within 20m every (0.3-0.5)s.",
+        },
+        {
+          affix:
+            "The next skill triggered by the supported skill +3% additional damage for every 1m of movement made during the trigger interval, up to +(18-21)%.",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      2: [
+        {
+          affix:
+            "Triggers the supported skill on the closest enemy within 20m every (0.6-1.0)s.",
+        },
+        {
+          affix:
+            "The next skill triggered by the supported skill +2% additional damage for every 1m of movement made during the trigger interval, up to +(14-16)%.",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      3: [
+        {
+          affix:
+            "Triggers the supported skill on the closest enemy within 20m every (1.1-1.5)s.",
+        },
+        {
+          affix:
+            "The next skill triggered by the supported skill +2% additional damage for every 1m of movement made during the trigger interval, up to +(10-12)%.",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Root",
+    tags: [],
+    description: [
+      "Triggers the supported skill upon stopping moving. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon stopping moving. Interval: 0.1s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon stopping moving. Interval: 0.1s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon stopping moving. Interval: 0.1s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon stopping moving. Interval: 0.1s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Root Attack",
+    tags: [],
+    description: [
+      "Automatically attempts to use a supported Attack Skill on the closest enemy when stopping moving. Interval: (0.2–0.3) s",
+      "Every 1m moved adds +(10–20)% damage to the next auto used supported skill, up to +(46–65)% . During Multistrike, the bonus persists until the multistrike ends",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "Automatically attempts to use a supported Attack Skill on the closest enemy when stopping moving. Interval: (0.1-0.2) s",
+        },
+        {
+          affix:
+            "Every 1m moved adds +(12-24)% damage to the next auto used supported skill, up to +(66-78)% . During Multistrike, the bonus persists until the multistrike ends",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "Automatically attempts to use a supported Attack Skill on the closest enemy when stopping moving. Interval: (0.2-0.3) s",
+        },
+        {
+          affix:
+            "Every 1m moved adds +(10-20)% damage to the next auto used supported skill, up to +(46-65)% . During Multistrike, the bonus persists until the multistrike ends",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "Automatically attempts to use a supported Attack Skill on the closest enemy when stopping moving. Interval: (0.4-0.5) s",
+        },
+        {
+          affix:
+            "Every 1m moved adds +(8-16)% damage to the next auto used supported skill, up to +(36-55)% . During Multistrike, the bonus persists until the multistrike ends",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "Automatically attempts to use a supported Attack Skill on the closest enemy when stopping moving. Interval: (0.6-0.7) s",
+        },
+        {
+          affix:
+            "Every 1m moved adds +(6-12)% damage to the next auto used supported skill, up to +(26-45)% . During Multistrike, the bonus persists until the multistrike ends",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Sentry",
+    tags: [],
+    description: [
+      "Always attempts to trigger the Supported Skill if no Sentries are within (10–20) m. Interval: 0.3 s",
+      "+(16–19)% additional damage for the supported skill",
+      "+2 Sentries that can be deployed at a time by the supported skill",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        { affix: "+(20-25)% additional damage for the supported skill" },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill if no Sentries are within (10-20) m. Interval: 0.3 s",
+        },
+      ],
+      1: [
+        { affix: "+(16-19)% additional damage for the supported skill" },
+        {
+          affix:
+            "+2 Sentries that can be deployed at a time by the supported skill",
+        },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill if no Sentries are within (10-20) m. Interval: 0.3 s",
+        },
+      ],
+      2: [
+        { affix: "+(12-15)% additional damage for the supported skill" },
+        {
+          affix:
+            "+1 Sentries that can be deployed at a time by the supported skill",
+        },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill if no Sentries are within (10-20) m. Interval: 0.3 s",
+        },
+      ],
+      3: [
+        { affix: "+(9-11)% additional damage for the supported skill" },
+        {
+          affix:
+            "-1 Sentries that can be deployed at a time by the supported skill",
+        },
+        {
+          affix:
+            "Always attempts to trigger the Supported Skill if no Sentries are within (10-20) m. Interval: 0.3 s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Severe Injury",
+    tags: [],
+    description: [
+      "Triggers the supported skill when suffering a Severe Injury",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "Triggers the supported skill when suffering a Severe Injury",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "Triggers the supported skill when suffering a Severe Injury",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "Triggers the supported skill when suffering a Severe Injury",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "Triggers the supported skill when suffering a Severe Injury",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Spell Burst",
+    tags: [],
+    description: [
+      "Triggers the supported skill when activating Spell Burst. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill when activating Spell Burst. Interval: 0.1s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill when activating Spell Burst. Interval: 0.1s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill when activating Spell Burst. Interval: 0.1s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill when activating Spell Burst. Interval: 0.1s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Start",
+    tags: [],
+    description: [
+      "Triggers the supported skill upon starting to move. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "The supported skill +(20-25)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(20-25)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon starting to move. Interval: 0.1s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "The supported skill +(12-19)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(12-19)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon starting to move. Interval: 0.1s",
+        },
+      ],
+      2: [
+        {
+          affix:
+            "The supported skill +(7-11)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "+(7-11)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon starting to move. Interval: 0.1s",
+        },
+      ],
+      3: [
+        {
+          affix:
+            "The supported skill (-25--15)% additional Cooldown Recovery Speed",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix: "(-25--15)% additional Duration for the supported skill",
+          exclusiveGroup: "cooldown_duration",
+        },
+        {
+          affix:
+            "Triggers the supported skill upon starting to move. Interval: 0.1s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Still Attack",
+    tags: [],
+    description: [
+      "Automatically use the Supported Attack Skill to continuously attack the nearest enemy within 25m while standing still",
+      "The supported skill is supported by Lv. (16–20) Willpower",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        { affix: "The supported skill is supported by Lv. (20-30) Willpower" },
+        {
+          affix:
+            "Automatically use the Supported Attack Skill to continuously attack the nearest enemy within 25m while standing still",
+        },
+      ],
+      1: [
+        { affix: "The supported skill is supported by Lv. (16-20) Willpower" },
+        {
+          affix:
+            "Automatically use the Supported Attack Skill to continuously attack the nearest enemy within 25m while standing still",
+        },
+      ],
+      2: [
+        { affix: "The supported skill is supported by Lv. (11-15) Willpower" },
+        {
+          affix:
+            "Automatically use the Supported Attack Skill to continuously attack the nearest enemy within 25m while standing still",
+        },
+      ],
+      3: [
+        { affix: "The supported skill is supported by Lv. (6-10) Willpower" },
+        {
+          affix:
+            "Automatically use the Supported Attack Skill to continuously attack the nearest enemy within 25m while standing still",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Tangle",
+    tags: [],
+    description: [
+      "Supports Active Spell Skills.\nCannot support Channeled Skills, Sentry Skills or skills that summon Minions.\nThis skill can only be installed in the first Support Skill Slot of each Active Skill.\nThe supported skill is cast as a Spell Tangle",
+      "The supported skill is cast as a Spell Tangle",
+      "+(11–15)% additional damage for the supported skill",
+      "10 米内的纠缠数量未达到上限时，触发被辅助技能，并以纠缠形式创建，间隔 0.4 秒\n额外创建 1 个纠缠",
+      "+(91–120)% Tangle Attach Range",
+    ],
+    supportTargets: [{ skillType: "active", tags: ["Spell"] }],
+    cannotSupportTargets: [{ tags: ["Channeled"] }],
+    manaCostMultiplierPct: 100,
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Track",
+    tags: [],
+    description: [
+      "Triggers the supported skill once on up to 3 Locked-On enemy(ies) within (10–20) m every (0.7–0.8) s",
+      "Always Locks On enemies within 20m.",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "Triggers the supported skill once on up to 3 Locked-On enemy(ies) within (10-20) m every (0.5-0.6) s",
+        },
+      ],
+      1: [
+        {
+          affix:
+            "Triggers the supported skill once on up to 3 Locked-On enemy(ies) within (10-20) m every (0.7-0.8) s",
+        },
+        { affix: "Always Locks On enemies within 20m." },
+      ],
+      2: [
+        {
+          affix:
+            "Triggers the supported skill once on up to 2 Locked-On enemy(ies) within (10-20) m every (0.9-1.0) s",
+        },
+        { affix: "Removes Lock On when the supported skill deals damage" },
+      ],
+      3: [
+        {
+          affix:
+            "Triggers the supported skill once on up to 2 Locked-On enemy(ies) within (10-20) m every (0.9-1.0) s",
+        },
+      ],
+    },
+  },
+  {
+    type: "Activation Medium",
+    name: "Activation Medium: Wind Rhythm",
+    tags: [],
+    description: [
+      "Always attempts to trigger the supported skill on the closest enemy within 25m. Cooldown: 0.6 s",
+      "(80–85)% of the bonuses and additional bonuses for Cast Speed is also applied to the Cooldown Recovery Speed of this Support Skill and the supported skill",
+      "-80% additional damage for manually used Supported Skill",
+    ],
+    supportTargets: [],
+    cannotSupportTargets: [],
+    manaCostMultiplierPct: 100,
+    affixDefs: {
+      0: [
+        {
+          affix:
+            "Always attempts to trigger the supported skill on the closest enemy within 25m. Cooldown: 0.5 s",
+        },
+        {
+          affix:
+            "(90-100)% of the bonuses and additional bonuses for Cast Speed is also applied to the Cooldown Recovery Speed of this Support Skill and the supported skill",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      1: [
+        {
+          affix:
+            "Always attempts to trigger the supported skill on the closest enemy within 25m. Cooldown: 0.6 s",
+        },
+        {
+          affix:
+            "(80-85)% of the bonuses and additional bonuses for Cast Speed is also applied to the Cooldown Recovery Speed of this Support Skill and the supported skill",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      2: [
+        {
+          affix:
+            "Always attempts to trigger the supported skill on the closest enemy within 25m. Cooldown: 0.7 s",
+        },
+        {
+          affix:
+            "(60-70)% of the bonuses and additional bonuses for Cast Speed is also applied to the Cooldown Recovery Speed of this Support Skill and the supported skill",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+      3: [
+        {
+          affix:
+            "Always attempts to trigger the supported skill on the closest enemy within 25m. Cooldown: 0.8 s",
+        },
+        {
+          affix:
+            "(40-50)% of the bonuses and additional bonuses for Cast Speed is also applied to the Cooldown Recovery Speed of this Support Skill and the supported skill",
+        },
+        { affix: "-80% additional damage for manually used Supported Skill" },
+      ],
+    },
+  },
+] as const satisfies readonly BaseActivationMediumSkill[];

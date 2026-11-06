@@ -1,0 +1,82 @@
+{
+  "name": "tli-build-planner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Torchlight Infinite build planner: reads UE_game.log and shows your character, gear and DPS",
+  "scripts": {
+    "dev": "node scripts/build-engine.js && node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/index.js",
+    "build": "node scripts/build-engine.js && vite build",
+    "start": "node scripts/build-engine.js && node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/index.js --prod",
+    "cli": "node server/cli.js",
+    "import:tlidb": "node scripts/import-tlidb.js",
+    "build:engine": "node scripts/build-engine.js --force",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "app": "node overlay/launch.cjs",
+    "site:dev": "vite --config vite.site.config.js",
+    "site:build": "vite build --config vite.site.config.js",
+    "dist": "npm run build && electron-builder --win",
+    "cloud:deploy": "cd cloud && wrangler deploy"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@lingui/core": "^5.9.5",
+    "@vitejs/plugin-react": "^6.1.2",
+    "electron": "^45.2.1",
+    "electron-builder": "^26.18.0",
+    "esbuild": "^0.28.2",
+    "remeda": "^2.51.0",
+    "ts-pattern": "^5.9.0",
+    "vite": "^8.3.3",
+    "zod": "^4.6.5"
+  },
+  "main": "overlay/main.cjs",
+  "build": {
+    "appId": "dev.tlibuildplanner.app",
+    "productName": "TLI Build Planner",
+    "directories": {
+      "output": "dist"
+    },
+    "asar": false,
+    "files": [
+      "overlay/**",
+      "server/**",
+      "!server/**/*.test.js",
+      "data/gamedata/**",
+      "data/prices/titrack.json",
+      "web/dist/**",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "overlay/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "TLI-Build-Planner-${version}-setup.exe"
+    },
+    "publish": null,
+    "portable": {
+      "artifactName": "TLI-Build-Planner-${version}-portable.exe"
+    }
+  }
+}

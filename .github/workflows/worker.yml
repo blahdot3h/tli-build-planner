@@ -1,0 +1,30 @@
+# Deploys the market API (cloud/) to Cloudflare Workers when it changes.
+# Repository secrets: CLOUDFLARE_API_TOKEN (Workers + D1 edit), CLOUDFLARE_ACCOUNT_ID.
+# One-time setup (locally, with wrangler login): wrangler d1 create tli-market, put its id in
+# cloud/wrangler.toml, then wrangler d1 execute tli-market --remote --file=cloud/schema.sql.
+name: Market API
+on:
+  push:
+    branches: [main]
+    paths: ['cloud/**', '.github/workflows/worker.yml']
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node --disable-warning=ExperimentalWarning --test cloud/test/
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: cloud
+          command: deploy

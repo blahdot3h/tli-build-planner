@@ -1,0 +1,17 @@
+{
+ "_note": "Fields that go over the imported uniques.json entry. On the Sublime (SS14): tlidb's English page still shows its last line in Chinese: 最近每生成 1 个法术投射物，额外 +2% 法术投射物伤害，上限 10 层 (+3% corroded).",
+ "111413": {
+  "lines": [
+   "+1 Spell Projectile Skill Level",
+   "+(20–30)% Cast Speed",
+   "+(10–15)% additional Projectile Speed",
+   "+2% additional Spell Projectile Damage for each Spell Projectile created recently, up to 10 stacks"
+  ],
+  "corroded": [
+   "+2 Spell Projectile Skill Level",
+   "+(35–45)% Cast Speed",
+   "+(20–30)% additional Projectile Speed",
+   "+3% additional Spell Projectile Damage for each Spell Projectile created recently, up to 10 stacks"
+  ]
+ }
+}

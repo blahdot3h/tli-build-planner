@@ -1,0 +1,210 @@
+{
+ "6002": {
+  "name": "Secret of the Glacial Abyss",
+  "slug": "Secret_of_the_Glacial_Abyss",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6002_Icon_128.webp"
+ },
+ "6003": {
+  "name": "Crow's Wail",
+  "slug": "Crows_Wail",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6003_Icon_128.webp"
+ },
+ "6004": {
+  "name": "Maud's Trick",
+  "slug": "Mauds_Trick",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6004_Icon_128.webp"
+ },
+ "6006": {
+  "name": "Portent Moon",
+  "slug": "Portent_Moon",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6006_Icon_128.webp"
+ },
+ "6007": {
+  "name": "Lost Secrets",
+  "slug": "Lost_Secrets",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6007_Icon_128.webp"
+ },
+ "6008": {
+  "name": "A Terrible Price",
+  "slug": "A_Terrible_Price",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6008_Icon_128.webp"
+ },
+ "6019": {
+  "name": "Helio Rock",
+  "slug": "Helio_Rock",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6019_Icon_128.webp"
+ },
+ "6026": {
+  "name": "Antonius's Help",
+  "slug": "Antoniuss_Help",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6026_Icon_128.webp"
+ },
+ "6027": {
+  "name": "Aureole Rock",
+  "slug": "Aureole_Rock",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6027_Icon_128.webp"
+ },
+ "6054": {
+  "name": "Clergy's Thinking",
+  "slug": "Clergys_Thinking",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6054_Icon_128.webp"
+ },
+ "6055": {
+  "name": "Antonius' Research",
+  "slug": "Antonius_Research",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6055_Icon_128.webp"
+ },
+ "6111": {
+  "name": "Supernova Explosion",
+  "slug": "Supernova_Explosion",
+  "category": "Fluorescent Memory"
+ },
+ "6118": {
+  "name": "Echo of the Gods",
+  "slug": "Echo_of_the_Gods",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6118_Icon_128.webp"
+ },
+ "6119": {
+  "name": "Stray Fireflies",
+  "slug": "Stray_Fireflies",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6119_Icon_128.webp"
+ },
+ "6125": {
+  "name": "Hundredfold Windfall",
+  "slug": "Hundredfold_Windfall",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6125_Icon_128.webp"
+ },
+ "6127": {
+  "name": "Immolating Flame",
+  "slug": "Immolating_Flame",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6127_Icon_128.webp"
+ },
+ "6135": {
+  "name": "Defile the Stars",
+  "slug": "Defile_the_Stars",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6135_Icon_128.webp"
+ },
+ "6139": {
+  "name": "Divine Supernova",
+  "slug": "Divine_Supernova",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6139_Icon_128.webp"
+ },
+ "6141": {
+  "name": "The Kiss of the Heartless",
+  "slug": "The_Kiss_of_the_Heartless",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6141_Icon_128.webp"
+ },
+ "6143": {
+  "name": "Second Divinity",
+  "slug": "Second_Divinity",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6143_Icon_128.webp"
+ },
+ "6147": {
+  "name": "Gaze Upon the Reflection",
+  "slug": "Gaze_Upon_the_Reflection",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6147_Icon_128.webp"
+ },
+ "6148": {
+  "name": "Unhatched Shadow",
+  "slug": "Unhatched_Shadow",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6148_Icon_128.webp"
+ },
+ "6153": {
+  "name": "Tomorrow's Direction",
+  "slug": "Tomorrows_Direction",
+  "category": "Fluorescent Memory"
+ },
+ "6216": {
+  "name": "Disappearing Shadow",
+  "slug": "Disappearing_Shadow",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6216_Icon_128.webp"
+ },
+ "6217": {
+  "name": "Unfettered Constellation",
+  "slug": "Unfettered_Constellation",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6138_Icon_128.webp"
+ },
+ "6218": {
+  "name": "End of the Past",
+  "slug": "End_of_the_Past",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6217_Icon_128.webp"
+ },
+ "6219": {
+  "name": "Beginning of the Past",
+  "slug": "Beginning_of_the_Past",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6218_Icon_128.webp"
+ },
+ "6221": {
+  "name": "Prism's Echo",
+  "slug": "Prisms_Echo",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6219_Icon_128.webp"
+ },
+ "6222": {
+  "name": "Exiled Destiny",
+  "slug": "Exiled_Destiny",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6220_Icon_128.webp"
+ },
+ "6223": {
+  "name": "Calamity's Devotion",
+  "slug": "Calamitys_Devotion",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6221_Icon_128.webp"
+ },
+ "6224": {
+  "name": "Concoction Recipe",
+  "slug": "Concoction_Recipe",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6222_Icon_128.webp"
+ },
+ "6225": {
+  "name": "Immortality Concoction Recipe",
+  "slug": "Immortality_Concoction_Recipe",
+  "category": "Fluorescent Memory",
+  "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/FateCard/128/UI_Memory_6223_Icon_128.webp"
+ },
+ "71001": {
+  "name": "Memory of Origin",
+  "slug": "Memory_of_Origin",
+  "category": "Hero Memories",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/Item/NoAtlas_112_160/UI_Item_BenYuanDeZhuiYi_Icon_112.webp"
+ },
+ "71002": {
+  "name": "Memory of Discipline",
+  "slug": "Memory_of_Discipline",
+  "category": "Hero Memories",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/Item/NoAtlas_112_160/UI_Item_ShouJiDeZhuiYi_Icon_112.webp"
+ },
+ "71003": {
+  "name": "Memory of Progress",
+  "slug": "Memory_of_Progress",
+  "category": "Hero Memories",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/Item/NoAtlas_112_160/UI_Item_FenJinDeZhuiYi_Icon_112.webp"
+ }
+}

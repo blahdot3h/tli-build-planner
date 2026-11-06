@@ -1,0 +1,9 @@
+{
+  "_comment": "Hand-added talents the tlidb import can't name. 80001600: the core talent an Ethereal Prism grants (seen on CoffeeTerra's Psychic tree; text from tlidb's Escalating Affliction hyperlink, current season).",
+  "80001600": {
+    "name": "Escalating Affliction",
+    "tree": "Psychic",
+    "treeSlug": "Psychic",
+    "text": "Changes the effect of each point of Affliction to: +0.1% - +3% additional Damage Over Time taken. Refreshes every 1s and is affected by Lucky Damage bonuses\n90% of the bonuses and additional bonuses for Max Damage is also applied to Damage Over Time"
+  }
+}

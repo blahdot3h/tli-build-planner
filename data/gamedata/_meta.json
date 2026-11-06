@@ -1,0 +1,35 @@
+{
+  "source": "https://tlidb.com/en/",
+  "importedAt": "2026-10-15T04:40:22.534Z",
+  "pages": 2411,
+  "counts": {
+    "affixes": 21758,
+    "items": 927,
+    "uniques": 344,
+    "skills": 918,
+    "skillData": 918,
+    "talents": 1217,
+    "talentTrees": 31,
+    "memories": 35,
+    "slates": 36,
+    "pactspirits": 177,
+    "heroTraits": 28,
+    "craft": 44,
+    "craftTiers": 32
+  },
+  "fromThisImport": {
+    "affixes": 1921,
+    "items": 925,
+    "uniques": 344,
+    "skills": 910,
+    "skillData": 910,
+    "talents": 1214,
+    "talentTrees": 31,
+    "memories": 33,
+    "slates": 36,
+    "pactspirits": 177,
+    "heroTraits": 26,
+    "craft": 44,
+    "craftTiers": 32
+  }
+}

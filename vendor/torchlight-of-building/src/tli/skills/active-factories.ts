@@ -1,0 +1,415 @@
+import type { ActiveSkillName } from "@/src/data/skill/types";
+import type { ActiveSkillModFactory } from "./types";
+import { v } from "./types";
+
+/**
+ * Factory functions for active skill mods.
+ * Each factory receives (level, values) where:
+ * - level: 1-40
+ * - values: named value arrays matching parser output keys
+ */
+export const activeSkillModFactories: Partial<
+  Record<ActiveSkillName, ActiveSkillModFactory>
+> = {
+  // Test skill for unit tests - has constant offense values
+  "[Test] Simple Attack": (l, vals) => ({
+    offense: {
+      weaponAtkDmgPct: { value: v(vals.weaponAtkDmgPct, l) },
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+    },
+  }),
+  // Test skill for persistent damage testing
+  "[Test] Simple Persistent Spell": (l, vals) => ({
+    offense: {
+      persistentDmg: {
+        value: v(vals.persistentDamage, l),
+        dmgType: "physical",
+        duration: 1,
+      },
+    },
+  }),
+  // Added by TLI Build Planner: tlidb SS13 values
+  "Fire Burst": (l, vals) => ({
+    offense: {
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+      spellDmg: {
+        value: { min: v(vals.spellDmgMin, l), max: v(vals.spellDmgMax, l) },
+        dmgType: "fire",
+        castTime: v(vals.castTime, l),
+      },
+    },
+  }),
+  // Test skill for spell damage testing
+  "[Test] Simple Spell": (l, vals) => ({
+    offense: {
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+      spellDmg: {
+        value: { min: v(vals.spellDmgMin, l), max: v(vals.spellDmgMax, l) },
+        dmgType: "physical",
+        castTime: v(vals.castTime, l),
+      },
+    },
+  }),
+  // Test skill for combo attack damage testing
+  "[Test] Combo Attack": (l, vals) => ({
+    offense: {
+      comboStarter1WeaponAtkDmgPct: {
+        value: v(vals.comboStarter1WeaponAtkDmgPct, l),
+      },
+      comboStarter2WeaponAtkDmgPct: {
+        value: v(vals.comboStarter2WeaponAtkDmgPct, l),
+      },
+      comboFinisherWeaponAtkDmgPct: {
+        value: v(vals.comboFinisherWeaponAtkDmgPct, l),
+      },
+    },
+    mods: [
+      { type: "ComboFinisherAspdPct", value: v(vals.comboFinisherAspdPct, l) },
+      {
+        type: "ComboFinisherAmplificationPct",
+        value: v(vals.comboFinisherAmplificationPct, l),
+      },
+    ],
+  }),
+  // Test skill for slash-strike (sweep/steep) damage testing
+  "[Test] Slash Strike Skill": (l, vals) => ({
+    offense: {
+      sweepWeaponAtkDmgPct: { value: v(vals.sweepWeaponAtkDmgPct, l) },
+      sweepAddedDmgEffPct: { value: v(vals.sweepAddedDmgEffPct, l) },
+      steepWeaponAtkDmgPct: { value: v(vals.steepWeaponAtkDmgPct, l) },
+      steepAddedDmgEffPct: { value: v(vals.steepAddedDmgEffPct, l) },
+    },
+    mods: [
+      { type: "SteepStrikeChancePct", value: v(vals.steepStrikeChancePct, l) },
+    ],
+  }),
+  "Thunder Spike": (l, vals) => ({
+    offense: {
+      weaponAtkDmgPct: { value: v(vals.weaponAtkDmgPct, l) },
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+    },
+    mods: [
+      { type: "ConvertDmgPct", value: 100, from: "physical", to: "lightning" },
+      { type: "InflictNumbed" },
+    ],
+  }),
+  "Frost Spike": (l, vals) => ({
+    offense: {
+      weaponAtkDmgPct: { value: v(vals.weaponAtkDmgPct, l) },
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+    },
+    mods: [
+      {
+        type: "ConvertDmgPct",
+        value: v(vals.convertPhysicalToColdPct, l),
+        from: "physical",
+        to: "cold",
+      },
+      {
+        type: "MaxProjectile",
+        value: v(vals.maxProjectile, l),
+        override: true,
+      },
+      {
+        type: "Projectile",
+        value: v(vals.projectilePerFrostbiteRating, l),
+        per: { stackable: "frostbite_rating", amt: 35 },
+      },
+      { type: "BaseProjectileQuant", value: v(vals.baseProjectile, l) },
+      {
+        type: "DmgPct",
+        value: v(vals.dmgPctPerProjectile, l),
+        dmgModType: "global",
+        addn: true,
+        per: { stackable: "projectile" },
+      },
+    ],
+  }),
+  // Added by TLI Build Planner: tlidb SS13 values; Terra Charge bonus not modelled yet
+  "Frost Terra": (l, vals) => ({
+    offense: {
+      persistentDmg: {
+        value: v(vals.persistentDamage, l),
+        dmgType: "cold",
+        duration: 2,
+      },
+    },
+  }),
+  // Added by TLI Build Planner: tlidb SS13 values. Thrusts twice per use; Trauma damage not modelled
+  "Double Thrusts": (l, vals) => ({
+    offense: {
+      weaponAtkDmgPct: { value: v(vals.weaponAtkDmgPct, l) },
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+    },
+    mods: [
+      {
+        type: "DmgPct",
+        value: 100,
+        dmgModType: "global",
+        addn: true,
+        src: "Double Thrusts: second thrust",
+      },
+    ],
+  }),
+  "Mind Control": (l, vals) => ({
+    offense: {
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+      persistentDmg: {
+        value: v(vals.persistentDamage, l),
+        dmgType: "erosion",
+        duration: 2,
+      },
+    },
+    mods: [
+      { type: "InitialMaxChannel", value: v(vals.initialMaxChannel, l) },
+      {
+        type: "DmgPct",
+        value: v(vals.additionalDmgPctPerMaxChannel, l),
+        addn: true,
+        dmgModType: "global",
+        per: { stackable: "additional_max_channel_stack" },
+      },
+      { type: "MindControlMaxLink", value: v(vals.initialMaxLinks, l) },
+      {
+        type: "MindControlMaxLink",
+        value: v(vals.maxLinkPerChannel, l),
+        per: { stackable: "channel_stack" },
+      },
+      {
+        type: "MovementSpeedPct",
+        value: v(vals.movementSpeedPctWhileChanneling, l),
+        cond: "channeling",
+      },
+      { type: "RestoreLifePctPerSec", value: v(vals.restoreLifePctValue, l) },
+    ],
+  }),
+  "Ice Bond": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.coldDmgPctVsFrostbitten, l),
+        addn: true,
+        dmgModType: "cold",
+        cond: "enemy_frostbitten",
+      },
+    ],
+  }),
+  "Bull's Rage": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.meleeDmgPct, l),
+        addn: true,
+        dmgModType: "melee",
+      },
+    ],
+  }),
+  "Charging Warcry": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "shadow_strike_skill",
+        addn: true,
+        value: v(vals.shadowStrikeSkillDmgPerEnemy, l),
+        per: { stackable: "num_enemies_affected_by_warcry" },
+      },
+    ],
+  }),
+  "Fearless Warcry": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "slash_strike_skill",
+        addn: true,
+        value: v(vals.slashStrikeSkillDmgPerEnemy, l),
+        per: { stackable: "num_enemies_affected_by_warcry", limit: 8 },
+      },
+      {
+        type: "DmgPct",
+        dmgModType: "slash_strike_skill_ailment",
+        addn: true,
+        value: v(vals.slashStrikeSkillAilmentDmgPerEnemy, l),
+        per: { stackable: "num_enemies_affected_by_warcry", limit: 8 },
+      },
+      { type: "Taunts" },
+    ],
+  }),
+  "Entangled Pain": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "damage_over_time",
+        addn: true,
+        isEnemyDebuff: true,
+        value: v(vals.dmgPct, l),
+      },
+    ],
+  }),
+  Corruption: (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "erosion",
+        addn: true,
+        isEnemyDebuff: true,
+        value: v(vals.dmgPct, l),
+      },
+      {
+        type: "InflictWiltPct",
+        isEnemyDebuff: true,
+        value: v(vals.inflictWiltPct, l),
+      },
+    ],
+  }),
+  "Biting Cold": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "cold",
+        addn: true,
+        isEnemyDebuff: true,
+        value: v(vals.dmgPct, l),
+      },
+    ],
+  }),
+  // Added by TLI Build Planner: curse, cursed enemies take additional Fire Damage
+  Scorch: (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "fire",
+        addn: true,
+        isEnemyDebuff: true,
+        value: v(vals.dmgPct, l),
+      },
+    ],
+  }),
+  Timid: (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "hit",
+        addn: true,
+        isEnemyDebuff: true,
+        value: v(vals.dmgPct, l),
+      },
+    ],
+  }),
+  "Mana Boil": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "spell",
+        addn: true,
+        value: v(vals.spellDmgPct, l),
+      },
+    ],
+  }),
+  "Arcane Circle": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        dmgModType: "spell",
+        addn: true,
+        value: v(vals.spellDmgPctPerStack, l),
+        per: { stackable: "arcane_circle_stack", limit: 15 },
+      },
+    ],
+  }),
+  "Chain Lightning": (l, vals) => ({
+    offense: {
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+      spellDmg: {
+        value: { min: v(vals.spellDmgMin, l), max: v(vals.spellDmgMax, l) },
+        dmgType: "lightning",
+        castTime: v(vals.castTime, l),
+      },
+    },
+    mods: [{ type: "Jump", value: v(vals.jump, l) }],
+  }),
+  "Secret Origin Unleash": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.spellDmgPct, l),
+        addn: true,
+        dmgModType: "spell",
+      },
+      // TLI Build Planner: tlidb reads plain "+3 % Cast Speed for every stack of Focus Blessing",
+      // an increased bonus, not an additional one
+      {
+        type: "CspdPct",
+        value: v(vals.cspdPctPerFocusBlessing, l),
+        addn: false,
+        per: { stackable: "focus_blessing", limit: 8 },
+      },
+    ],
+  }),
+  Electrocute: (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.lightningDmgPct, l),
+        addn: true,
+        dmgModType: "lightning",
+        isEnemyDebuff: true,
+      },
+      { type: "InflictNumbed" },
+    ],
+  }),
+  "Berserking Blade": (l, vals) => ({
+    offense: {
+      sweepWeaponAtkDmgPct: { value: v(vals.sweepWeaponAtkDmgPct, l) },
+      sweepAddedDmgEffPct: { value: v(vals.sweepAddedDmgEffPct, l) },
+      steepWeaponAtkDmgPct: { value: v(vals.steepWeaponAtkDmgPct, l) },
+      steepAddedDmgEffPct: { value: v(vals.steepAddedDmgEffPct, l) },
+    },
+    mods: [
+      {
+        type: "SkillAreaPct",
+        skillAreaModType: "global" as const,
+        value: v(vals.skillAreaBuffPct, l),
+        per: { stackable: "berserking_blade_buff" },
+      },
+      {
+        type: "MaxBerserkingBladeStacks",
+        value: v(vals.maxBerserkingBladeStacks, l),
+      },
+      { type: "SteepStrikeChancePct", value: v(vals.steepStrikeChancePct, l) },
+    ],
+  }),
+  "Spectral Slash": (l, vals) => ({
+    offense: {
+      comboStarter1WeaponAtkDmgPct: {
+        value: v(vals.comboStarterWeaponAtkDmgPct, l),
+      },
+      comboStarter2WeaponAtkDmgPct: {
+        value: v(vals.comboStarterWeaponAtkDmgPct, l),
+      },
+      comboFinisherWeaponAtkDmgPct: {
+        value: v(vals.comboFinisherWeaponAtkDmgPct, l),
+      },
+      shotgunEffFalloffPct: { value: v(vals.shotgunEffFalloffPct, l) },
+    },
+    mods: [
+      { type: "ComboFinisherAspdPct", value: v(vals.comboFinisherAspdPct, l) },
+      {
+        type: "ComboFinisherAmplificationPct",
+        value: v(vals.comboFinisherAmplificationPct, l),
+      },
+      { type: "SpectralSlashMaxClones", value: v(vals.maxClones, l) },
+    ],
+  }),
+  "Ice Lances": (l, vals) => ({
+    offense: {
+      addedDmgEffPct: { value: v(vals.addedDmgEffPct, l) },
+      spellDmg: {
+        value: { min: v(vals.spellDmgMin, l), max: v(vals.spellDmgMax, l) },
+        dmgType: "cold",
+        castTime: v(vals.castTime, l),
+      },
+      shotgunEffFalloffPct: { value: v(vals.shotgunEffFalloffPct, l) },
+    },
+    mods: [{ type: "Jump", value: v(vals.jump, l) }],
+  }),
+};

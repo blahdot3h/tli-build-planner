@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Select-String *)",
+      "PowerShell(cd *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Out-String *)",
+      "PowerShell(Set-Location *)",
+      "PowerShell(Write-Output *)",
+      "PowerShell(Start-Sleep *)",
+      "PowerShell(Out-Null *)",
+      "PowerShell(npx tsc --noEmit)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(npm test)",
+      "PowerShell(ConvertTo-Json *)",
+      "PowerShell(ConvertFrom-Json *)",
+      "PowerShell(Select-Object *)",
+      "PowerShell(Format-Table *)",
+      "PowerShell(Sort-Object *)",
+      "PowerShell(Group-Object *)",
+      "PowerShell(Get-CimInstance *)",
+      "Bash(npm test)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(Measure-Object *)",
+      "PowerShell(Join-Path *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(Format-List *)",
+      "PowerShell(Split-Path *)",
+      "PowerShell(Get-Date *)",
+      "PowerShell(git log *)",
+      "PowerShell(git status *)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "mcp__Claude_Browser__get_page_text"
+    ]
+  }
+}

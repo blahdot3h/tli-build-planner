@@ -1,0 +1,182 @@
+{
+ "260001": {
+  "name": "Goddess of Hunting's Divinity",
+  "slug": "Goddess_of_Huntings_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z1_0_Icon_Agi_112.webp"
+ },
+ "260002": {
+  "name": "Goddess of Hunting's Divinity",
+  "slug": "Goddess_of_Huntings_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z2_0_Icon_Agi_112.webp"
+ },
+ "260003": {
+  "name": "Goddess of Hunting's Divinity",
+  "slug": "Goddess_of_Huntings_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L1_0_Icon_Agi_112.webp"
+ },
+ "260004": {
+  "name": "Goddess of Hunting's Divinity",
+  "slug": "Goddess_of_Huntings_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L2_0_Icon_Agi_112.webp"
+ },
+ "260005": {
+  "name": "Goddess of Hunting's Divinity",
+  "slug": "Goddess_of_Huntings_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_O1_0_Icon_Agi_112.webp"
+ },
+ "260006": {
+  "name": "Goddess of Hunting's Divinity",
+  "slug": "Goddess_of_Huntings_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_T1_0_Icon_Agi_112.webp"
+ },
+ "260101": {
+  "name": "Goddess of Deception's Divinity",
+  "slug": "Goddess_of_Deceptions_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z1_0_Icon_AI_112.webp"
+ },
+ "260102": {
+  "name": "Goddess of Deception's Divinity",
+  "slug": "Goddess_of_Deceptions_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z2_0_Icon_AI_112.webp"
+ },
+ "260103": {
+  "name": "Goddess of Deception's Divinity",
+  "slug": "Goddess_of_Deceptions_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L1_0_Icon_AI_112.webp"
+ },
+ "260104": {
+  "name": "Goddess of Deception's Divinity",
+  "slug": "Goddess_of_Deceptions_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L2_0_Icon_AI_112.webp"
+ },
+ "260105": {
+  "name": "Goddess of Deception's Divinity",
+  "slug": "Goddess_of_Deceptions_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_O1_0_Icon_AI_112.webp"
+ },
+ "260106": {
+  "name": "Goddess of Deception's Divinity",
+  "slug": "Goddess_of_Deceptions_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_T1_0_Icon_AI_112.webp"
+ },
+ "260201": {
+  "name": "Goddess of Knowledge's Divinity",
+  "slug": "Goddess_of_Knowledges_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z1_0_Icon_Int_112.webp"
+ },
+ "260202": {
+  "name": "Goddess of Knowledge's Divinity",
+  "slug": "Goddess_of_Knowledges_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z2_0_Icon_Int_112.webp"
+ },
+ "260203": {
+  "name": "Goddess of Knowledge's Divinity",
+  "slug": "Goddess_of_Knowledges_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L1_0_Icon_Int_112.webp"
+ },
+ "260204": {
+  "name": "Goddess of Knowledge's Divinity",
+  "slug": "Goddess_of_Knowledges_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L2_0_Icon_Int_112.webp"
+ },
+ "260205": {
+  "name": "Goddess of Knowledge's Divinity",
+  "slug": "Goddess_of_Knowledges_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_O1_0_Icon_Int_112.webp"
+ },
+ "260206": {
+  "name": "Goddess of Knowledge's Divinity",
+  "slug": "Goddess_of_Knowledges_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_T1_0_Icon_Int_112.webp"
+ },
+ "260301": {
+  "name": "God of War's Divinity",
+  "slug": "God_of_Wars_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z1_0_Icon_SA_112.webp"
+ },
+ "260302": {
+  "name": "God of War's Divinity",
+  "slug": "God_of_Wars_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z2_0_Icon_SA_112.webp"
+ },
+ "260303": {
+  "name": "God of War's Divinity",
+  "slug": "God_of_Wars_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L1_0_Icon_SA_112.webp"
+ },
+ "260304": {
+  "name": "God of War's Divinity",
+  "slug": "God_of_Wars_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L2_0_Icon_SA_112.webp"
+ },
+ "260305": {
+  "name": "God of War's Divinity",
+  "slug": "God_of_Wars_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_O1_0_Icon_SA_112.webp"
+ },
+ "260306": {
+  "name": "God of War's Divinity",
+  "slug": "God_of_Wars_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_T1_0_Icon_SA_112.webp"
+ },
+ "260401": {
+  "name": "God of Machines' Divinity",
+  "slug": "God_of_Machines_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z1_0_Icon_SI_112.webp"
+ },
+ "260402": {
+  "name": "God of Machines' Divinity",
+  "slug": "God_of_Machines_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z2_0_Icon_SI_112.webp"
+ },
+ "260403": {
+  "name": "God of Machines' Divinity",
+  "slug": "God_of_Machines_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L1_0_Icon_SI_112.webp"
+ },
+ "260404": {
+  "name": "God of Machines' Divinity",
+  "slug": "God_of_Machines_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L2_0_Icon_SI_112.webp"
+ },
+ "260405": {
+  "name": "God of Machines' Divinity",
+  "slug": "God_of_Machines_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_O1_0_Icon_SI_112.webp"
+ },
+ "260406": {
+  "name": "God of Machines' Divinity",
+  "slug": "God_of_Machines_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_T1_0_Icon_SI_112.webp"
+ },
+ "260501": {
+  "name": "God of Might's Divinity",
+  "slug": "God_of_Mights_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z1_0_Icon_Str_112.webp"
+ },
+ "260502": {
+  "name": "God of Might's Divinity",
+  "slug": "God_of_Mights_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_Z2_0_Icon_Str_112.webp"
+ },
+ "260503": {
+  "name": "God of Might's Divinity",
+  "slug": "God_of_Mights_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L1_0_Icon_Str_112.webp"
+ },
+ "260504": {
+  "name": "God of Might's Divinity",
+  "slug": "God_of_Mights_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_L2_0_Icon_Str_112.webp"
+ },
+ "260505": {
+  "name": "God of Might's Divinity",
+  "slug": "God_of_Mights_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_O1_0_Icon_Str_112.webp"
+ },
+ "260506": {
+  "name": "God of Might's Divinity",
+  "slug": "God_of_Mights_Divinity",
+  "icon": "https://cdn.tlidb.com/UIV2/Common/Icon/UI/Textures/TalentSlate/NoAtlas_112_160/UI_TalantNG_T1_0_Icon_Str_112.webp"
+ }
+}

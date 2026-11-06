@@ -1,0 +1,269 @@
+import type { Mod } from "../mod";
+import { type CompileOptions, compileTemplate, validateEnum } from "./compiler";
+import type { ParseTemplate } from "./template-types";
+import type {
+  CompiledTemplate,
+  ModParser,
+  ModTypeMap,
+  MultiOutput,
+  MultiTemplateBuilder,
+  RuntimeCaptures,
+  TemplateBuilder,
+} from "./types";
+
+/**
+ * Type-safe spec builder for outputMany.
+ * The mapper returns a full Mod (with type field) for discriminated union contextual typing.
+ */
+export const spec = <TCaptures extends object = RuntimeCaptures>(
+  mod: (captures: TCaptures) => Mod,
+): MultiOutput<TCaptures> => ({ mod: mod as MultiOutput<TCaptures>["mod"] });
+
+interface BuilderConfig {
+  template: string;
+  enumMappings: Map<string, Record<string, string>>;
+  customExtractors: Map<
+    string,
+    (match: RegExpMatchArray) => string | number | boolean
+  >;
+  compileOptions?: CompileOptions;
+}
+
+// Create a parser from a compiled template
+const createParser = (
+  compiled: CompiledTemplate,
+  mapperOrModType:
+    | ((captures: RuntimeCaptures) => Mod)
+    | keyof ModTypeMap
+    | undefined,
+  config: BuilderConfig,
+): ModParser => ({
+  parse(input: string): Mod[] | undefined {
+    const match = input.match(compiled.regex);
+    if (!match) return undefined;
+
+    const captures = extractCaptures(match, compiled, config);
+    if (captures === undefined) return undefined;
+
+    // Create the mod
+    const mod =
+      typeof mapperOrModType === "function"
+        ? mapperOrModType(captures)
+        : ({ type: mapperOrModType, ...captures } as Mod);
+
+    return [mod];
+  },
+});
+
+// Create a multi-mod parser
+const createMultiModParser = (
+  compiled: CompiledTemplate,
+  specs: MultiOutput<RuntimeCaptures>[],
+  config: BuilderConfig,
+): ModParser => ({
+  parse(input: string): Mod[] | undefined {
+    const match = input.match(compiled.regex);
+    if (!match) return undefined;
+
+    const captures = extractCaptures(match, compiled, config);
+    if (captures === undefined) return undefined;
+
+    // Create all mods
+    return specs.map((spec) => spec.mod(captures));
+  },
+});
+
+// Get the capture type from a template string
+const getCaptureType = (template: string, name: string): string | undefined => {
+  const regex = new RegExp(`\\{${name}:(\\w+)\\}`);
+  const match = template.match(regex);
+  return match?.[1];
+};
+
+// Extract captures from a match result
+const extractCaptures = (
+  match: RegExpMatchArray,
+  compiled: CompiledTemplate,
+  config: BuilderConfig,
+): RuntimeCaptures | undefined => {
+  const captures: RuntimeCaptures = {};
+
+  for (let i = 0; i < compiled.captureNames.length; i++) {
+    const name = compiled.captureNames[i];
+    const value = match[i + 1];
+
+    if (value !== undefined) {
+      // Check custom extractors first
+      const customExtractor = config.customExtractors.get(name);
+      if (customExtractor) {
+        captures[name] = customExtractor(match);
+      } else {
+        const extractor = compiled.extractors.get(name);
+        if (extractor) {
+          // Get the capture type for validation
+          const captureType = getCaptureType(config.template, name);
+          const baseType = captureType?.endsWith("%")
+            ? captureType.slice(0, -1)
+            : captureType;
+
+          // Validate enum values BEFORE extraction (use raw lowercase value)
+          if (baseType && baseType !== "int" && baseType !== "dec") {
+            const customMapping = config.enumMappings.get(baseType);
+            if (customMapping) {
+              const lower = value.toLowerCase();
+              if (!(lower in customMapping)) {
+                return undefined; // Invalid enum value
+              }
+            } else if (!validateEnum(baseType, value)) {
+              return undefined; // Invalid enum value
+            }
+          }
+
+          captures[name] = extractor(value);
+        }
+      }
+    }
+  }
+
+  // Call any custom extractors that weren't already processed
+  for (const [name, extractor] of config.customExtractors) {
+    if (captures[name] === undefined) {
+      captures[name] = extractor(match);
+    }
+  }
+
+  return captures;
+};
+
+// Create a template builder - internal implementation uses any for flexibility
+// Public API types are enforced through TemplateBuilder interface
+// biome-ignore lint/suspicious/noExplicitAny: required for generic type accumulation
+const createBuilder = (config: BuilderConfig): TemplateBuilder<any> => ({
+  enum(name, mapping) {
+    const newMappings = new Map(config.enumMappings);
+    newMappings.set(name, mapping);
+    return createBuilder({ ...config, enumMappings: newMappings });
+  },
+
+  capture(name, extractor) {
+    const newExtractors = new Map(config.customExtractors);
+    newExtractors.set(name, extractor as never);
+    return createBuilder({ ...config, customExtractors: newExtractors });
+  },
+
+  output(mapperOrModType: unknown) {
+    const compiled = compileTemplate(
+      config.template,
+      config.enumMappings,
+      config.compileOptions,
+    );
+    return createParser(
+      compiled,
+      mapperOrModType as
+        | ((captures: RuntimeCaptures) => Mod)
+        | keyof ModTypeMap,
+      config,
+    );
+  },
+
+  outputMany(specs) {
+    const compiled = compileTemplate(
+      config.template,
+      config.enumMappings,
+      config.compileOptions,
+    );
+    return createMultiModParser(compiled, specs as never, config);
+  },
+
+  outputNone() {
+    const compiled = compileTemplate(
+      config.template,
+      config.enumMappings,
+      config.compileOptions,
+    );
+    return createMultiModParser(compiled, [], config);
+  },
+
+  match(input: string, context?: string) {
+    const compiled = compileTemplate(
+      config.template,
+      config.enumMappings,
+      config.compileOptions,
+    );
+    const match = input.trim().toLowerCase().match(compiled.regex);
+    if (!match) {
+      const ctx = context !== undefined ? `${context}: ` : "";
+      throw new Error(
+        `${ctx}no match for '${compiled.templateStr}' in '${input}'`,
+      );
+    }
+    const captures = extractCaptures(match, compiled, config);
+    if (captures === undefined) {
+      const ctx = context !== undefined ? `${context}: ` : "";
+      throw new Error(
+        `${ctx}invalid enum value for '${compiled.templateStr}' in '${input}'`,
+      );
+    }
+    return captures;
+  },
+
+  tryMatch(input: string) {
+    const compiled = compileTemplate(
+      config.template,
+      config.enumMappings,
+      config.compileOptions,
+    );
+    const match = input.trim().toLowerCase().match(compiled.regex);
+    if (!match) {
+      return undefined;
+    }
+    return extractCaptures(match, compiled, config);
+  },
+});
+
+/** Template builder factory with type-safe capture inference (full string match). */
+export const t = <T extends string>(
+  template: T,
+): TemplateBuilder<ParseTemplate<T>> =>
+  createBuilder({
+    template,
+    enumMappings: new Map(),
+    customExtractors: new Map(),
+  }) as TemplateBuilder<ParseTemplate<T>>;
+
+/** Template builder factory with type-safe capture inference (substring match). */
+export const ts = <T extends string>(
+  template: T,
+): TemplateBuilder<ParseTemplate<T>> =>
+  createBuilder({
+    template,
+    enumMappings: new Map(),
+    customExtractors: new Map(),
+    compileOptions: { substring: true },
+  }) as TemplateBuilder<ParseTemplate<T>>;
+
+// Multi-pattern support
+t.multi = <TCaptures extends object = Record<string, unknown>>(
+  parsers: (TemplateBuilder<TCaptures> | ModParser)[],
+): MultiTemplateBuilder<TCaptures> => ({
+  output(mapper) {
+    // Convert builders to parsers if needed
+    const resolvedParsers: ModParser[] = parsers.map((p) => {
+      if ("parse" in p) return p;
+      // Builder without output yet - create with the provided output
+      return (p as TemplateBuilder<TCaptures>).output(mapper);
+    });
+
+    return {
+      parse(input: string): Mod[] | undefined {
+        for (const parser of resolvedParsers) {
+          const result = parser.parse(input);
+          if (result !== undefined) {
+            return result;
+          }
+        }
+        return undefined;
+      },
+    };
+  },
+});

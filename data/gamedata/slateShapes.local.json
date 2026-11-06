@@ -1,0 +1,9 @@
+{
+  "_comment": "Divinity slate shapes for the board (Talent → Statue of The New God), keyed by the login dump's Item.ShapeId. cells: [row offset, column offset] of every cell the slate covers relative to its spot (Index = column*10 + row) at Direction 0; Direction d is d quarter turns clockwise about the spot ([r, c] -> [c, -r]), as server/game/slates.js turns them. The board is a 24-cell diamond: rows 1-6 hold columns 3-4, 2-5, 1-6, 1-6, 2-5, 3-4. Read off a screenshot of CoffeeBingBong's board (2026-11-02): 2030 (A Corner of Divinity) seen at directions 0, 1 and 3; 2020 (Fallen Starlight) at 0; 1023 (his God of War's Divinity, reshaped) and 2090 (Pedigree of Gods) at 1 and turned back; 2012 (When Sparks Set the Prairie Ablaze) at 0. 2010 (Sparks of Moth Fire) assumed one cell like its sibling. A ShapeId not listed draws on its spot alone and the planner asks for a screenshot of the board.",
+  "2030": { "name": "A Corner of Divinity", "cells": [[0, 0], [-1, 0], [0, 1]] },
+  "2020": { "name": "Fallen Starlight", "cells": [[0, 0], [-1, 0]] },
+  "1023": { "name": "God of War's Divinity (reshaped S)", "cells": [[0, 0], [1, 0], [0, 1], [-1, 1]] },
+  "2090": { "name": "Pedigree of Gods", "cells": [[0, 0], [0, -1], [-1, -1], [1, 0], [-1, 0], [1, 1], [0, 1]] },
+  "2012": { "name": "When Sparks Set the Prairie Ablaze", "cells": [[0, 0]] },
+  "2010": { "name": "Sparks of Moth Fire", "cells": [[0, 0]], "inferred": true }
+}

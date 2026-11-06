@@ -1,0 +1,916 @@
+// This file is machine-generated. Do not modify manually.
+// To regenerate, run: pnpm exec tsx src/scripts/generate-skill-data.ts
+import type { BasePassiveSkill } from "./types";
+
+export const PassiveSkills = [
+  {
+    type: "Passive",
+    name: "Acuteness Focus",
+    tags: ["Area", "Focus", "Physical", "Attack"],
+    description: [
+      "Activates Focus and gains a buff:\n13.5% additional Physical Damage\n+10% chance to inflict Trauma\nAdds 5 - 5 Base Trauma Damage\nThis skill gains 25 Focus Pts on Melee hits. Interval: 1/5s. Upon reaching 100 Focus Pts, the next Melee hit consumes all Focus Pts and casts Acute Strike on the enemy, dealing 479% Weapon Attack Damage to all enemies within a certain area",
+      "Activates Focus and gains a buff:\n13.5% additional Physical Damage\n+10% chance to inflict Trauma\nAdds 5 - 5 Base Trauma Damage\nThis skill gains 25 Focus Pts on Melee hits. Interval: 0.2 s\nAfter this skill reaches 100 Focus Pts, the next Melee hit consumes 100 Focus Pts and triggers this skill on up to 4 enemies within 5m of the target hit. Generates Spikes within a rectangular area, dealing Physical Attack Damage",
+      "Acute Strike:\nDeals 479% Weapon Attack Damage.",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["str"],
+    // Added by TLI Build Planner (tlidb)
+    levelValues: {
+      physicalDmgPct: [7.8, 8.1, 8.4, 8.7, 9, 9.3, 9.6, 9.9, 10.2, 10.5, 10.8, 11.1, 11.4, 11.7, 12, 12.3, 12.6, 12.9, 13.2, 13.5, 13.8, 14.1, 14.4, 14.7, 15, 15.3, 15.6, 15.9, 16.2, 16.5, 16.8, 17.1, 17.4, 17.7, 18, 18.3, 18.6, 18.9, 19.2, 19.5],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Ailment Amplification",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n14% additional Ailment Damage. 10% chance to inflict Ailments. 10% Ailment Duration.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n23.5% additional Ailment Damage\n+10% chance to inflict Damaging Ailments\n+10% Ailment Duration",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Charged Flames",
+    tags: ["Aura", "Area", "Fire"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Fire Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Fire Damage",
+    ],
+    sealedManaPct: 50,
+    // Added by TLI Build Planner (tlidb)
+    levelValues: {
+      fireDmgPct: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 35.5, 36, 36.5, 37, 37.5, 38, 38.5, 39, 39.5, 40, 40.5, 41, 41.5, 42, 42.5, 43, 43.5, 44, 44.5, 45],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Corrosion Focus",
+    tags: ["Area", "Focus", "Erosion", "Persistent", "Spell", "Projectile"],
+    description: [
+      "Activates Focus and gains a buff:\n13.5% additional Erosion Damage\n+10% Wilt chance\nAdds 2 - 2 Base Wilt Damage\nEvery 1/10s, this skill gains 13/2 Focus Pts. Upon reaching 100 Focus Pts, casting other skills will launch a Corrosion Orb that tracks enemies. When the Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make the orb explode once, dealing 648 - 648 Spell Erosion Damage to enemies. Interval: 3/20s.",
+      "The orb is destroyed when Focus Pts drop to 0, its duration expires (2s), or it is 30m away from the character. Orb Quantity is not affected by Projectile Quantity.",
+      "Activates Focus and gains a buff:\n13.5% additional Erosion Damage\n+10% Wilt chance\nAdds 2 - 2 Base Wilt Damage",
+      "Corrosion Focus:\nEvery 0.1 s, the skill gains 6.5 Focus Pts\nAfter this skill reaches 100 Focus Pts, if the Corrosion Orb no longer exists, using an Active Skill will trigger this skill on an enemy\nWhen Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make it deal Area Damage once. Interval: 0.15 s",
+      "Corrosion Orb:\nDeals 648-648 Spell Erosion Damage\nProjectile Duration: 2s",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["int"],
+    levelValues: {
+      erosionDmgPct: [
+        7.8, 8.1, 8.4, 8.7, 9, 9.3, 9.6, 9.9, 10.2, 10.5, 10.8, 11.1, 11.4,
+        11.7, 12, 12.3, 12.6, 12.9, 13.2, 13.5, 13.8, 14.1, 14.4, 14.7, 15,
+        15.3, 15.6, 15.9, 16.2, 16.5, 16.8, 17.1, 17.4, 17.7, 18, 18.3, 18.6,
+        18.9, 19.2, 19.5,
+      ],
+      inflictWiltPct: [
+        10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+        10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+        10, 10, 10, 10,
+      ],
+      BaseWiltFlatDmg: [
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Cruelty",
+    tags: ["Aura", "Area", "Attack"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n9.5% additional Attack Damage.\nGains 1 stack(s) of buffs upon defeating an enemy. 40% chance to gain 5 stack(s) of buffs when hitting an Elite, 5/2% additional Aura Effect per stack of the buff for 4s. Stacks up to 40 time(s) (Not affected by Aura Effects).",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+19% additional Attack Damage\nGains 1 stack(s) of buffs upon defeating an enemy. +40% chance to gain 5 stack(s) of buffs when hitting an Elite\n2.5% additional Aura Effect per stack of the buff for 4 s. Stacks up to 40 time(s) (Not affected by Aura Effects)",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Deep Pain",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Damage Over Time.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Damage Over Time",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      dotDmgPct: [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+        35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Domain Expansion",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n14% additional Area Damage and Ailment Damage dealt by Area Skills. 20% Skill Area when at least 8 enemies are within 10m.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+33% additional Area Damage\n+33% additional Ailment Damage dealt by Area Skills\n+20% Skill Area when there are at least 8 enemies within 10 m",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      areaDmgPct: [
+        14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32,
+        33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51,
+        52, 53,
+      ],
+      skillAreaPct: [
+        20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+        20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+        20, 20, 20, 20,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Electric Conversion",
+    tags: ["Aura", "Area", "Lightning"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Lightning Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Lightning Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      lightningDmgPct: [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+        35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Elemental Resistance",
+    tags: ["Aura", "Area", "Fire", "Cold", "Lightning"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n-12% additional Elemental Damage taken and 8.1% Elemental Resistance.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+10% Elemental Resistance\n-12% additional Elemental Damage taken",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Energy Fortress",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n67 Max Energy Shield, and 3.2% additional Max Energy Shield.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n319.7 Max Energy Shield\n13.37% additional Max Energy Shield",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      energyShield: [
+        67, 80.3, 93.6, 106.9, 120.2, 133.5, 146.8, 160.1, 173.4, 186.7, 200, 213.3,
+        226.6, 239.9, 253.2, 266.5, 279.8, 293.1, 306.4, 319.7, 333, 346.3, 359.6,
+        372.9, 386.2, 399.5, 412.8, 426.1, 439.4, 452.7, 466, 479.3, 492.6, 505.9,
+        519.2, 532.5, 545.8, 559.1, 572.4, 585.7,
+      ],
+      energyShieldPct: [
+        3.2, 3.74, 4.27, 4.81, 5.34, 5.88, 6.41, 6.95, 7.48, 8.02, 8.55, 9.09, 9.62,
+        10.16, 10.69, 11.23, 11.76, 12.3, 12.83, 13.37, 13.91, 14.44, 14.98, 15.51,
+        16.05, 16.58, 17.12, 17.65, 18.19, 18.72, 19.26, 19.79, 20.33, 20.86, 21.4,
+        21.93, 22.47, 23, 23.54, 24.08,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Erosion Amplification",
+    tags: ["Aura", "Area", "Erosion"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Erosion Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Erosion Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      erosionDmgPct: [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+        35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Fearless",
+    tags: ["Aura", "Area", "Melee"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\nMelee Skills 61% Critical Strike Rating, and 11% additional damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+80% Critical Strike Rating for Melee Skills\n+30% additional Melee Skill Damage",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Flame Focus",
+    tags: ["Area", "Focus", "Fire", "Spell"],
+    description: [
+      "Activates Focus and gains a buff:\n+7% additional Fire Damage\n+10% chance to Ignite targets\nAdds 2 - 2 Base Ignite Damage\nThis skill gains 15 Focus Pts when inflicting Ignite. Upon defeating an enemy, there is a 100% chance to consume 40 Focus Pts and trigger this skill on the enemy, dealing True Damage equal to 25% of their Max Life to enemies within 3m.\nAdditionally increases this skill's area for each time Ignite has been inflicted recently.",
+      "Activates Focus and gains a buff:\n+7% additional Fire Damage\n+10% chance to Ignite targets\nAdds 2 - 2 Base Ignite Damage",
+      "Flame Focus:\nThis skill gains 15 Focus Pts when inflicting Ignite. This skill can be triggered up to 3 time(s) every 0.5 s\nUpon defeating an enemy, there is a 100% chance to consume 40 Focus Pts of this skill and trigger this skill at the location of the defeated enemy, dealing True Damage equal to 25% of the defeated enemy's Max Life\n+10% additional Skill Area for this skill for each time you inflict Ignite recently. Stacks up to 6 time(s)",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["str", "int"],
+    // Added by TLI Build Planner (tlidb)
+    levelValues: {
+      fireDmgPct: [5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 6, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9, 7, 7.1, 7.15, 7.2, 7.25, 7.3, 7.35, 7.4, 7.45, 7.5, 7.55, 7.6, 7.65, 7.7, 7.75, 7.8, 7.85, 7.9, 7.95, 8, 8.05],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Frigid Domain",
+    tags: ["Aura", "Area", "Cold"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Cold Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Cold Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      coldDmgPct: [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+        35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Ice Focus",
+    tags: ["Area", "Spell", "Focus", "Cold"],
+    description: [
+      "Activates Focus and gains a buff:\n13.5% additional Cold Damage\nGains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.\nUpon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies\nFor every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.",
+      "Activates Focus and gains a buff:\n13.5% additional Cold Damage\nGains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.\nUpon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies\nFor every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.",
+      "Glacial Spike:\nDeals 467-701 Spell Cold Damage.",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["int"],
+    levelValues: {
+      coldDmgPct: [
+        7.8, 8.1, 8.4, 8.7, 9, 9.3, 9.6, 9.9, 10.2, 10.5, 10.8, 11.1, 11.4,
+        11.7, 12, 12.3, 12.6, 12.9, 13.2, 13.5, 13.8, 14.1, 14.4, 14.7, 15,
+        15.3, 15.6, 15.9, 16.2, 16.5, 16.8, 17.1, 17.4, 17.7, 18, 18.3, 18.6,
+        18.9, 19.2, 19.5,
+      ],
+      inflictFrostbitePct: [
+        100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
+        100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
+        100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Magical Source",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n5 Mana Regeneration per Second.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+140 Mana regeneration per second",
+    ],
+    sealedManaPct: 10,
+  },
+  {
+    type: "Passive",
+    name: "Nimbleness",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n2200 Evasion. 0.5% additional Evasion.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+6000 Evasion\n+10% additional Evasion",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      evasion: [
+        2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600, 3800, 4000, 4200, 4400, 4600,
+        4800, 5000, 5200, 5400, 5600, 5800, 6000, 6200, 6400, 6600, 6800, 7000, 7200,
+        7400, 7600, 7800, 8000, 8200, 8400, 8600, 8800, 9000, 9200, 9400, 9600, 9800,
+        10000,
+      ],
+      evasionPct: [
+        0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5,
+        10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17,
+        17.5, 18, 18.5, 19, 19.5, 20,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Acuteness Focus",
+    tags: ["Area", "Focus", "Physical", "Attack"],
+    description: [
+      "Activates Focus and gains a buff:\n15.6% additional Physical Damage\n+15% chance to inflict Trauma\nAdds 5 - 5 Base Trauma Damage\nThis skill gains 25 Focus Pts on Melee hits. Interval: 1/5s. Upon reaching 100 Focus Pts, the next Melee hit consumes all Focus Pts and casts Acute Strike on the enemy, dealing 479% Weapon Attack Damage to all enemies within a certain area",
+      "Activates Focus and gains a buff:\n15.6% additional Physical Damage\n+15% chance to inflict Trauma\nAdds 5 - 5 Base Trauma Damage\nThis skill gains 25 Focus Pts on Melee hits. Interval: 0.2 s\nAfter this skill reaches 100 Focus Pts, the next Melee hit consumes 100 Focus Pts and triggers this skill on up to 4 enemies within 5m of the target hit. Generates Spikes within a rectangular area, dealing Physical Attack Damage\n+4% additional damage for this skill",
+      "Acute Strike:\nDeals 479% Weapon Attack Damage.",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["str"],
+  },
+  {
+    type: "Passive",
+    name: "Precise: Ailment Amplification",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n15.5% additional Ailment Damage. 17% chance to inflict Ailments. 10% Ailment Duration.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+25% additional Ailment Damage\n+17% chance to inflict Damaging Ailments\n+10% Ailment Duration",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Precise: Charged Flames",
+    tags: ["Aura", "Area", "Fire"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Fire Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Fire Damage",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Precise: Corrosion Focus",
+    tags: ["Area", "Focus", "Erosion", "Persistent", "Spell", "Projectile"],
+    description: [
+      "Activates Focus and gains a buff:\n15.6% additional Erosion Damage\n+15% Wilt chance\nAdds 2 - 2 Base Wilt Damage\nEvery 1/10s, this skill gains 13/2 Focus Pts. Upon reaching 100 Focus Pts, casting other skills will launch a Corrosion Orb that tracks enemies. When the Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make the orb explode once, dealing 648 - 648 Spell Erosion Damage to enemies. Interval: 3/20s.",
+      "The orb is destroyed when Focus Pts drop to 0, its duration expires (2s), or it is 30m away from the character. Orb Quantity is not affected by Projectile Quantity.",
+      "Activates Focus and gains a buff:\n15.6% additional Erosion Damage\n+15% Wilt chance\nAdds 2 - 2 Base Wilt Damage",
+      "Corrosion Focus:\nEvery 0.1 s, the skill gains 6.5 Focus Pts\nAfter this skill reaches 100 Focus Pts, if the Corrosion Orb no longer exists, using an Active Skill will trigger this skill on an enemy\nWhen Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make it deal Area Damage once. Interval: 0.15 s\n+4% additional damage for this skill",
+      "Corrosion Orb:\nDeals 648-648 Spell Erosion Damage\nProjectile Duration: 2s",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["int"],
+  },
+  {
+    type: "Passive",
+    name: "Precise: Cruelty",
+    tags: ["Aura", "Area", "Attack"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n12.5% additional Attack Damage.\nGains 1 stack(s) of buffs upon defeating an enemy. 40% chance to gain 5 stack(s) of buffs when hitting an Elite, 5/2% additional Aura Effect per stack of the buff for 8s. Stacks up to 40 time(s) (Not affected by Aura Effects).",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+22% additional Attack Damage\nGains 1 stack(s) of buffs upon defeating an enemy. +40% chance to gain 5 stack(s) of buffs when hitting an Elite\n2.5% additional Aura Effect per stack of the buff for 8 s. Stacks up to 40 time(s) (Not affected by Aura Effects)",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      attackDmgPct: [
+        12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17, 17.5, 18, 18.5, 19, 19.5,
+        20, 20.5, 21, 21.5, 22, 22.5, 23, 23.5, 24, 24.5, 25, 25.5, 26, 26.5, 27,
+        27.5, 28, 28.5, 29, 29.5, 30, 30.5, 31, 31.5, 32,
+      ],
+      auraEffPctPerCrueltyStack: [
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Deep Pain",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Damage Over Time and 30 Affliction Per Second.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Damage Over Time\n+30 Affliction inflicted per second",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      dotDmgPct: [
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+        59, 60,
+      ],
+      afflictionPerSec: [
+        30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30,
+        30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30,
+        30, 30, 30, 30,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Domain Expansion",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n14% additional Area Damage and Ailment Damage dealt by Area Skills. 20% Skill Area and 4% additional Area Damage when at least 5 enemies are within 10m.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+33% additional Area Damage\n+33% additional Ailment Damage dealt by Area Skills\n+20% Skill Area when there are at least 5 enemies within 10 m\n+4% additional Area Damage when there are at least 5 enemies within 10 m\n+4% additional Ailment Damage dealt by Area Skills when there are at least 5 enemies within 10 m",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      areaDmgPct: [
+        14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32,
+        33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51,
+        52, 53,
+      ],
+      skillAreaPct: [
+        20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+        20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+        20, 20, 20, 20,
+      ],
+      condAreaDmgPct: [
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Electric Conversion",
+    tags: ["Aura", "Area", "Lightning"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Lightning Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Lightning Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      lightningDmgPct: [
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+        59, 60,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Elemental Resistance",
+    tags: ["Aura", "Area", "Fire", "Cold", "Lightning"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n-14% additional Elemental Damage taken, 8.1% Elemental Resistance, and 15% chance to avoid Elemental Ailment.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+10% Elemental Resistance\n-14% additional Elemental Damage taken\n+15% chance to avoid Elemental Ailments",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Precise: Energy Fortress",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n67 Max Energy Shield, and 7.9% additional Max Energy Shield.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n319.7 Max Energy Shield\n17.97% additional Max Energy Shield",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      energyShield: [
+        67, 80.3, 93.6, 106.9, 120.2, 133.5, 146.8, 160.1, 173.4, 186.7, 200, 213.3,
+        226.6, 239.9, 253.2, 266.5, 279.8, 293.1, 306.4, 319.7, 333, 346.3, 359.6,
+        372.9, 386.2, 399.5, 412.8, 426.1, 439.4, 452.7, 466, 479.3, 492.6, 505.9,
+        519.2, 532.5, 545.8, 559.1, 572.4, 585.7,
+      ],
+      energyShieldPct: [
+        7.9, 8.43, 8.96, 9.49, 10.02, 10.55, 11.08, 11.61, 12.14, 12.67, 13.2, 13.73,
+        14.26, 14.79, 15.32, 15.85, 16.38, 16.91, 17.44, 17.97, 18.5, 19.03, 19.56,
+        20.09, 20.62, 21.15, 21.68, 22.21, 22.74, 23.27, 23.8, 24.33, 24.86, 25.39,
+        25.92, 26.45, 26.98, 27.51, 28.04, 28.57,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Erosion Amplification",
+    tags: ["Aura", "Area", "Erosion"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Erosion Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Erosion Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      erosionDmgPct: [
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+        59, 60,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Fearless",
+    tags: ["Aura", "Area", "Melee"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\nMelee Skills 61% Critical Strike Rating, 11% additional damage, and 8% Attack Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+80% Critical Strike Rating for Melee Skills\n+30% additional Melee Skill Damage\n+8% Melee Attack Speed",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      meleeCritRatingPct: [
+        61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79,
+        80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98,
+        99, 100,
+      ],
+      meleeDmgPct: [
+        11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+        30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48,
+        49, 50,
+      ],
+      meleeAspdPct: [
+        8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+        8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Flame Focus",
+    tags: ["Area", "Focus", "Fire", "Spell"],
+    description: [
+      "Activates Focus and gains a buff:\n+9% additional Fire Damage\n+15% chance to Ignite targets\nAdds 2 - 2 Base Ignite Damage\nThis skill gains 15 Focus Pts when inflicting Ignite. Upon defeating an enemy, there is a 100% chance to consume 40 Focus Pts and trigger this skill on the enemy, dealing Secondary Fire Damage equal to 25% of their Max Life to enemies within 3m (not affected by bonuses).\nAdditionally increases this skill's area for each time Ignite has been inflicted recently.",
+      "Activates Focus and gains a buff:\n+9% additional Fire Damage\n+15% chance to Ignite targets\nAdds 2 - 2 Base Ignite Damage",
+      "Flame Focus:\nThis skill gains 15 Focus Pts when inflicting Ignite. This skill can be triggered up to 3 time(s) every 0.5 s\nUpon defeating an enemy, there is a 100% chance to consume 40 Focus Pts of this skill and trigger this skill at the location of the defeated enemy, dealing True Damage equal to 25% of the defeated enemy's Max Life\n+10% additional Skill Area for this skill for each time you inflict Ignite recently. Stacks up to 6 time(s)\n+4% additional damage for this skill",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["str", "int"],
+  },
+  {
+    type: "Passive",
+    name: "Precise: Frigid Domain",
+    tags: ["Aura", "Area", "Cold"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Cold Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Cold Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      coldDmgPct: [
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+        59, 60,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Ice Focus",
+    tags: ["Area", "Spell", "Focus", "Cold"],
+    description: [
+      "Activates Focus and gains a buff:\n15.6% additional Cold Damage\nGains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.\nUpon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies\nFor every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.\n+4% additional damage for this skill",
+      "Activates Focus and gains a buff:\n15.6% additional Cold Damage\nGains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.\nUpon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies\nFor every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.\n+4% additional damage for this skill",
+      "Glacial Spike:\nDeals 467-701 Spell Cold Damage.",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["int"],
+    levelValues: {
+      coldDmgPct: [
+        8, 8.4, 8.8, 9.2, 9.6, 10, 10.4, 10.8, 11.2, 11.6, 12, 12.4, 12.8, 13.2,
+        13.6, 14, 14.4, 14.8, 15.2, 15.6, 16, 16.4, 16.8, 17.2, 17.6, 18, 18.4,
+        18.8, 19.2, 19.6, 20, 20.4, 20.8, 21.2, 21.6, 22, 22.4, 22.8, 23.2,
+        23.6,
+      ],
+      inflictFrostbitePct: [
+        100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
+        100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
+        100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Magical Source",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n5 Mana Regeneration per Second. 15% Mana Regeneration Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+140 Mana regeneration per second\n+15% Mana Regeneration Speed",
+    ],
+    sealedManaPct: 10,
+  },
+  {
+    type: "Passive",
+    name: "Precise: Nimbleness",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n2200 Evasion. 10.5% additional Evasion.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+6000 Evasion\n+20% additional Evasion",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      evasion: [
+        2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600, 3800, 4000, 4200, 4400, 4600,
+        4800, 5000, 5200, 5400, 5600, 5800, 6000, 6200, 6400, 6600, 6800, 7000, 7200,
+        7400, 7600, 7800, 8000, 8200, 8400, 8600, 8800, 9000, 9200, 9400, 9600, 9800,
+        10000,
+      ],
+      evasionPct: [
+        10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17, 17.5,
+        18, 18.5, 19, 19.5, 20, 20.5, 21, 21.5, 22, 22.5, 23, 23.5, 24, 24.5, 25,
+        25.5, 26, 26.5, 27, 27.5, 28, 28.5, 29, 29.5, 30,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Precise Projectiles",
+    tags: ["Aura", "Area", "Projectile"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Projectile Damage, 21% additional Ailment Damage by Projectiles, and 10% Projectile Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Projectile Damage\n+40% additional Ailment Damage dealt by Projectiles\n+10% Projectile Speed",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      projectileDmgPct: [
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+        59, 60,
+      ],
+      ailmentDmgPct: [
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+        59, 60,
+      ],
+      projectileSpeedPct: [
+        10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+        10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+        10, 10, 10, 10,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Radical Order",
+    tags: ["Aura", "Area", "Summon"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Minion Damage, 50% Minion Aggressiveness and 10% additional Minion Max Life (Not affected by Aura Effects).",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Minion Damage\n+50% Minion Aggressiveness (Not affected by Aura Effects)\n+10% additional Minion Max Life (Not affected by Aura Effects)",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Precise: Rejuvenation",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\nRegenerates 2% of Life per second",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\nRegenerates 8% Life per second",
+    ],
+    sealedManaPct: 20,
+  },
+  {
+    type: "Passive",
+    name: "Precise: Spell Amplification",
+    tags: ["Aura", "Area", "Spell"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional damage for Spell Skills.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Spell Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      spellDmgPct: [
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+        59, 60,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Steadfast",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n2200 Armor and 10.5% additional Armor.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+6000 Armor\n+20% additional Armor",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      armor: [
+        2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600, 3800, 4000, 4200, 4400, 4600,
+        4800, 5000, 5200, 5400, 5600, 5800, 6000, 6200, 6400, 6600, 6800, 7000, 7200,
+        7400, 7600, 7800, 8000, 8200, 8400, 8600, 8800, 9000, 9200, 9400, 9600, 9800,
+        10000,
+      ],
+      armorPct: [
+        10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17, 17.5,
+        18, 18.5, 19, 19.5, 20, 20.5, 21, 21.5, 22, 22.5, 23, 23.5, 24, 24.5, 25,
+        25.5, 26, 26.5, 27, 27.5, 28, 28.5, 29, 29.5, 30,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Swiftness",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n11% Movement Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n20.5% Movement Speed",
+    ],
+    sealedManaPct: 10,
+    levelValues: {
+      movementSpeedPct: [
+        11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17, 17.5, 18,
+        18.5, 19, 19.5, 20, 20.5, 21, 21.5, 22, 22.5, 23, 23.5, 24, 24.5, 25, 25.5,
+        26, 26.5, 27, 27.5, 28, 28.5, 29, 29.5, 30, 30.5,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Precise: Thunder Focus",
+    tags: ["Area", "Focus", "Lightning", "Attack"],
+    description: [
+      "Activates Focus and gains a buff:\n15.6% additional Lightning Damage\nFor every 2m moved, this skill gains 5 Focus Pts. Upon reaching 100 Focus Pts, using a non-Mobility Attack Skill will consume all Focus Pts and trigger this skill, summoning a Thunderstrike that deals 1109% Weapon Attack Damage to all enemies within a certain area.\nWhen triggered by a Melee Skill, the Thunderstrike attacks a fan-shaped area. When triggered by a Ranged Skill, the Thunderstrike attacks a square-shaped area.",
+      "Activates Focus and gains a buff:\n15.6% additional Lightning Damage",
+      "Thunder Focus:\nConverts 100% of the skill's Physical Damage to Lightning Damage\nFor every 2 m moved, the skill gains 5 Focus Pts\nAfter this skill reaches 100 Focus Pts, using a non-Mobility Attack Skill will consume 100 Focus Pts and trigger this skill in front of you\n+4% additional damage for this skill",
+      "Thunderstrike:\nDeals 1109% Weapon Attack Damage.",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["dex"],
+  },
+  {
+    type: "Passive",
+    name: "Precise: Weapon Amplification",
+    tags: ["Aura", "Area", "Physical"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n21% additional Physical Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+40% additional Physical Damage",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Precise Projectiles",
+    tags: ["Aura", "Area", "Projectile"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Projectile Damage, 16% additional Ailment Damage by Projectiles, and 10% Projectile Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Projectile Damage\n+35% additional Ailment Damage dealt by Projectiles\n+10% Projectile Speed",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      projectileDmgPct: [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+        35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55,
+      ],
+      ailmentDmgPct: [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+        35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55,
+      ],
+      projectileSpeedPct: [
+        10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+        10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+        10, 10, 10, 10,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Radical Order",
+    tags: ["Aura", "Area", "Summon"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Minion Damage and 25% Minion Aggressiveness.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Minion Damage\n+25% Minion Aggressiveness (Not affected by Aura Effects)",
+    ],
+    sealedManaPct: 50,
+  },
+  {
+    type: "Passive",
+    name: "Rejuvenation",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n2 Life Regeneration per Second.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+227 Life Regeneration per second",
+    ],
+    sealedManaPct: 10,
+  },
+  {
+    type: "Passive",
+    name: "Spell Amplification",
+    tags: ["Aura", "Area", "Spell"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional damage for Spell Skills.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Spell Damage",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      spellDmgPct: [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+        35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Steadfast",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n2200 Armor and 0.5% additional Armor.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+6000 Armor\n+10% additional Armor",
+    ],
+    sealedManaPct: 50,
+    levelValues: {
+      armor: [
+        2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600, 3800, 4000, 4200, 4400, 4600,
+        4800, 5000, 5200, 5400, 5600, 5800, 6000, 6200, 6400, 6600, 6800, 7000, 7200,
+        7400, 7600, 7800, 8000, 8200, 8400, 8600, 8800, 9000, 9200, 9400, 9600, 9800,
+        10000,
+      ],
+      armorPct: [
+        0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5,
+        10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17,
+        17.5, 18, 18.5, 19, 19.5, 20,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Summon Erosion Magus",
+    tags: ["Spell", "Summon", "Erosion", "Spirit Magus"],
+    description: [
+      "Activates the skill and summons 1 Erosion Magus.\nActivating the skill grants the character Origin of Spirit Magus: -6.3% additional Damage Over Time taken (Up to additional -50%).",
+      "Summon Erosion Magus:\nSummons 1 Erosion Magus\nThis skill summons up to 1 Minions\nSpirit Magi become undefeatable\nWhen Spirit Magi become undefeatable, they gain Reconjuring\nConverts 100% of Physical Damage to Erosion Damage for Spirit Magi",
+      "Origin of Spirit Magus:\n-9.15% additional Damage Over Time taken, up to -50% additional damage",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["int"],
+  },
+  {
+    type: "Passive",
+    name: "Summon Fire Magus",
+    tags: ["Spell", "Summon", "Fire", "Spirit Magus"],
+    description: [
+      "Activates the skill and summons 1 Fire Magus.\nActivating the skill grants the character Origin of Spirit Magus: 58 Critical Strike Rating.",
+      "Summon Fire Magus:\nSummons 1 Fire Magus\nThis skill summons up to 1 Minions\nSpirit Magi become undefeatable\nWhen Spirit Magi become undefeatable, they gain Reconjuring",
+      "Origin of Spirit Magus:\nGains Origin of Fire, giving the summoner +115 Attack and Spell Critical Strike Rating",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["str", "int"],
+    levelValues: {
+      critRating: [
+        58, 61, 64, 67, 70, 73, 76, 79, 82, 85, 88, 91, 94, 97, 100, 103, 106,
+        109, 112, 115, 118, 121, 124, 127, 130, 133, 136, 139, 142, 145, 148,
+        151, 154, 157, 160, 163, 166, 169, 172, 175,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Summon Frost Magus",
+    tags: ["Spell", "Summon", "Cold", "Spirit Magus"],
+    description: [
+      "Activates the skill and summons 1 Frost Magus.\nActivating the skill grants the character Origin of Spirit Magus: Restores 2.4% Max Life and Max Energy Shield every second.",
+      "Summon Frost Magus:\nSummons 1 Frost Magus\nThis skill summons up to 1 Minions\n+1 Max Frostbite Rating for the Minions summoned by this skill for every +1 Max Frostbite Rating\nSpirit Magi become undefeatable\nWhen Spirit Magi become undefeatable, they gain Reconjuring",
+      "Origin of Spirit Magus:\nGains Origin of Ice, restoring 3.825% of Max Life and Max Energy Shield per second to the summoner",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["int"],
+  },
+  {
+    type: "Passive",
+    name: "Summon Rock Magus",
+    tags: ["Spell", "Summon", "Physical", "Spirit Magus"],
+    description: [
+      "Activates the skill and summons 1 Rock Magus.\nActivating the skill grants the character Origin of Spirit Magus: -5.2% additional Hit Damage taken (Up to additional -50%).",
+      "Summon Rock Magus:\nSummons 1 Rock Magus\nThis skill summons up to 1 Minions\nSpirit Magi become undefeatable\nWhen Spirit Magi become undefeatable, they gain Reconjuring",
+      "Origin of Spirit Magus:\n-8.05% additional Hit Damage taken, up to -50% additional damage",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["str", "int"],
+  },
+  {
+    type: "Passive",
+    name: "Summon Thunder Magus",
+    tags: ["Spell", "Summon", "Lightning", "Spirit Magus"],
+    description: [
+      "Activates the skill and summons 1 Thunder Magus.\nActivating the skill grants the character Origin of Spirit Magus: 6% additional Attack and Cast Speed and 2.5% additional damage.",
+      "Summon Thunder Magus:\nSummons 1 Thunder Magus.\nThis skill summons up to 1 Minions\nSpirit Magi become undefeatable\nWhen Spirit Magi become undefeatable, they gain Reconjuring\nConverts 100% of Spirit Magi's Physical Damage to Lightning Damage.",
+      "Origin of Spirit Magus:\nGains Origin of Thunder: +6% additional Attack and Cast Speed and 7.25% additional damage to the summoner",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["dex", "int"],
+    levelValues: {
+      aspdAndCspdPct: [
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+      ],
+      dmgPct: [
+        2.5, 2.75, 3, 3.25, 3.5, 3.75, 4, 4.25, 4.5, 4.75, 5, 5.25, 5.5, 5.75,
+        6, 6.25, 6.5, 6.75, 7, 7.25, 7.5, 7.75, 8, 8.25, 8.5, 8.75, 9, 9.25,
+        9.5, 9.75, 10, 10.25, 10.5, 10.75, 11, 11.25, 11.5, 11.75, 12, 12.25,
+      ],
+    },
+  },
+  {
+    type: "Passive",
+    name: "Swiftness",
+    tags: ["Aura", "Area"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n5% Movement Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n14.5% Movement Speed",
+    ],
+    sealedManaPct: 10,
+  },
+  {
+    type: "Passive",
+    name: "Thunder Focus",
+    tags: ["Area", "Focus", "Lightning", "Attack"],
+    description: [
+      "Activates Focus and gains a buff:\n13.5% additional Lightning Damage\nFor every 2m moved, this skill gains 5 Focus Pts. Upon reaching 100 Focus Pts, using a non-Mobility Attack Skill will consume all Focus Pts and trigger this skill, summoning a Thunderstrike that deals 1109% Weapon Attack Damage to all enemies within a certain area.\nWhen triggered by a Melee Skill, the Thunderstrike attacks a fan-shaped area. When triggered by a Ranged Skill, the Thunderstrike attacks a square-shaped area.",
+      "Activates Focus and gains a buff:\n13.5% additional Lightning Damage",
+      "Thunder Focus:\nConverts 100% of the skill's Physical Damage to Lightning Damage\nFor every 2 m moved, the skill gains 5 Focus Pts\nAfter this skill reaches 100 Focus Pts, using a non-Mobility Attack Skill will consume 100 Focus Pts and trigger this skill in front of you",
+      "Thunderstrike:\nDeals 1109% Weapon Attack Damage.",
+    ],
+    sealedManaPct: 20,
+    mainStats: ["dex"],
+  },
+  {
+    type: "Passive",
+    name: "Weapon Amplification",
+    tags: ["Aura", "Area", "Physical"],
+    description: [
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n16% additional Physical Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:\n+35% additional Physical Damage",
+    ],
+    sealedManaPct: 50,
+  },
+] as const satisfies readonly BasePassiveSkill[];

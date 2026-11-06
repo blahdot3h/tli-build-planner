@@ -1,0 +1,383 @@
+import type { PassiveSkillName } from "@/src/data/skill/types";
+import type { PassiveSkillModFactory } from "./types";
+import { v } from "./types";
+
+/**
+ * Factory functions for passive skill mods.
+ * Each factory receives (level, values) where:
+ * - level: 1-40
+ * - values: named value arrays matching parser output keys
+ */
+export const passiveSkillModFactories: Partial<
+  Record<PassiveSkillName, PassiveSkillModFactory>
+> = {
+  // Added by TLI Build Planner: the additional damage buffs (Focus Pts, Ignite/Trauma and Acute Strike are not modelled)
+  "Charged Flames": (l, vals) => ({
+    buffMods: [{ type: "DmgPct", value: v(vals.fireDmgPct, l), addn: true, dmgModType: "fire" }],
+  }),
+  "Flame Focus": (l, vals) => ({
+    buffMods: [{ type: "DmgPct", value: v(vals.fireDmgPct, l), addn: true, dmgModType: "fire" }],
+  }),
+  "Acuteness Focus": (l, vals) => ({
+    buffMods: [{ type: "DmgPct", value: v(vals.physicalDmgPct, l), addn: true, dmgModType: "physical" }],
+  }),
+  "Precise: Cruelty": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.attackDmgPct, l),
+        addn: true,
+        dmgModType: "attack",
+      },
+    ],
+    mods: [
+      {
+        type: "AuraEffPct",
+        value: v(vals.auraEffPctPerCrueltyStack, l),
+        addn: true,
+        per: { stackable: "cruelty_buff", limit: 40 },
+        unscalable: true,
+      },
+    ],
+  }),
+  "Spell Amplification": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.spellDmgPct, l),
+        addn: true,
+        dmgModType: "spell",
+      },
+    ],
+  }),
+  "Precise: Deep Pain": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.dotDmgPct, l),
+        addn: true,
+        dmgModType: "damage_over_time",
+      },
+      { type: "AfflictionInflictedPerSec", value: v(vals.afflictionPerSec, l) },
+    ],
+  }),
+  "Precise: Erosion Amplification": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.erosionDmgPct, l),
+        addn: true,
+        dmgModType: "erosion",
+      },
+    ],
+  }),
+  "Corrosion Focus": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.erosionDmgPct, l),
+        addn: true,
+        dmgModType: "erosion",
+      },
+      { type: "InflictWiltPct", value: v(vals.inflictWiltPct, l) },
+      { type: "BaseWiltFlatDmg", value: v(vals.BaseWiltFlatDmg, l) },
+    ],
+  }),
+  "Deep Pain": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.dotDmgPct, l),
+        addn: true,
+        dmgModType: "damage_over_time",
+      },
+    ],
+  }),
+  "Erosion Amplification": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.erosionDmgPct, l),
+        addn: true,
+        dmgModType: "erosion",
+      },
+    ],
+  }),
+  "Electric Conversion": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.lightningDmgPct, l),
+        addn: true,
+        dmgModType: "lightning",
+      },
+    ],
+  }),
+  "Frigid Domain": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.coldDmgPct, l),
+        addn: true,
+        dmgModType: "cold",
+      },
+    ],
+  }),
+  "Precise: Frigid Domain": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.coldDmgPct, l),
+        addn: true,
+        dmgModType: "cold",
+      },
+    ],
+  }),
+  "Summon Thunder Magus": (l, vals) => ({
+    buffMods: [
+      { type: "AspdPct", value: v(vals.aspdAndCspdPct, l), addn: true },
+      { type: "CspdPct", value: v(vals.aspdAndCspdPct, l), addn: true },
+      {
+        type: "DmgPct",
+        value: v(vals.dmgPct, l),
+        addn: true,
+        dmgModType: "global",
+      },
+    ],
+  }),
+  "Precise: Electric Conversion": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.lightningDmgPct, l),
+        addn: true,
+        dmgModType: "lightning",
+      },
+    ],
+  }),
+  "Precise: Spell Amplification": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.spellDmgPct, l),
+        addn: true,
+        dmgModType: "spell",
+      },
+    ],
+  }),
+  "Summon Fire Magus": (l, vals) => ({
+    buffMods: [
+      {
+        type: "FlatCritRating",
+        value: v(vals.critRating, l),
+        modType: "attack",
+      },
+      {
+        type: "FlatCritRating",
+        value: v(vals.critRating, l),
+        modType: "spell",
+      },
+    ],
+  }),
+  "Precise: Fearless": (l, vals) => ({
+    buffMods: [
+      {
+        type: "CritRatingPct",
+        value: v(vals.meleeCritRatingPct, l),
+        modType: "melee",
+      },
+      {
+        type: "DmgPct",
+        value: v(vals.meleeDmgPct, l),
+        addn: true,
+        dmgModType: "melee",
+      },
+      {
+        type: "AspdPct",
+        value: v(vals.meleeAspdPct, l),
+        addn: false,
+        aspdModType: "melee",
+      },
+    ],
+  }),
+  "Precise: Swiftness": (l, vals) => ({
+    buffMods: [
+      { type: "MovementSpeedPct", value: v(vals.movementSpeedPct, l) },
+    ],
+  }),
+  "Energy Fortress": (l, vals) => ({
+    buffMods: [
+      { type: "MaxEnergyShield", value: v(vals.energyShield, l) },
+      {
+        type: "MaxEnergyShieldPct",
+        value: v(vals.energyShieldPct, l),
+        addn: true,
+      },
+    ],
+  }),
+  "Precise: Energy Fortress": (l, vals) => ({
+    buffMods: [
+      { type: "MaxEnergyShield", value: v(vals.energyShield, l) },
+      {
+        type: "MaxEnergyShieldPct",
+        value: v(vals.energyShieldPct, l),
+        addn: true,
+      },
+    ],
+  }),
+  Nimbleness: (l, vals) => ({
+    buffMods: [
+      { type: "Evasion", value: v(vals.evasion, l) },
+      { type: "EvasionPct", value: v(vals.evasionPct, l), addn: true },
+    ],
+  }),
+  "Precise: Nimbleness": (l, vals) => ({
+    buffMods: [
+      { type: "Evasion", value: v(vals.evasion, l) },
+      { type: "EvasionPct", value: v(vals.evastionPct, l), addn: true },
+    ],
+  }),
+
+  Steadfast: (l, vals) => ({
+    buffMods: [
+      { type: "Armor", value: v(vals.armor, l) },
+      { type: "ArmorPct", value: v(vals.armorPct, l), addn: true },
+    ],
+  }),
+  "Precise: Steadfast": (l, vals) => ({
+    buffMods: [
+      { type: "Armor", value: v(vals.armor, l) },
+      { type: "ArmorPct", value: v(vals.armorPct, l), addn: true },
+    ],
+  }),
+  "Precise Projectiles": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.projectileDmgPct, l),
+        addn: true,
+        dmgModType: "projectile",
+      },
+      {
+        type: "DmgPct",
+        value: v(vals.ailmentDmgPct, l),
+        addn: true,
+        dmgModType: "ailment",
+      },
+      { type: "ProjSpdPct", value: v(vals.projectileSpeedPct, l) },
+    ],
+  }),
+  "Precise: Precise Projectiles": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.projectileDmgPct, l),
+        addn: true,
+        dmgModType: "projectile",
+      },
+      {
+        type: "DmgPct",
+        value: v(vals.ailmentDmgPct, l),
+        addn: true,
+        dmgModType: "ailment",
+      },
+      { type: "ProjSpdPct", value: v(vals.projectileSpeedPct, l) },
+    ],
+  }),
+  "Ice Focus": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.coldDmgPct, l),
+        addn: true,
+        dmgModType: "cold",
+      },
+      { type: "InflictFrostbitePct", value: v(vals.inflictFrostbitePct, l) },
+    ],
+  }),
+  "Precise: Ice Focus": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.coldDmgPct, l),
+        addn: true,
+        dmgModType: "cold",
+      },
+      { type: "InflictFrostbitePct", value: v(vals.inflictFrostbitePct, l) },
+    ],
+  }),
+  "Domain Expansion": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.areaDmgPct, l),
+        addn: true,
+        dmgModType: "area",
+      },
+      {
+        type: "DmgPct",
+        value: v(vals.areaDmgPct, l),
+        addn: true,
+        dmgModType: "area_ailment",
+      },
+      {
+        type: "SkillAreaPct",
+        value: v(vals.skillAreaPct, l),
+        skillAreaModType: "global" as const,
+        condThreshold: {
+          target: "num_enemies_nearby" as const,
+          comparator: "gte" as const,
+          value: 8,
+        },
+      },
+    ],
+  }),
+  "Precise: Domain Expansion": (l, vals) => ({
+    buffMods: [
+      {
+        type: "DmgPct",
+        value: v(vals.areaDmgPct, l),
+        addn: true,
+        dmgModType: "area",
+      },
+      {
+        type: "DmgPct",
+        value: v(vals.areaDmgPct, l),
+        addn: true,
+        dmgModType: "area_ailment",
+      },
+      {
+        type: "SkillAreaPct",
+        value: v(vals.skillAreaPct, l),
+        skillAreaModType: "global" as const,
+        condThreshold: {
+          target: "num_enemies_nearby" as const,
+          comparator: "gte" as const,
+          value: 5,
+        },
+      },
+      {
+        type: "DmgPct",
+        value: v(vals.condAreaDmgPct, l),
+        addn: true,
+        dmgModType: "area",
+        condThreshold: {
+          target: "num_enemies_nearby" as const,
+          comparator: "gte" as const,
+          value: 5,
+        },
+      },
+      {
+        type: "DmgPct",
+        value: v(vals.condAreaDmgPct, l),
+        addn: true,
+        dmgModType: "area_ailment",
+        condThreshold: {
+          target: "num_enemies_nearby" as const,
+          comparator: "gte" as const,
+          value: 5,
+        },
+      },
+    ],
+  }),
+};
