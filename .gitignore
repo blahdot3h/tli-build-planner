@@ -13,3 +13,4 @@ dist/
 site/dist/
 cloud/.wrangler/
 cloud/node_modules/
+.vscode/
